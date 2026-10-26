@@ -1,0 +1,118 @@
+{
+  "domains": {
+    "A": {
+      "en": "Data Collection and Graphing",
+      "pt": "Coleta de dados e gráficos",
+      "es": "Recolección de datos y gráficas",
+      "uk": "Збір даних і графіки",
+      "ru-UA": "Сбор данных и графики"
+    },
+    "B": {
+      "en": "Behavior Assessment",
+      "pt": "Avaliação do comportamento",
+      "es": "Evaluación de la conducta",
+      "uk": "Оцінювання поведінки",
+      "ru-UA": "Оценка поведения"
+    },
+    "C": {
+      "en": "Behavior Acquisition",
+      "pt": "Aquisição de comportamento",
+      "es": "Adquisición de conducta",
+      "uk": "Набуття поведінки",
+      "ru-UA": "Приобретение поведения"
+    },
+    "D": {
+      "en": "Behavior Reduction",
+      "pt": "Redução de comportamento",
+      "es": "Reducción de conducta",
+      "uk": "Зменшення поведінки",
+      "ru-UA": "Снижение поведения"
+    },
+    "E": {
+      "en": "Documentation and Reporting",
+      "pt": "Documentação e relatórios",
+      "es": "Documentación e informes",
+      "uk": "Документація та звітність",
+      "ru-UA": "Документация и отчётность"
+    },
+    "F": {
+      "en": "Ethics",
+      "pt": "Ética",
+      "es": "Ética",
+      "uk": "Етика",
+      "ru-UA": "Этика"
+    }
+  },
+  "tasks": {
+    "F.1": {
+      "en": "Core ethics principles",
+      "pt": "Princípios éticos fundamentais",
+      "es": "Principios éticos fundamentales",
+      "uk": "Основні етичні принципи",
+      "ru-UA": "Основные этические принципы"
+    },
+    "F.2": {
+      "en": "Competence before service delivery",
+      "pt": "Competência antes da prestação de serviços",
+      "es": "Competencia antes de prestar servicios",
+      "uk": "Компетентність до надання послуг",
+      "ru-UA": "Компетентность до оказания услуг"
+    },
+    "F.3": {
+      "en": "Qualified ongoing supervision",
+      "pt": "Supervisão qualificada contínua",
+      "es": "Supervisión calificada continua",
+      "uk": "Постійна кваліфікована супервізія",
+      "ru-UA": "Постоянная квалифицированная супервизия"
+    },
+    "F.4": {
+      "en": "Effective supervision practices",
+      "pt": "Práticas de supervisão eficazes",
+      "es": "Prácticas de supervisión eficaces",
+      "uk": "Ефективні практики супервізії",
+      "ru-UA": "Эффективные практики супервизии"
+    },
+    "F.5": {
+      "en": "Confidential information",
+      "pt": "Informações confidenciais",
+      "es": "Información confidencial",
+      "uk": "Конфіденційна інформація",
+      "ru-UA": "Конфиденциальная информация"
+    },
+    "F.6": {
+      "en": "Public statements",
+      "pt": "Declarações públicas",
+      "es": "Declaraciones públicas",
+      "uk": "Публічні заяви",
+      "ru-UA": "Публичные заявления"
+    },
+    "F.7": {
+      "en": "Multiple relationships",
+      "pt": "Relações múltiplas",
+      "es": "Relaciones múltiples",
+      "uk": "Множинні стосунки",
+      "ru-UA": "Множественные отношения"
+    },
+    "F.8": {
+      "en": "Gifts",
+      "pt": "Presentes",
+      "es": "Regalos",
+      "uk": "Подарунки",
+      "ru-UA": "Подарки"
+    },
+    "F.9": {
+      "en": "Interpersonal and professional skills",
+      "pt": "Habilidades interpessoais e profissionais",
+      "es": "Habilidades interpersonales y profesionales",
+      "uk": "Міжособистісні та професійні навички",
+      "ru-UA": "Межличностные и профессиональные навыки"
+    },
+    "F.10": {
+      "en": "Cultural humility and responsiveness",
+      "pt": "Humildade e responsividade cultural",
+      "es": "Humildad y sensibilidad cultural",
+      "uk": "Культурна скромність і чутливість",
+      "ru-UA": "Культурная скромность и чуткость"
+    }
+  }
+}

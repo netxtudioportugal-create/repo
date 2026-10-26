@@ -1,0 +1,28 @@
+# Local stack that mirrors production: app + Postgres.
+services:
+  app:
+    build: .
+    ports: ["8080:8080"]
+    environment:
+      APP_KEY: ${APP_KEY:?run: php artisan key:generate --show}
+      APP_ENV: local
+      APP_DEBUG: "true"
+      APP_URL: http://localhost:8080
+      DB_CONNECTION: pgsql
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_DATABASE: flow
+      DB_USERNAME: flow
+      DB_PASSWORD: flow
+      SESSION_DRIVER: database
+      CACHE_STORE: database
+      EXAMPREP_RELEASE_GATE_OPEN: "false"
+    depends_on:
+      db: { condition: service_healthy }
+  db:
+    image: postgres:16
+    environment: { POSTGRES_DB: flow, POSTGRES_USER: flow, POSTGRES_PASSWORD: flow }
+    healthcheck: { test: ["CMD", "pg_isready", "-U", "flow"], interval: 3s, retries: 20 }
+    volumes: [pgdata:/var/lib/postgresql/data]
+volumes:
+  pgdata:

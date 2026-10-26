@@ -1,0 +1,1005 @@
+{
+  "bank": "flow-examprep",
+  "items": [
+    {
+      "code": "A-01",
+      "domain": "A",
+      "task_code": null,
+      "version": 1,
+      "source_ref": null,
+      "key": "A",
+      "translations": {
+        "en": {
+          "stem": "An RBT is using 10-second partial-interval recording for hand flapping. During one interval, hand flapping occurs for 2 seconds. How is that interval scored?",
+          "options": {
+            "A": "As an occurrence, because the behavior occurred at some point in the interval",
+            "B": "As a nonoccurrence, because the behavior did not last the whole interval",
+            "C": "As an occurrence only if the behavior was happening when the interval ended",
+            "D": "As 2 seconds of duration data"
+          },
+          "rationale": "Partial-interval recording scores an interval when the behavior occurs at any point during it. Requiring the full interval describes whole-interval recording. Checking only at the end describes momentary time sampling. Recording seconds is duration measurement, a different procedure.",
+          "option_rationales": null
+        },
+        "pt": {
+          "stem": "Um RBT usa registro por intervalo parcial de 10 segundos para o balançar das mãos. Em um intervalo, o comportamento ocorre durante 2 segundos. Como esse intervalo é registrado?",
+          "options": {
+            "A": "Como ocorrência, porque o comportamento aconteceu em algum momento do intervalo",
+            "B": "Como não ocorrência, porque o comportamento não durou o intervalo inteiro",
+            "C": "Como ocorrência apenas se o comportamento estiver acontecendo no fim do intervalo",
+            "D": "Como 2 segundos de dados de duração"
+          },
+          "rationale": "O registro por intervalo parcial marca o intervalo quando o comportamento ocorre em qualquer momento dele. Exigir o intervalo inteiro descreve o registro por intervalo total. Verificar apenas no fim descreve a amostragem momentânea de tempo. Registrar segundos é medida de duração, outro procedimento.",
+          "option_rationales": null
+        },
+        "es": {
+          "stem": "Un RBT usa registro de intervalo parcial de 10 segundos para el aleteo de manos. En un intervalo, el aleteo ocurre durante 2 segundos. ¿Cómo se registra ese intervalo?",
+          "options": {
+            "A": "Como ocurrencia, porque la conducta ocurrió en algún momento del intervalo",
+            "B": "Como no ocurrencia, porque la conducta no duró todo el intervalo",
+            "C": "Como ocurrencia solo si la conducta estaba ocurriendo al terminar el intervalo",
+            "D": "Como 2 segundos de datos de duración"
+          },
+          "rationale": "El registro de intervalo parcial marca el intervalo cuando la conducta ocurre en cualquier momento. Exigir todo el intervalo describe el registro de intervalo total. Observar solo al final describe el muestreo momentáneo de tiempo. Registrar segundos es medición de duración, otro procedimiento.",
+          "option_rationales": null
+        },
+        "uk": {
+          "stem": "RBT використовує реєстрацію часткових інтервалів по 10 секунд для махання руками. В одному інтервалі махання руками триває 2 секунди. Як позначають цей інтервал?",
+          "options": {
+            "A": "Як наявність, бо поведінка відбулася в якийсь момент інтервалу",
+            "B": "Як відсутність, бо поведінка не тривала весь інтервал",
+            "C": "Як наявність, лише якщо поведінка відбувалася в момент закінчення інтервалу",
+            "D": "Як 2 секунди даних тривалості"
+          },
+          "rationale": "Реєстрація часткових інтервалів позначає інтервал, якщо поведінка відбулася в будь-який його момент. Вимога тривати весь інтервал описує реєстрацію повних інтервалів. Перевірка лише наприкінці описує моментну вибірку часу. Запис секунд є вимірюванням тривалості, тобто іншою процедурою.",
+          "option_rationales": null
+        },
+        "ru-UA": {
+          "stem": "RBT использует регистрацию частичных интервалов по 10 секунд для взмахов руками. В одном интервале взмахи руками длятся 2 секунды. Как отмечается этот интервал?",
+          "options": {
+            "A": "Как наличие, потому что поведение произошло в какой-то момент интервала",
+            "B": "Как отсутствие, потому что поведение не длилось весь интервал",
+            "C": "Как наличие, только если поведение происходило в момент окончания интервала",
+            "D": "Как 2 секунды данных о длительности"
+          },
+          "rationale": "Регистрация частичных интервалов отмечает интервал, если поведение произошло в любой его момент. Требование длиться весь интервал описывает регистрацию полных интервалов. Проверка только в конце описывает моментную выборку времени. Запись секунд является измерением длительности, то есть другой процедурой.",
+          "option_rationales": null
+        }
+      }
+    },
+    {
+      "code": "A-02",
+      "domain": "A",
+      "task_code": null,
+      "version": 1,
+      "source_ref": null,
+      "key": "A",
+      "translations": {
+        "en": {
+          "stem": "During a 30-minute session, a learner emits 12 independent mands. What is the rate of independent mands?",
+          "options": {
+            "A": "0.4 per minute",
+            "B": "2.5 per minute",
+            "C": "12 per minute",
+            "D": "40%"
+          },
+          "rationale": "Rate is count divided by observation time: 12 ÷ 30 minutes = 0.4 per minute. The value 2.5 comes from dividing time by count. A percentage requires a fixed number of opportunities, which this measure does not have.",
+          "option_rationales": null
+        },
+        "pt": {
+          "stem": "Em uma sessão de 30 minutos, um aprendiz emite 12 mandos independentes. Qual é a taxa de mandos independentes?",
+          "options": {
+            "A": "0,4 por minuto",
+            "B": "2,5 por minuto",
+            "C": "12 por minuto",
+            "D": "40%"
+          },
+          "rationale": "Taxa é a contagem dividida pelo tempo de observação: 12 ÷ 30 minutos = 0,4 por minuto. O valor 2,5 vem de dividir o tempo pela contagem. Uma porcentagem exige um número fixo de oportunidades, que esta medida não tem.",
+          "option_rationales": null
+        },
+        "es": {
+          "stem": "Durante una sesión de 30 minutos, un aprendiz emite 12 mandos independientes. ¿Cuál es la tasa de mandos independientes?",
+          "options": {
+            "A": "0,4 por minuto",
+            "B": "2,5 por minuto",
+            "C": "12 por minuto",
+            "D": "40%"
+          },
+          "rationale": "La tasa es el conteo dividido entre el tiempo de observación: 12 ÷ 30 minutos = 0,4 por minuto. El 2,5 resulta de dividir el tiempo entre el conteo. Un porcentaje requiere un número fijo de oportunidades, y esta medida no lo tiene.",
+          "option_rationales": null
+        },
+        "uk": {
+          "stem": "За 30-хвилинну сесію учень подає 12 самостійних мандів. Яка частота самостійних мандів?",
+          "options": {
+            "A": "0,4 за хвилину",
+            "B": "2,5 за хвилину",
+            "C": "12 за хвилину",
+            "D": "40%"
+          },
+          "rationale": "Частота дорівнює кількості, поділеній на час спостереження: 12 ÷ 30 хвилин = 0,4 за хвилину. Значення 2,5 виходить, якщо поділити час на кількість. Відсоток потребує фіксованої кількості можливостей, якої в цьому вимірюванні немає.",
+          "option_rationales": null
+        },
+        "ru-UA": {
+          "stem": "За 30-минутную сессию ученик выдаёт 12 самостоятельных мандов. Какова частота самостоятельных мандов?",
+          "options": {
+            "A": "0,4 в минуту",
+            "B": "2,5 в минуту",
+            "C": "12 в минуту",
+            "D": "40%"
+          },
+          "rationale": "Частота равна количеству, делённому на время наблюдения: 12 ÷ 30 минут = 0,4 в минуту. Значение 2,5 получается, если разделить время на количество. Процент требует фиксированного числа возможностей, которого в этом измерении нет.",
+          "option_rationales": null
+        }
+      }
+    },
+    {
+      "code": "B-01",
+      "domain": "B",
+      "task_code": null,
+      "version": 1,
+      "source_ref": null,
+      "key": "A",
+      "translations": {
+        "en": {
+          "stem": "The supervisor asks the RBT to run a multiple-stimulus without replacement (MSWO) preference assessment. The learner selects the bubbles and engages with them briefly. What does the RBT do next?",
+          "options": {
+            "A": "Remove the bubbles from the array, rearrange the remaining items, and present the array again",
+            "B": "Return the bubbles to the array and present all items again",
+            "C": "Present the remaining items two at a time",
+            "D": "Give free access to all items and record engagement duration"
+          },
+          "rationale": "In MSWO, the selected item is not returned, so each later selection is made among fewer items. Returning it describes multiple-stimulus with replacement. Pairs describe a paired-stimulus assessment. Free access with duration describes a free-operant assessment.",
+          "option_rationales": null
+        },
+        "pt": {
+          "stem": "O supervisor pede ao RBT uma avaliação de preferência de múltiplos estímulos sem reposição (MSWO). O aprendiz escolhe as bolhas de sabão e brinca com elas por pouco tempo. O que o RBT faz em seguida?",
+          "options": {
+            "A": "Retira as bolhas do conjunto, reorganiza os itens restantes e apresenta o conjunto de novo",
+            "B": "Devolve as bolhas ao conjunto e apresenta todos os itens de novo",
+            "C": "Apresenta os itens restantes dois a dois",
+            "D": "Dá acesso livre a todos os itens e registra a duração do engajamento"
+          },
+          "rationale": "No MSWO, o item escolhido não volta, então cada escolha seguinte é feita entre menos itens. Devolver o item descreve a avaliação com reposição. Apresentar pares descreve a avaliação por pares de estímulos. Acesso livre com duração descreve a avaliação de operante livre.",
+          "option_rationales": null
+        },
+        "es": {
+          "stem": "El supervisor pide al RBT una evaluación de preferencias de estímulos múltiples sin reemplazo (MSWO). El aprendiz elige las burbujas y juega con ellas brevemente. ¿Qué hace el RBT después?",
+          "options": {
+            "A": "Retira las burbujas del conjunto, reordena los artículos restantes y presenta el conjunto otra vez",
+            "B": "Devuelve las burbujas al conjunto y presenta todos los artículos otra vez",
+            "C": "Presenta los artículos restantes de dos en dos",
+            "D": "Da acceso libre a todos los artículos y registra la duración del contacto"
+          },
+          "rationale": "En MSWO, el artículo elegido no se devuelve, así que cada elección siguiente se hace entre menos artículos. Devolverlo describe la evaluación con reemplazo. Presentar pares describe la evaluación de estímulos pareados. El acceso libre con duración describe la evaluación de operante libre.",
+          "option_rationales": null
+        },
+        "uk": {
+          "stem": "Супервізор просить RBT провести оцінювання вподобань із кількома стимулами без повернення (MSWO). Учень обирає мильні бульбашки й коротко грається з ними. Що RBT робить далі?",
+          "options": {
+            "A": "Прибирає бульбашки з набору, переставляє решту предметів і знову пред'являє набір",
+            "B": "Повертає бульбашки до набору й знову пред'являє всі предмети",
+            "C": "Пред'являє решту предметів парами",
+            "D": "Надає вільний доступ до всіх предметів і реєструє тривалість взаємодії"
+          },
+          "rationale": "У MSWO обраний предмет не повертають, тож кожен наступний вибір відбувається серед меншої кількості предметів. Повернення предмета описує оцінювання з поверненням. Пари описують оцінювання парних стимулів. Вільний доступ із реєстрацією тривалості описує оцінювання вільного операнта.",
+          "option_rationales": null
+        },
+        "ru-UA": {
+          "stem": "Супервизор просит RBT провести оценку предпочтений с несколькими стимулами без возврата (MSWO). Ученик выбирает мыльные пузыри и недолго играет с ними. Что RBT делает дальше?",
+          "options": {
+            "A": "Убирает пузыри из набора, переставляет оставшиеся предметы и снова предъявляет набор",
+            "B": "Возвращает пузыри в набор и снова предъявляет все предметы",
+            "C": "Предъявляет оставшиеся предметы парами",
+            "D": "Даёт свободный доступ ко всем предметам и регистрирует длительность взаимодействия"
+          },
+          "rationale": "В MSWO выбранный предмет не возвращают, поэтому каждый следующий выбор происходит среди меньшего числа предметов. Возврат предмета описывает оценку с возвратом. Пары описывают оценку парных стимулов. Свободный доступ с регистрацией длительности описывает оценку свободного операнта.",
+          "option_rationales": null
+        }
+      }
+    },
+    {
+      "code": "B-02",
+      "domain": "B",
+      "task_code": null,
+      "version": 1,
+      "source_ref": null,
+      "key": "A",
+      "translations": {
+        "en": {
+          "stem": "The supervisor assigned ABC recording. Which entry is written in observable, measurable terms?",
+          "options": {
+            "A": "A: Adult said \"Clean up the blocks.\" B: Learner dropped to the floor and stayed there for 40 seconds. C: Adult put the blocks away.",
+            "B": "A: Learner was tired. B: Learner got upset. C: Adult calmed the learner down.",
+            "C": "A: Cleanup time. B: Learner was defiant. C: Adult gave in.",
+            "D": "A: Learner did not want to clean. B: Learner refused. C: Learner got what they wanted."
+          },
+          "rationale": "An observable entry names what was said or done, the topography, and a measurable dimension such as duration. \"Tired,\" \"upset,\" \"defiant,\" and \"did not want\" describe inferred states or labels, not behavior another observer could count or time.",
+          "option_rationales": null
+        },
+        "pt": {
+          "stem": "O supervisor pediu registro ABC. Qual registro está escrito em termos observáveis e mensuráveis?",
+          "options": {
+            "A": "A: Adulto disse \"Guarde os blocos.\" B: Aprendiz deitou no chão e ficou lá por 40 segundos. C: Adulto guardou os blocos.",
+            "B": "A: Aprendiz estava cansado. B: Aprendiz ficou chateado. C: Adulto acalmou o aprendiz.",
+            "C": "A: Hora de arrumar. B: Aprendiz foi desafiador. C: Adulto cedeu.",
+            "D": "A: Aprendiz não queria arrumar. B: Aprendiz recusou. C: Aprendiz conseguiu o que queria."
+          },
+          "rationale": "Um registro observável descreve o que foi dito ou feito, a topografia e uma dimensão mensurável, como a duração. \"Cansado\", \"chateado\", \"desafiador\" e \"não queria\" descrevem estados inferidos ou rótulos, não comportamento que outro observador possa contar ou cronometrar.",
+          "option_rationales": null
+        },
+        "es": {
+          "stem": "El supervisor asignó registro ABC. ¿Qué registro está escrito en términos observables y medibles?",
+          "options": {
+            "A": "A: El adulto dijo \"Guarda los bloques.\" B: El aprendiz se tiró al piso y permaneció ahí 40 segundos. C: El adulto guardó los bloques.",
+            "B": "A: El aprendiz estaba cansado. B: El aprendiz se molestó. C: El adulto lo calmó.",
+            "C": "A: Hora de recoger. B: El aprendiz fue desafiante. C: El adulto cedió.",
+            "D": "A: El aprendiz no quería recoger. B: El aprendiz se negó. C: El aprendiz obtuvo lo que quería."
+          },
+          "rationale": "Un registro observable nombra lo que se dijo o hizo, la topografía y una dimensión medible como la duración. \"Cansado\", \"se molestó\", \"desafiante\" y \"no quería\" describen estados inferidos o etiquetas, no conducta que otro observador pueda contar o cronometrar.",
+          "option_rationales": null
+        },
+        "uk": {
+          "stem": "Супервізор доручив ABC-реєстрацію. Який запис зроблено в спостережуваних і вимірюваних термінах?",
+          "options": {
+            "A": "A: Дорослий сказав: «Прибери кубики». B: Учень ліг на підлогу й лежав там 40 секунд. C: Дорослий прибрав кубики.",
+            "B": "A: Учень був утомлений. B: Учень засмутився. C: Дорослий заспокоїв учня.",
+            "C": "A: Час прибирання. B: Учень був зухвалим. C: Дорослий поступився.",
+            "D": "A: Учень не хотів прибирати. B: Учень відмовився. C: Учень отримав, що хотів."
+          },
+          "rationale": "Спостережуваний запис називає, що було сказано чи зроблено, топографію та вимірюваний параметр, наприклад тривалість. «Утомлений», «засмутився», «зухвалий» і «не хотів» описують припущені стани або ярлики, а не поведінку, яку інший спостерігач міг би порахувати чи виміряти в часі.",
+          "option_rationales": null
+        },
+        "ru-UA": {
+          "stem": "Супервизор поручил ABC-регистрацию. Какая запись сделана в наблюдаемых и измеримых терминах?",
+          "options": {
+            "A": "A: Взрослый сказал: «Убери кубики». B: Ученик лёг на пол и оставался там 40 секунд. C: Взрослый убрал кубики.",
+            "B": "A: Ученик устал. B: Ученик расстроился. C: Взрослый успокоил ученика.",
+            "C": "A: Время уборки. B: Ученик вёл себя вызывающе. C: Взрослый уступил.",
+            "D": "A: Ученик не хотел убирать. B: Ученик отказался. C: Ученик получил, что хотел."
+          },
+          "rationale": "Наблюдаемая запись называет, что было сказано или сделано, топографию и измеримый параметр, например длительность. «Устал», «расстроился», «вызывающе» и «не хотел» описывают предполагаемые состояния или ярлыки, а не поведение, которое другой наблюдатель мог бы посчитать или замерить по времени.",
+          "option_rationales": null
+        }
+      }
+    },
+    {
+      "code": "C-01",
+      "domain": "C",
+      "task_code": null,
+      "version": 1,
+      "source_ref": null,
+      "key": "A",
+      "translations": {
+        "en": {
+          "stem": "The skill acquisition plan for a hand-washing chain specifies most-to-least prompting. How should the first teaching trials look?",
+          "options": {
+            "A": "Start with full physical guidance, then fade to less intrusive prompts as the learner responds correctly",
+            "B": "Give an independent opportunity first, then add more intrusive prompts after errors",
+            "C": "Use only vocal prompts so the learner does not become prompt dependent",
+            "D": "Use full physical guidance once, then remove all prompts on the next trial"
+          },
+          "rationale": "Most-to-least begins with the most intrusive prompt the plan specifies and fades systematically as correct responding occurs, which limits errors early in teaching. Starting independent and adding help describes least-to-most. Removing all prompts at once is not systematic fading.",
+          "option_rationales": null
+        },
+        "pt": {
+          "stem": "O plano de aquisição para a cadeia de lavar as mãos especifica dicas do maior para o menor apoio (most-to-least). Como devem ser as primeiras tentativas?",
+          "options": {
+            "A": "Começar com ajuda física total e esvanecer para dicas menos intrusivas conforme o aprendiz responde corretamente",
+            "B": "Dar primeiro uma oportunidade independente e acrescentar dicas mais intrusivas após erros",
+            "C": "Usar só dicas vocais para o aprendiz não ficar dependente de dicas",
+            "D": "Usar ajuda física total uma vez e retirar todas as dicas na tentativa seguinte"
+          },
+          "rationale": "No most-to-least, começa-se com a dica mais intrusiva prevista no plano e esvanece-se de forma sistemática conforme ocorrem respostas corretas, o que limita erros no início do ensino. Começar independente e acrescentar ajuda descreve o least-to-most. Retirar todas as dicas de uma vez não é esvanecimento sistemático.",
+          "option_rationales": null
+        },
+        "es": {
+          "stem": "El plan de adquisición para la cadena de lavado de manos especifica ayudas de mayor a menor (most-to-least). ¿Cómo deben ser los primeros ensayos?",
+          "options": {
+            "A": "Empezar con guía física total y desvanecer a ayudas menos intrusivas a medida que el aprendiz responde correctamente",
+            "B": "Dar primero una oportunidad independiente y añadir ayudas más intrusivas tras los errores",
+            "C": "Usar solo ayudas vocales para que el aprendiz no dependa de las ayudas",
+            "D": "Usar guía física total una vez y retirar todas las ayudas en el siguiente ensayo"
+          },
+          "rationale": "En most-to-least se empieza con la ayuda más intrusiva que indica el plan y se desvanece sistemáticamente a medida que hay respuestas correctas, lo que limita los errores al inicio. Empezar independiente y añadir ayuda describe least-to-most. Retirar todas las ayudas de golpe no es desvanecimiento sistemático.",
+          "option_rationales": null
+        },
+        "uk": {
+          "stem": "План навчання ланцюжка миття рук передбачає підказки від більшої до меншої допомоги (most-to-least). Якими мають бути перші навчальні спроби?",
+          "options": {
+            "A": "Почати з повного фізичного супроводу, а потім переходити до менш інтрузивних підказок, коли учень відповідає правильно",
+            "B": "Спершу дати можливість виконати самостійно, а після помилок додавати інтрузивніші підказки",
+            "C": "Використовувати лише вербальні підказки, щоб учень не став залежним від підказок",
+            "D": "Один раз дати повний фізичний супровід, а в наступній спробі прибрати всі підказки"
+          },
+          "rationale": "Most-to-least починається з найінтрузивнішої підказки, передбаченої планом, і систематично зменшується в міру правильних відповідей, що обмежує помилки на початку навчання. Почати із самостійного виконання й додавати допомогу означає least-to-most. Прибрати всі підказки одразу не є систематичним зменшенням підказок (фейдингом).",
+          "option_rationales": null
+        },
+        "ru-UA": {
+          "stem": "План обучения цепочке мытья рук предусматривает подсказки от большей помощи к меньшей (most-to-least). Какими должны быть первые учебные пробы?",
+          "options": {
+            "A": "Начать с полного физического сопровождения, затем переходить к менее интрузивным подсказкам по мере правильных ответов ученика",
+            "B": "Сначала дать возможность выполнить самостоятельно, а после ошибок добавлять более интрузивные подсказки",
+            "C": "Использовать только вербальные подсказки, чтобы ученик не стал зависимым от подсказок",
+            "D": "Один раз дать полное физическое сопровождение, а в следующей пробе убрать все подсказки"
+          },
+          "rationale": "Most-to-least начинается с самой интрузивной подсказки, предусмотренной планом, и систематически уменьшается по мере правильных ответов, что ограничивает ошибки в начале обучения. Начать с самостоятельного выполнения и добавлять помощь означает least-to-most. Убрать все подсказки сразу не является систематическим снижением подсказок (фейдингом).",
+          "option_rationales": null
+        }
+      }
+    },
+    {
+      "code": "C-02",
+      "domain": "C",
+      "task_code": null,
+      "version": 1,
+      "source_ref": null,
+      "key": "A",
+      "translations": {
+        "en": {
+          "stem": "A learner has had no access to juice for two hours. The learner says \"juice\" and the adult delivers juice. Which verbal operant is this?",
+          "options": {
+            "A": "Mand",
+            "B": "Tact",
+            "C": "Echoic",
+            "D": "Intraverbal"
+          },
+          "rationale": "A mand is controlled by a motivating operation (here, deprivation of juice) and produces the specific item named. A tact is evoked by a nonverbal stimulus and maintained by generalized reinforcement. An echoic repeats a vocal model. An intraverbal answers a verbal stimulus without point-to-point correspondence.",
+          "option_rationales": null
+        },
+        "pt": {
+          "stem": "Um aprendiz está há duas horas sem acesso a suco. Ele diz \"suco\" e o adulto entrega o suco. Qual é o operante verbal?",
+          "options": {
+            "A": "Mando",
+            "B": "Tato",
+            "C": "Ecoico",
+            "D": "Intraverbal"
+          },
+          "rationale": "O mando é controlado por uma operação motivadora (aqui, privação de suco) e produz o item específico nomeado. O tato é evocado por um estímulo não verbal e mantido por reforço generalizado. O ecoico repete um modelo vocal. O intraverbal responde a um estímulo verbal sem correspondência ponto a ponto.",
+          "option_rationales": null
+        },
+        "es": {
+          "stem": "Un aprendiz lleva dos horas sin acceso a jugo. Dice \"jugo\" y el adulto le entrega jugo. ¿Qué operante verbal es?",
+          "options": {
+            "A": "Mando",
+            "B": "Tacto",
+            "C": "Ecoica",
+            "D": "Intraverbal"
+          },
+          "rationale": "El mando está controlado por una operación motivadora (aquí, privación de jugo) y produce el artículo específico nombrado. El tacto es evocado por un estímulo no verbal y mantenido por reforzamiento generalizado. La ecoica repite un modelo vocal. La intraverbal responde a un estímulo verbal sin correspondencia punto a punto.",
+          "option_rationales": null
+        },
+        "uk": {
+          "stem": "Учень дві години не мав доступу до соку. Учень каже «сік», і дорослий дає сік. Який це вербальний оперант?",
+          "options": {
+            "A": "Манд",
+            "B": "Такт",
+            "C": "Ехоїк",
+            "D": "Інтравербал"
+          },
+          "rationale": "Манд контролюється мотиваційною операцією (тут депривацією соку) і приводить до отримання саме названого предмета. Такт викликається невербальним стимулом і підтримується генералізованим підкріпленням. Ехоїк повторює вокальну модель. Інтравербал є відповіддю на вербальний стимул без поточкової відповідності.",
+          "option_rationales": null
+        },
+        "ru-UA": {
+          "stem": "Ученик два часа не имел доступа к соку. Ученик говорит «сок», и взрослый даёт сок. Какой это вербальный оперант?",
+          "options": {
+            "A": "Манд",
+            "B": "Такт",
+            "C": "Эхоик",
+            "D": "Интравербал"
+          },
+          "rationale": "Манд контролируется мотивирующей операцией (здесь депривацией сока) и приводит к получению именно названного предмета. Такт вызывается невербальным стимулом и поддерживается генерализованным подкреплением. Эхоик повторяет вокальную модель. Интравербал является ответом на вербальный стимул без поточечного соответствия.",
+          "option_rationales": null
+        }
+      }
+    },
+    {
+      "code": "D-01",
+      "domain": "D",
+      "task_code": null,
+      "version": 1,
+      "source_ref": null,
+      "key": "A",
+      "translations": {
+        "en": {
+          "stem": "The behavior plan places attention-maintained calling out on extinction. In the first two sessions, the rate of calling out increases. What is the most likely explanation, and what does the RBT do?",
+          "options": {
+            "A": "An extinction burst; keep implementing the plan as written and share the data with the supervisor",
+            "B": "The plan is not working; stop extinction and return to giving attention",
+            "C": "Spontaneous recovery; give attention to end the increase",
+            "D": "A punishment effect; reduce reinforcement for other behavior"
+          },
+          "rationale": "A temporary increase in rate after extinction begins is an extinction burst. The RBT continues the plan and reports data so the supervisor can make decisions. Spontaneous recovery is a return of the behavior after a period of low responding. Changing the plan is the supervisor's decision.",
+          "option_rationales": null
+        },
+        "pt": {
+          "stem": "O plano coloca em extinção o chamar em voz alta mantido por atenção. Nas duas primeiras sessões, a taxa desse comportamento aumenta. Qual é a explicação mais provável e o que o RBT faz?",
+          "options": {
+            "A": "Surto de extinção; continuar o plano como escrito e compartilhar os dados com o supervisor",
+            "B": "O plano não funciona; parar a extinção e voltar a dar atenção",
+            "C": "Recuperação espontânea; dar atenção para acabar com o aumento",
+            "D": "Efeito de punição; reduzir o reforço para outros comportamentos"
+          },
+          "rationale": "Um aumento temporário na taxa após o início da extinção é um surto de extinção. O RBT continua o plano e relata os dados para que o supervisor tome as decisões. Recuperação espontânea é o retorno do comportamento após um período de baixa resposta. Mudar o plano é decisão do supervisor.",
+          "option_rationales": null
+        },
+        "es": {
+          "stem": "El plan pone en extinción los llamados en voz alta mantenidos por atención. En las dos primeras sesiones, la tasa aumenta. ¿Cuál es la explicación más probable y qué hace el RBT?",
+          "options": {
+            "A": "Un estallido de extinción; seguir el plan como está escrito y compartir los datos con el supervisor",
+            "B": "El plan no funciona; detener la extinción y volver a dar atención",
+            "C": "Recuperación espontánea; dar atención para detener el aumento",
+            "D": "Un efecto de castigo; reducir el reforzamiento de otras conductas"
+          },
+          "rationale": "Un aumento temporal de la tasa al iniciar la extinción es un estallido de extinción. El RBT continúa el plan y reporta los datos para que el supervisor decida. La recuperación espontánea es el regreso de la conducta después de un periodo de respuesta baja. Cambiar el plan es decisión del supervisor.",
+          "option_rationales": null
+        },
+        "uk": {
+          "stem": "План поведінки передбачає згасання вигуків, що підтримуються увагою. У перші дві сесії частота вигуків зростає. Яке пояснення найімовірніше і що робить RBT?",
+          "options": {
+            "A": "Сплеск згасання; продовжувати виконувати план як написано й передати дані супервізору",
+            "B": "План не працює; припинити згасання й знову давати увагу",
+            "C": "Спонтанне відновлення; дати увагу, щоб зупинити зростання",
+            "D": "Ефект покарання; зменшити підкріплення іншої поведінки"
+          },
+          "rationale": "Тимчасове зростання частоти після початку згасання є сплеском згасання. RBT продовжує план і повідомляє дані, щоб рішення ухвалював супервізор. Спонтанне відновлення означає повернення поведінки після періоду низької частоти реагування. Змінювати план вирішує супервізор.",
+          "option_rationales": null
+        },
+        "ru-UA": {
+          "stem": "План поведения предусматривает угасание выкриков, поддерживаемых вниманием. В первые две сессии частота выкриков растёт. Какое объяснение наиболее вероятно и что делает RBT?",
+          "options": {
+            "A": "Вспышка угасания; продолжать выполнять план как написано и передать данные супервизору",
+            "B": "План не работает; прекратить угасание и снова давать внимание",
+            "C": "Спонтанное восстановление; дать внимание, чтобы остановить рост",
+            "D": "Эффект наказания; уменьшить подкрепление другого поведения"
+          },
+          "rationale": "Временный рост частоты после начала угасания является вспышкой угасания. RBT продолжает план и сообщает данные, чтобы решения принимал супервизор. Спонтанное восстановление означает возвращение поведения после периода низкой частоты реагирования. Изменение плана решает супервизор.",
+          "option_rationales": null
+        }
+      }
+    },
+    {
+      "code": "D-02",
+      "domain": "D",
+      "task_code": null,
+      "version": 1,
+      "source_ref": null,
+      "key": "A",
+      "translations": {
+        "en": {
+          "stem": "Per the plan, when the learner hands over a \"break\" card, the RBT delivers a 1-minute break. Aggression no longer produces a break. Which procedure is this?",
+          "options": {
+            "A": "Functional communication training, a form of DRA, with escape extinction",
+            "B": "Differential reinforcement of other behavior (DRO)",
+            "C": "Differential reinforcement of low rates (DRL)",
+            "D": "Noncontingent reinforcement (NCR)"
+          },
+          "rationale": "Reinforcing a specific communicative response that produces the same consequence as the target behavior (escape) is FCT, a form of DRA. Withholding escape after aggression is escape extinction. DRO reinforces the absence of the behavior across an interval. DRL reinforces lower rates. NCR delivers the reinforcer on a time schedule regardless of behavior.",
+          "option_rationales": null
+        },
+        "pt": {
+          "stem": "Pelo plano, quando o aprendiz entrega o cartão de \"pausa\", o RBT dá uma pausa de 1 minuto. A agressão não produz mais pausa. Qual é o procedimento?",
+          "options": {
+            "A": "Treino de comunicação funcional, uma forma de DRA, com extinção de fuga",
+            "B": "Reforço diferencial de outros comportamentos (DRO)",
+            "C": "Reforço diferencial de taxas baixas (DRL)",
+            "D": "Reforço não contingente (NCR)"
+          },
+          "rationale": "Reforçar uma resposta comunicativa específica que produz a mesma consequência do comportamento-alvo (fuga) é FCT, uma forma de DRA. Não liberar fuga após a agressão é extinção de fuga. O DRO reforça a ausência do comportamento durante um intervalo. O DRL reforça taxas mais baixas. O NCR entrega o reforçador em um esquema de tempo, independentemente do comportamento.",
+          "option_rationales": null
+        },
+        "es": {
+          "stem": "Según el plan, cuando el aprendiz entrega la tarjeta de \"descanso\", el RBT da un descanso de 1 minuto. La agresión ya no produce descanso. ¿Qué procedimiento es?",
+          "options": {
+            "A": "Entrenamiento en comunicación funcional, una forma de DRA, con extinción de escape",
+            "B": "Reforzamiento diferencial de otras conductas (DRO)",
+            "C": "Reforzamiento diferencial de tasas bajas (DRL)",
+            "D": "Reforzamiento no contingente (NCR)"
+          },
+          "rationale": "Reforzar una respuesta comunicativa específica que produce la misma consecuencia que la conducta meta (escape) es FCT, una forma de DRA. No dar escape tras la agresión es extinción de escape. El DRO refuerza la ausencia de la conducta durante un intervalo. El DRL refuerza tasas más bajas. El NCR entrega el reforzador según el tiempo, sin importar la conducta.",
+          "option_rationales": null
+        },
+        "uk": {
+          "stem": "За планом, коли учень передає картку «перерва», RBT надає перерву на 1 хвилину. Агресія більше не призводить до перерви. Яка це процедура?",
+          "options": {
+            "A": "Навчання функціональної комунікації, різновид DRA, зі згасанням уникнення",
+            "B": "Диференційне підкріплення іншої поведінки (DRO)",
+            "C": "Диференційне підкріплення низької частоти (DRL)",
+            "D": "Неконтингентне підкріплення (NCR)"
+          },
+          "rationale": "Підкріплення конкретної комунікативної відповіді, що дає той самий наслідок, що й цільова поведінка (уникнення), є FCT, різновидом DRA. Ненадання уникнення після агресії є згасанням уникнення. DRO підкріплює відсутність поведінки протягом інтервалу. DRL підкріплює нижчу частоту. NCR надає підкріплювач за часовим графіком незалежно від поведінки.",
+          "option_rationales": null
+        },
+        "ru-UA": {
+          "stem": "По плану, когда ученик передаёт карточку «перерыв», RBT даёт перерыв на 1 минуту. Агрессия больше не приводит к перерыву. Какая это процедура?",
+          "options": {
+            "A": "Обучение функциональной коммуникации, разновидность DRA, с угасанием избегания",
+            "B": "Дифференциальное подкрепление другого поведения (DRO)",
+            "C": "Дифференциальное подкрепление низкой частоты (DRL)",
+            "D": "Неконтингентное подкрепление (NCR)"
+          },
+          "rationale": "Подкрепление конкретного коммуникативного ответа, который приводит к тому же последствию, что и целевое поведение (избегание), является FCT, разновидностью DRA. Непредоставление избегания после агрессии является угасанием избегания. DRO подкрепляет отсутствие поведения в течение интервала. DRL подкрепляет более низкую частоту. NCR предоставляет подкрепитель по временному графику независимо от поведения.",
+          "option_rationales": null
+        }
+      }
+    },
+    {
+      "code": "E-01",
+      "domain": "E",
+      "task_code": null,
+      "version": 1,
+      "source_ref": null,
+      "key": "A",
+      "translations": {
+        "en": {
+          "stem": "Which sentence belongs in an objective session note?",
+          "options": {
+            "A": "Learner completed 8 of 10 color-matching trials independently (80%); 2 trials required a gestural prompt.",
+            "B": "Learner had a great day and seemed happy during matching.",
+            "C": "Learner was lazy during matching and did not try.",
+            "D": "Learner was probably tired, so matching went poorly."
+          },
+          "rationale": "Objective notes report observable events with counts, prompt levels, and percentages. Statements about happiness, laziness, or tiredness are inferences the reader cannot verify from the data.",
+          "option_rationales": null
+        },
+        "pt": {
+          "stem": "Qual frase pertence a uma nota de sessão objetiva?",
+          "options": {
+            "A": "Aprendiz completou 8 de 10 tentativas de pareamento de cores de forma independente (80%); 2 tentativas exigiram dica gestual.",
+            "B": "Aprendiz teve um ótimo dia e parecia feliz no pareamento.",
+            "C": "Aprendiz estava preguiçoso no pareamento e não se esforçou.",
+            "D": "Aprendiz provavelmente estava cansado, por isso o pareamento foi mal."
+          },
+          "rationale": "Notas objetivas relatam eventos observáveis com contagens, níveis de dica e porcentagens. Afirmações sobre felicidade, preguiça ou cansaço são inferências que o leitor não pode verificar nos dados.",
+          "option_rationales": null
+        },
+        "es": {
+          "stem": "¿Qué oración corresponde a una nota de sesión objetiva?",
+          "options": {
+            "A": "El aprendiz completó 8 de 10 ensayos de igualación de colores de forma independiente (80%); 2 ensayos requirieron ayuda gestual.",
+            "B": "El aprendiz tuvo un gran día y parecía feliz durante la igualación.",
+            "C": "El aprendiz estuvo perezoso en la igualación y no se esforzó.",
+            "D": "El aprendiz probablemente estaba cansado, por eso la igualación salió mal."
+          },
+          "rationale": "Las notas objetivas reportan eventos observables con conteos, niveles de ayuda y porcentajes. Las afirmaciones sobre felicidad, pereza o cansancio son inferencias que el lector no puede verificar con los datos.",
+          "option_rationales": null
+        },
+        "uk": {
+          "stem": "Яке речення доречне в об'єктивній нотатці сесії?",
+          "options": {
+            "A": "Учень самостійно виконав 8 з 10 спроб зіставлення кольорів (80%); у 2 спробах знадобилася жестова підказка.",
+            "B": "В учня був чудовий день, і він здавався щасливим під час зіставлення.",
+            "C": "Учень лінувався під час зіставлення й не старався.",
+            "D": "Учень, мабуть, утомився, тому зіставлення пройшло погано."
+          },
+          "rationale": "Об'єктивні нотатки повідомляють про спостережувані події з кількістю, рівнями підказок і відсотками. Твердження про щастя, лінощі чи втому є припущеннями, які читач не може перевірити за даними.",
+          "option_rationales": null
+        },
+        "ru-UA": {
+          "stem": "Какое предложение уместно в объективной записи о сессии?",
+          "options": {
+            "A": "Ученик самостоятельно выполнил 8 из 10 проб на сопоставление цветов (80%); в 2 пробах потребовалась жестовая подсказка.",
+            "B": "У ученика был отличный день, и он казался счастливым во время сопоставления.",
+            "C": "Ученик ленился во время сопоставления и не старался.",
+            "D": "Ученик, наверное, устал, поэтому сопоставление прошло плохо."
+          },
+          "rationale": "Объективные записи сообщают о наблюдаемых событиях с количеством, уровнями подсказок и процентами. Утверждения о счастье, лени или усталости являются предположениями, которые читатель не может проверить по данным.",
+          "option_rationales": null
+        }
+      }
+    },
+    {
+      "code": "E-02",
+      "domain": "E",
+      "task_code": null,
+      "version": 1,
+      "source_ref": null,
+      "key": "A",
+      "translations": {
+        "en": {
+          "stem": "At the start of a session, a caregiver says the learner began a new medication yesterday. What does the RBT do?",
+          "options": {
+            "A": "Document the report and notify the supervisor promptly, following agency policy",
+            "B": "Suggest the caregiver lower the dose on session days",
+            "C": "Wait to mention it at the next monthly supervision meeting",
+            "D": "Change the reinforcement schedule to account for the medication"
+          },
+          "rationale": "Changes in the learner's circumstances that could affect behavior or data are reported to the supervisor promptly and documented. Medication advice is outside the RBT's scope, and changing the plan is the supervisor's decision.",
+          "option_rationales": null
+        },
+        "pt": {
+          "stem": "No início da sessão, o cuidador conta que o aprendiz começou uma medicação nova ontem. O que o RBT faz?",
+          "options": {
+            "A": "Documenta o relato e avisa o supervisor prontamente, seguindo a política da agência",
+            "B": "Sugere ao cuidador baixar a dose nos dias de sessão",
+            "C": "Espera para mencionar na próxima reunião mensal de supervisão",
+            "D": "Muda o esquema de reforço para compensar a medicação"
+          },
+          "rationale": "Mudanças na situação do aprendiz que possam afetar o comportamento ou os dados são relatadas prontamente ao supervisor e documentadas. Orientar sobre medicação está fora do escopo do RBT, e mudar o plano é decisão do supervisor.",
+          "option_rationales": null
+        },
+        "es": {
+          "stem": "Al inicio de la sesión, el cuidador comenta que el aprendiz empezó un medicamento nuevo ayer. ¿Qué hace el RBT?",
+          "options": {
+            "A": "Documenta el reporte y avisa al supervisor de inmediato, según la política de la agencia",
+            "B": "Sugiere al cuidador bajar la dosis los días de sesión",
+            "C": "Espera a mencionarlo en la próxima reunión mensual de supervisión",
+            "D": "Cambia el programa de reforzamiento para compensar el medicamento"
+          },
+          "rationale": "Los cambios en la situación del aprendiz que puedan afectar la conducta o los datos se reportan de inmediato al supervisor y se documentan. Aconsejar sobre medicamentos está fuera del alcance del RBT, y cambiar el plan es decisión del supervisor.",
+          "option_rationales": null
+        },
+        "uk": {
+          "stem": "На початку сесії опікун каже, що учень учора почав приймати нові ліки. Що робить RBT?",
+          "options": {
+            "A": "Документує повідомлення й невідкладно інформує супервізора згідно з політикою агенції",
+            "B": "Радить опікунові зменшувати дозу в дні сесій",
+            "C": "Чекає, щоб згадати про це на наступній щомісячній зустрічі із супервізором",
+            "D": "Змінює графік підкріплення з урахуванням ліків"
+          },
+          "rationale": "Зміни в обставинах учня, які можуть вплинути на поведінку чи дані, невідкладно повідомляють супервізору й документують. Поради щодо ліків виходять за межі компетенції RBT, а змінювати план вирішує супервізор.",
+          "option_rationales": null
+        },
+        "ru-UA": {
+          "stem": "В начале сессии опекун говорит, что ученик вчера начал принимать новое лекарство. Что делает RBT?",
+          "options": {
+            "A": "Документирует сообщение и незамедлительно информирует супервизора согласно политике агентства",
+            "B": "Советует опекуну уменьшать дозу в дни сессий",
+            "C": "Ждёт, чтобы упомянуть об этом на следующей ежемесячной встрече с супервизором",
+            "D": "Меняет график подкрепления с учётом лекарства"
+          },
+          "rationale": "Изменения в обстоятельствах ученика, которые могут повлиять на поведение или данные, незамедлительно сообщают супервизору и документируют. Советы о лекарствах выходят за рамки компетенции RBT, а изменение плана решает супервизор.",
+          "option_rationales": null
+        }
+      }
+    },
+    {
+      "code": "F-01-001",
+      "domain": "F",
+      "task_code": "F.1",
+      "version": 1,
+      "source_ref": "Introduction",
+      "key": "B",
+      "translations": {
+        "en": {
+          "stem": "During a session, a caregiver speaks about the client as if the client is not present. The client is within hearing distance. What should the RBT do?",
+          "options": {
+            "A": "Continue the session without responding because the caregiver is the legal decision-maker",
+            "B": "Use respectful language, redirect the conversation to protect the client's dignity, and inform the supervisor if guidance is needed",
+            "C": "Tell the caregiver that discussing the client is always prohibited",
+            "D": "End services immediately and submit a report to the BACB"
+          },
+          "rationale": "The response applies the core principles of compassion, dignity, respect, and integrity while remaining within the RBT role. It protects the client without making an unsupported legal or disciplinary conclusion.",
+          "option_rationales": {
+            "A": "Ignoring the interaction does not protect dignity.",
+            "C": "Relevant discussion is not always prohibited, but it should be respectful and appropriately handled.",
+            "D": "Immediate termination and a BACB report are not automatically required by the facts provided."
+          }
+        }
+      }
+    },
+    {
+      "code": "F-02-001",
+      "domain": "F",
+      "task_code": "F.2",
+      "version": 1,
+      "source_ref": "1.06; 2.04",
+      "key": "C",
+      "translations": {
+        "en": {
+          "stem": "A supervisor adds a feeding procedure that the RBT has never implemented. The written plan is available, but the RBT has not received training or demonstrated the procedure. What should the RBT do first?",
+          "options": {
+            "A": "Read the plan and implement it independently",
+            "B": "Ask the caregiver to demonstrate it",
+            "C": "Tell the supervisor that training and competency verification are needed before implementation",
+            "D": "Refuse to work with the client again"
+          },
+          "rationale": "Standard 1.06: RBTs provide services only after their supervisor confirms they have demonstrated competence. The RBT should promptly request instruction, modeling, rehearsal, feedback, and competency verification from the supervisor before implementing the unfamiliar procedure.",
+          "option_rationales": {
+            "A": "A written plan alone does not establish competence.",
+            "B": "A caregiver does not replace required clinical training and supervision.",
+            "D": "The issue can ordinarily be addressed through training, not immediate abandonment of the case."
+          }
+        }
+      }
+    },
+    {
+      "code": "F-03-001",
+      "domain": "F",
+      "task_code": "F.3",
+      "version": 1,
+      "source_ref": "1.03; 3.01",
+      "key": "C",
+      "translations": {
+        "en": {
+          "stem": "An RBT learns that their only listed qualified supervisor ended supervision yesterday. The agency asks the RBT to conduct a session today while it finds a replacement. What is the best response?",
+          "options": {
+            "A": "Provide the session because the treatment plan has not changed",
+            "B": "Provide the session if the caregiver agrees",
+            "C": "Do not provide RBT services until ongoing supervision by a qualified supervisor is established",
+            "D": "Provide the session and document that no supervisor was available"
+          },
+          "rationale": "RBT services may be provided only under ongoing supervision from a supervisor who meets BACB requirements. Caregiver permission or documentation does not substitute for qualified ongoing supervision.",
+          "option_rationales": {
+            "A": "An unchanged plan does not remove the supervision requirement.",
+            "B": "A caregiver cannot authorize practice outside certification requirements.",
+            "D": "Documenting the absence of supervision does not make unsupervised services permissible."
+          }
+        }
+      }
+    },
+    {
+      "code": "F-04-001",
+      "domain": "F",
+      "task_code": "F.4",
+      "version": 1,
+      "source_ref": null,
+      "key": "B",
+      "translations": {
+        "en": {
+          "stem": "Which supervision arrangement most clearly reflects effective practice for teaching an RBT a new data collection procedure?",
+          "options": {
+            "A": "The supervisor emails the definition and asks the RBT to confirm receipt",
+            "B": "The supervisor explains and models the procedure, observes rehearsal and service delivery, and provides performance feedback",
+            "C": "The supervisor reviews monthly totals without observing implementation",
+            "D": "The RBT watches an unrelated online video and begins using the procedure"
+          },
+          "rationale": "Effective supervision includes clear instruction, modeling, rehearsal, feedback, and observation of RBT service delivery. This arrangement directly evaluates and strengthens implementation competence.",
+          "option_rationales": {
+            "A": "Receipt of written instructions does not demonstrate performance.",
+            "C": "Reviewing totals alone cannot verify implementation fidelity.",
+            "D": "Unrelated self-study does not replace task-specific training and supervision."
+          }
+        }
+      }
+    },
+    {
+      "code": "F-05-001-R",
+      "domain": "F",
+      "task_code": "F.5",
+      "version": 1,
+      "source_ref": "Introduction; 1.01; 2.08",
+      "key": "C",
+      "translations": {
+        "en": {
+          "stem": "An RBT wants to review a client's session history before a make-up session but has not been told whether the employer permits access outside normal working hours. What should the RBT do?",
+          "options": {
+            "A": "Access the record through any encrypted device",
+            "B": "Ask a coworker to send screenshots of the relevant notes",
+            "C": "Confirm the authorized access procedure with the supervisor or employer before accessing the record",
+            "D": "Access the complete record because the RBT works with the client"
+          },
+          "rationale": "Confidentiality compliance requires both security and authorization. Encryption or a protected method addresses security, but it does not establish that the RBT is authorized to access the record at that time. The RBT must confirm authorization with the supervisor or employer before acting, consistent with the Code's requirement to follow applicable employer and legal procedures.",
+          "option_rationales": {
+            "A": "A technically secure method does not resolve whether access is authorized. Security and authorization are separate requirements, and satisfying one does not satisfy the other.",
+            "B": "Sharing screenshots through an unofficial channel creates an unauthorized copy and does not resolve the authorization question either.",
+            "D": "Working with the client establishes a professional relationship, not standing authorization to access records outside normal procedure."
+          }
+        }
+      }
+    },
+    {
+      "code": "F-05-002",
+      "domain": "F",
+      "task_code": "F.5",
+      "version": 1,
+      "source_ref": "2.08",
+      "key": "B",
+      "translations": {
+        "en": {
+          "stem": "An RBT's employer requires all session notes to be entered only through a specific secure software platform. The RBT also owns a personal encrypted note-taking application that is not approved by the employer. What should the RBT do?",
+          "options": {
+            "A": "Use the personal encrypted app, since it independently satisfies confidentiality requirements",
+            "B": "Use the employer's required platform, because workplace requirements govern how the note is entered even when another method would also be secure",
+            "C": "Alternate between both systems depending on convenience",
+            "D": "Ask the client's family which system they prefer"
+          },
+          "rationale": "Standard 2.08 requires RBTs to protect confidentiality by following the requirements set by the BACB, employers, and the law. Where an employer specifies a system, that requirement governs the RBT's conduct even if an alternative method would independently meet general confidentiality standards.",
+          "option_rationales": {
+            "A": "Encryption alone does not satisfy the Code, because the Code requires compliance with employer requirements, and the employer has not approved this application.",
+            "C": "Inconsistent practice undermines the employer's system-based control and creates data fragmentation.",
+            "D": "System selection is a workplace requirement, not a family preference."
+          }
+        }
+      }
+    },
+    {
+      "code": "F-06-001-R",
+      "domain": "F",
+      "task_code": "F.6",
+      "version": 1,
+      "source_ref": "1.05",
+      "key": "B",
+      "translations": {
+        "en": {
+          "stem": "An RBT's professional social media profile lists her title as \"Behavior Analyst.\" She holds RBT certification and no other behavior-analytic credential. What is the primary ethical concern?",
+          "options": {
+            "A": "None, because she implements behavior-analytic procedures every workday",
+            "B": "The title misrepresents her professional credentials; her public statements should describe her RBT certification accurately",
+            "C": "The profile is a concern only if a client can be identified from it",
+            "D": "Her social media profile is personal activity and falls outside the RBT Ethics Code"
+          },
+          "rationale": "Standard 1.05 prohibits false, misleading, or exaggerated statements about qualifications. \"Behavior Analyst\" names a different credential level, and in many U.S. states it is also a licensed title. Listing it misrepresents her qualifications regardless of her daily duties.",
+          "option_rationales": {
+            "A": "Implementing procedures under supervision is the RBT role. It does not confer the Behavior Analyst credential.",
+            "C": "Credential misrepresentation is a concern whether or not any client is identifiable. Client identification is a separate issue under Standard 2.09.",
+            "D": "A profile that states her professional title is a public statement about professional activities, which Standard 1.05 and TCO task F.6 cover."
+          }
+        }
+      }
+    },
+    {
+      "code": "F-06-002",
+      "domain": "F",
+      "task_code": "F.6",
+      "version": 1,
+      "source_ref": "1.05",
+      "key": "B",
+      "translations": {
+        "en": {
+          "stem": "An RBT's social media post accurately states her job title as \"Registered Behavior Technician\" and adds, \"Every child I work with makes rapid, guaranteed progress.\" What is the primary ethical concern?",
+          "options": {
+            "A": "No concern arises because the credential is stated accurately",
+            "B": "The post makes an unsupported guarantee of outcomes, regardless of the credential being correctly stated",
+            "C": "The post is acceptable if the RBT genuinely believes the statement to be true",
+            "D": "The concern applies only if a caregiver complains about the post"
+          },
+          "rationale": "Accurate credential representation does not resolve a separate problem: public statements must not make unsupported claims about service outcomes. \"Guaranteed progress\" is an outcome claim ABA cannot substantiate at the individual level and is prohibited independent of role accuracy.",
+          "option_rationales": {
+            "A": "Correct credentialing does not cure an unsupported efficacy claim.",
+            "C": "Personal belief in a claim's truth does not make an unsupported guarantee permissible.",
+            "D": "The ethical requirement does not depend on whether a complaint is received."
+          }
+        }
+      }
+    },
+    {
+      "code": "F-07-001",
+      "domain": "F",
+      "task_code": "F.7",
+      "version": 1,
+      "source_ref": "1.10",
+      "key": "C",
+      "translations": {
+        "en": {
+          "stem": "A client's parent asks the RBT to provide paid babysitting every weekend. What should the RBT do?",
+          "options": {
+            "A": "Accept because babysitting is not behavior-analytic treatment",
+            "B": "Accept if sessions and babysitting are billed separately",
+            "C": "Decline the arrangement, inform the supervisor, and address and document any multiple relationship risk",
+            "D": "Accept once, then decide whether it affects services"
+          },
+          "rationale": "Paid babysitting would mix professional and personal or business roles and may create conflicts of interest or risk of harm. The RBT should avoid the arrangement and involve the supervisor, with documentation if a multiple relationship has developed.",
+          "option_rationales": {
+            "A": "A nonclinical label does not remove the multiple relationship risk.",
+            "B": "Separate billing does not resolve conflicting roles.",
+            "D": "Beginning the arrangement can create the very risk the RBT should avoid."
+          }
+        }
+      }
+    },
+    {
+      "code": "F-08-001-R",
+      "domain": "F",
+      "task_code": "F.8",
+      "version": 1,
+      "source_ref": "1.11",
+      "key": "C",
+      "translations": {
+        "en": {
+          "stem": "At the end of the year a caregiver offers an RBT a $25 gift card as a thank-you for the year's sessions. The RBT's employer has no written policy on gifts. What should the RBT do?",
+          "options": {
+            "A": "Accept it, because it is an occasional expression of gratitude",
+            "B": "Accept it and disclose it to the supervisor at the next supervision meeting",
+            "C": "Decline it, because its value exceeds the limit set in the RBT Ethics Code",
+            "D": "Accept it and record it in the session note for transparency"
+          },
+          "rationale": "Standard 1.11 limits gifts given or accepted to a monetary value of $10 US. A $25 gift card exceeds that ceiling regardless of intent, frequency, or disclosure. The absence of an employer policy does not remove the Code obligation.",
+          "option_rationales": {
+            "A": "Occasional gratitude is a necessary condition under the Code, not a sufficient one.",
+            "B": "Disclosure to a supervisor does not authorize acceptance of a gift that exceeds the Code threshold.",
+            "D": "Documentation records what occurred; it does not make an impermissible acceptance permissible."
+          }
+        }
+      }
+    },
+    {
+      "code": "F-08-002",
+      "domain": "F",
+      "task_code": "F.8",
+      "version": 1,
+      "source_ref": "1.11",
+      "key": "C",
+      "translations": {
+        "en": {
+          "stem": "A caregiver offers an RBT a $5 coffee gift card after a session. The value is within the RBT Ethics Code limit. The RBT's employer prohibits staff from accepting client gifts of any value. What should the RBT do?",
+          "options": {
+            "A": "Accept it, because the value is within the Ethics Code limit",
+            "B": "Accept it if the supervisor gives verbal permission",
+            "C": "Decline it, because the employer policy is stricter and governs in this situation",
+            "D": "Accept it and donate its value to the clinic's supply fund"
+          },
+          "rationale": "Where an employer policy is more restrictive than the Ethics Code, the RBT follows the stricter standard. Compliance with the Code's monetary ceiling does not exempt the RBT from an organizational prohibition.",
+          "option_rationales": {
+            "A": "It is correct on the Code question and wrong on the governing question.",
+            "B": "A supervisor cannot verbally waive an employer policy.",
+            "D": "Redirecting the value does not change the fact of acceptance, which the policy prohibits."
+          }
+        }
+      }
+    },
+    {
+      "code": "F-08-003",
+      "domain": "F",
+      "task_code": "F.8",
+      "version": 1,
+      "source_ref": "1.11",
+      "key": "C",
+      "translations": {
+        "en": {
+          "stem": "Over twelve consecutive weekly sessions, a caregiver gives the RBT a small item worth approximately $5 each time. The RBT's employer has no gift policy. Each individual gift is within the Ethics Code limit. How should the RBT evaluate this situation?",
+          "options": {
+            "A": "No concern arises, because each gift is individually within the limit",
+            "B": "No concern arises, because the RBT never requested any of the items",
+            "C": "A repeated pattern may raise a concern under the Code despite individual values; the RBT should raise it with the supervisor",
+            "D": "No concern arises provided the RBT shares the items with colleagues"
+          },
+          "rationale": "Standard 1.11 treats a gift as acceptable when it is an occasional expression of gratitude that does not result in financial benefit, and states that ongoing or cumulative gifts may rise to the level of a violation if they become a regularly expected source of value to the recipient. Twelve consecutive weekly gifts can become that kind of expected pattern, so the RBT raises it with the supervisor even though no single gift exceeds the $10 limit.",
+          "option_rationales": {
+            "A": "Item-by-item compliance is exactly the reasoning the cumulative provision addresses.",
+            "B": "The Code governs acceptance, not solicitation.",
+            "D": "Redistribution does not alter the pattern of acceptance."
+          }
+        }
+      }
+    },
+    {
+      "code": "F-09-001",
+      "domain": "F",
+      "task_code": "F.9",
+      "version": 1,
+      "source_ref": "2.03",
+      "key": "B",
+      "translations": {
+        "en": {
+          "stem": "A supervisor gives corrective feedback about delayed data entry. Which response best demonstrates professional and interpersonal skills?",
+          "options": {
+            "A": "Explain that the supervisor is being overly critical",
+            "B": "Listen, ask clarifying questions, summarize the expected change, and implement the feedback",
+            "C": "Agree during supervision but continue the same practice",
+            "D": "Discuss the supervisor's feedback with the client's family"
+          },
+          "rationale": "Professional skills include accepting feedback, listening actively, seeking input, collaborating, and taking action to improve performance. Clarification and implementation make the expected change observable.",
+          "option_rationales": {
+            "A": "Arguing with the feedback does not change the data-entry delay the supervisor described.",
+            "C": "Agreement without behavior change does not improve performance.",
+            "D": "The client's family is not the appropriate audience for a supervision disagreement."
+          }
+        }
+      }
+    },
+    {
+      "code": "F-10-001",
+      "domain": "F",
+      "task_code": "F.10",
+      "version": 1,
+      "source_ref": "1.07",
+      "key": "C",
+      "translations": {
+        "en": {
+          "stem": "A family explains that a common teaching example conflicts with an important cultural practice. The procedure itself has not been changed. What should the RBT do?",
+          "options": {
+            "A": "Tell the family that evidence-based procedures must be culturally neutral",
+            "B": "Replace the target immediately without consulting the supervisor",
+            "C": "Listen without arguing or interrupting, ask the family to describe the practice, examine possible personal bias, and promptly share the concern with the supervisor for culturally responsive direction",
+            "D": "Avoid discussing culture because it is outside the RBT role"
+          },
+          "rationale": "Standard 1.07 directs RBTs to work with their supervisor on cultural responsiveness and to evaluate their own biases. Listening, asking about the practice, and bringing the concern to the supervisor does that without independently modifying the plan.",
+          "option_rationales": {
+            "A": "Evidence-based service delivery can and should be culturally responsive.",
+            "B": "The RBT should not independently redesign the intervention.",
+            "D": "Avoidance prevents responsive collaboration and does not address the family's concern."
+          }
+        }
+      }
+    }
+  ]
+}
