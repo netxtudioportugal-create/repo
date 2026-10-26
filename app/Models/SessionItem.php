@@ -9,6 +9,9 @@ class SessionItem extends Model
 {
     public $timestamps = false;
 
+    /** Milliseconds, so response_time_ms is not rounded to whole seconds. */
+    protected $dateFormat = 'Y-m-d H:i:s.v';
+
     protected $fillable = [
         'practice_session_id', 'item_id', 'item_version', 'position', 'option_order',
         'shown_at', 'selected_option', 'is_correct', 'answered_at', 'checked_at',

@@ -76,6 +76,23 @@ class PracticeFlowTest extends TestCase
         $this->assertFalse($session->sessionItems()->first()->is_correct);
     }
 
+    public function test_response_time_keeps_milliseconds(): void
+    {
+        $this->seedBank();
+        $this->release('A-02');
+        $this->learner();
+        $this->post(route('practice.domain', 'A'));
+        $session = PracticeSession::firstOrFail();
+
+        $this->travelTo(now()->setTime(10, 0, 0, 250_000));
+        $this->get(route('practice.question', [$session, 1]))->assertOk();
+
+        $this->travelTo(now()->addMilliseconds(1_234));
+        $this->post(route('practice.answer', [$session, 1]), ['action' => 'check', 'option' => 'B']);
+
+        $this->assertSame(1_234, ItemResponse::sole()->response_time_ms);
+    }
+
     public function test_sessions_belong_to_their_learner(): void
     {
         $this->seedBank();
