@@ -33,6 +33,7 @@ jobs:
           php artisan migrate --force
           php artisan db:seed --class=TaxonomySeeder --force
           php artisan items:import --dry-run
+          php artisan terms:import --dry-run
       - name: Tests
         env:
           DB_CONNECTION: ${{ matrix.db }}

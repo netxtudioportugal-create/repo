@@ -50,4 +50,9 @@ return [
     ],
 
     'items_file' => database_path('data/items.json'),
+
+    /*
+    | Approved uk-UA / ru-UA ABA terminology (flow_exam_prep_aba_terms).
+    */
+    'terminology_file' => database_path('data/terminology.json'),
 ];

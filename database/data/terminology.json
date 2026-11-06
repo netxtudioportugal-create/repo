@@ -1,0 +1,177 @@
+{
+  "dictionary_id": "flow_exam_prep_aba_terms",
+  "dictionary_version": "1.0",
+  "effective_on": "2026-10-09",
+  "approved_by": "Americo Silva, MS, BCBA, IBA",
+  "reviewer": "Yevheniia Lobas",
+  "locales": ["uk-UA", "ru-UA"],
+  "source": "Flow_Terminology_uk-UA_ru-UA_Import_Package_v2.docx (rebuilt 2026-10-28). Russian: Practica ABA glossary accompanying the Russian edition of Cooper, Heron, and Heward. Ukrainian: approved Flow Behavior localization choices after native language review.",
+  "bacb_titles": [
+    "RBT Supervisor",
+    "RBT Requirements Coordinator",
+    "RBT Test Content Outline",
+    "RBT Initial Competency Assessment"
+  ],
+  "terms": [
+    {
+      "term_key": "extinction",
+      "source_term_en": "Extinction",
+      "locale": "ru-UA",
+      "approved_term": "Гашение",
+      "status": "approved",
+      "notes": "RU: Гашение is the procedure; угасание may describe process/outcome. Context controls the choice."
+    },
+    {
+      "term_key": "extinction",
+      "source_term_en": "Extinction",
+      "locale": "uk-UA",
+      "approved_term": "Згасання",
+      "status": "approved",
+      "notes": "Approved Ukrainian Flow localization choice."
+    },
+    {
+      "term_key": "extinction_burst",
+      "source_term_en": "Extinction burst",
+      "locale": "ru-UA",
+      "approved_term": "Угасательное обострение",
+      "status": "approved",
+      "notes": "Follows Russian Cooper glossary."
+    },
+    {
+      "term_key": "extinction_burst",
+      "source_term_en": "Extinction burst",
+      "locale": "uk-UA",
+      "approved_term": "Сплеск згасання",
+      "status": "approved",
+      "notes": "Approved Flow localization choice; not represented as an official standardized Ukrainian equivalent."
+    },
+    {
+      "term_key": "escape_extinction",
+      "source_term_en": "Escape extinction",
+      "locale": "ru-UA",
+      "approved_term": "Гашение избегающего поведения",
+      "status": "approved",
+      "notes": "Follows Russian glossary; refers to discontinuing escape as maintaining reinforcer."
+    },
+    {
+      "term_key": "escape_extinction",
+      "source_term_en": "Escape extinction",
+      "locale": "uk-UA",
+      "approved_term": "Згасання поведінки, підтримуваної втечею від вимог або ситуації",
+      "status": "approved",
+      "notes": "Descriptive approved Flow label; contextual review remains required in items/rationales."
+    },
+    {
+      "term_key": "prompt_fading",
+      "source_term_en": "Prompt fading",
+      "locale": "ru-UA",
+      "approved_term": "Постепенное сокращение подсказок (фейдинг)",
+      "status": "approved",
+      "notes": "Descriptive translation; not a confirmed Russian Cooper headword. Do not confuse with extinction."
+    },
+    {
+      "term_key": "prompt_fading",
+      "source_term_en": "Prompt fading",
+      "locale": "uk-UA",
+      "approved_term": "Поступове зменшення підказок (фейдинг)",
+      "status": "approved",
+      "notes": "Descriptive translation; do not confuse with extinction."
+    },
+    {
+      "term_key": "verbal_operants",
+      "source_term_en": "Verbal operants",
+      "locale": "ru-UA",
+      "approved_term": "Вербальные операнты",
+      "status": "approved",
+      "notes": "Russian glossary terminology."
+    },
+    {
+      "term_key": "verbal_operants",
+      "source_term_en": "Verbal operants",
+      "locale": "uk-UA",
+      "approved_term": "Вербальні операнти",
+      "status": "approved",
+      "notes": "Approved Flow terminology."
+    },
+    {
+      "term_key": "mand",
+      "source_term_en": "Mand",
+      "locale": "ru-UA",
+      "approved_term": "Манд",
+      "status": "approved",
+      "notes": "Russian glossary terminology."
+    },
+    {
+      "term_key": "mand",
+      "source_term_en": "Mand",
+      "locale": "uk-UA",
+      "approved_term": "Манд",
+      "status": "approved",
+      "notes": "Approved Flow terminology."
+    },
+    {
+      "term_key": "tact",
+      "source_term_en": "Tact",
+      "locale": "ru-UA",
+      "approved_term": "Такт",
+      "status": "approved",
+      "notes": "Russian glossary terminology."
+    },
+    {
+      "term_key": "tact",
+      "source_term_en": "Tact",
+      "locale": "uk-UA",
+      "approved_term": "Такт",
+      "status": "approved",
+      "notes": "Approved Flow terminology."
+    },
+    {
+      "term_key": "echoic",
+      "source_term_en": "Echoic",
+      "locale": "ru-UA",
+      "approved_term": "Эхо-реакция",
+      "status": "approved",
+      "notes": "Russian glossary terminology."
+    },
+    {
+      "term_key": "echoic",
+      "source_term_en": "Echoic",
+      "locale": "uk-UA",
+      "approved_term": "Ехо-реакція",
+      "status": "approved",
+      "notes": "Approved Flow terminology."
+    },
+    {
+      "term_key": "intraverbal",
+      "source_term_en": "Intraverbal",
+      "locale": "ru-UA",
+      "approved_term": "Интравербализация",
+      "status": "approved",
+      "notes": "Russian glossary terminology."
+    },
+    {
+      "term_key": "intraverbal",
+      "source_term_en": "Intraverbal",
+      "locale": "uk-UA",
+      "approved_term": "Інтравербальна реакція",
+      "status": "approved",
+      "notes": "Approved Flow response-category term; not represented as an official standardized equivalent."
+    },
+    {
+      "term_key": "initial_competency_assessment",
+      "source_term_en": "Initial Competency Assessment",
+      "locale": "ru-UA",
+      "approved_term": "Initial Competency Assessment (первичная оценка компетентности)",
+      "status": "approved",
+      "notes": "Keep English BACB title; translation is explanatory only."
+    },
+    {
+      "term_key": "initial_competency_assessment",
+      "source_term_en": "Initial Competency Assessment",
+      "locale": "uk-UA",
+      "approved_term": "Initial Competency Assessment (початкове оцінювання компетентності)",
+      "status": "approved",
+      "notes": "Keep English BACB title; translation is explanatory only."
+    }
+  ]
+}
