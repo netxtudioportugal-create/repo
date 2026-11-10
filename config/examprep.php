@@ -12,7 +12,7 @@ return [
         'pt' => ['name' => 'Português (Brasil)', 'html' => 'pt-BR'],
         'es' => ['name' => 'Español', 'html' => 'es'],
         'uk' => ['name' => 'Українська', 'html' => 'uk-UA'],
-        'ru-UA' => ['name' => 'Русский (UA)', 'html' => 'ru-UA'],
+        'ru-UA' => ['name' => 'Русский', 'html' => 'ru-UA'],
     ],
 
     'fallback_locale' => 'en',
