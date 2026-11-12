@@ -1,0 +1,1633 @@
+{
+  "source": "Flow_ExamPrep_Ethics_Import_All_Locales_v2.xlsx",
+  "phase": 2,
+  "step": 6,
+  "contains": "pt-BR and es-419 updated in place (draft); uk-UA and ru-UA version 2, approved by Yevheniia Lobas.",
+  "masters": [],
+  "languages": [
+    {
+      "item_code": "F-01-001",
+      "locale": "pt-BR",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "Durante uma sessão, uma pessoa cuidadora chama o cliente de “burro” ao comentar um erro. O cliente está perto o suficiente para ouvir. O que o RBT deve fazer?",
+      "options": {
+        "A": {
+          "text": "Usar linguagem respeitosa, redirecionar a conversa para proteger a dignidade do cliente e buscar orientação do supervisor, se necessário",
+          "rationale": "Essa resposta é consistente com compaixão, dignidade, respeito e integridade, permanecendo dentro do papel do RBT. Ela protege o cliente sem fazer conclusões jurídicas ou disciplinares sem fundamento."
+        },
+        "B": {
+          "text": "Continuar a sessão sem responder porque a pessoa cuidadora é a representante legal do cliente",
+          "rationale": "Ignorar a situação não protege a dignidade do cliente."
+        },
+        "C": {
+          "text": "Dizer à pessoa cuidadora que é proibido falar sobre o cliente em qualquer circunstância",
+          "rationale": "A discussão de assuntos relevantes nem sempre é proibida, mas deve ser respeitosa e conduzida de forma apropriada."
+        },
+        "D": {
+          "text": "Interromper imediatamente os serviços e enviar uma denúncia ao BACB",
+          "rationale": "Os fatos apresentados não exigem automaticamente a interrupção imediata dos serviços nem uma denúncia ao BACB."
+        }
+      }
+    },
+    {
+      "item_code": "F-02-001",
+      "locale": "pt-BR",
+      "version": 1,
+      "source_master_version": 3,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "Um supervisor acrescenta um procedimento de reforçamento com fichas que o RBT nunca implementou. Há um plano escrito disponível, mas o RBT não recebeu treinamento nem demonstrou o procedimento. O que o RBT deve fazer primeiro?",
+      "options": {
+        "A": {
+          "text": "Ler o plano escrito com atenção e implementar o procedimento de forma independente na próxima sessão",
+          "rationale": "Um plano escrito, por si só, não é suficiente para estabelecer competência."
+        },
+        "B": {
+          "text": "Pedir à pessoa cuidadora, que já viu o procedimento ser usado, que o demonstre durante a sessão",
+          "rationale": "A pessoa cuidadora não substitui o treinamento profissional e a supervisão necessários."
+        },
+        "C": {
+          "text": "Recusar-se a trabalhar novamente com esse cliente e pedir ao supervisor que transfira o caso",
+          "rationale": "Em geral, a questão pode ser resolvida com treinamento. Afastar-se do caso, mesmo por meio de transferência, não é o primeiro passo."
+        },
+        "D": {
+          "text": "Informar ao supervisor que são necessários treinamento e verificação de competência antes da implementação",
+          "rationale": "De acordo com o Padrão 1.06, um RBT presta serviços somente depois que o supervisor confirma competência demonstrada. O Padrão 2.04 também exige que o RBT receba treinamento adequado antes de usar uma intervenção desconhecida. O RBT deve informar prontamente o supervisor, documentar essa comunicação e solicitar instrução, modelação, ensaio, feedback e verificação de competência antes de implementar o procedimento desconhecido."
+        }
+      }
+    },
+    {
+      "item_code": "F-03-001",
+      "locale": "pt-BR",
+      "version": 1,
+      "source_master_version": 2,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "Um RBT descobre que seu único supervisor qualificado registrado encerrou a supervisão ontem. A agência pede ao RBT que realize uma sessão hoje enquanto procura um substituto. Qual é a melhor resposta?",
+      "options": {
+        "A": {
+          "text": "Realizar a sessão porque o plano de intervenção não mudou",
+          "rationale": "Um plano inalterado não elimina a exigência de supervisão."
+        },
+        "B": {
+          "text": "Realizar a sessão se a pessoa cuidadora concordar",
+          "rationale": "A pessoa cuidadora não pode autorizar uma prática que conflite com os requisitos de certificação."
+        },
+        "C": {
+          "text": "Não prestar serviços como RBT até que seja estabelecida supervisão contínua por um supervisor qualificado",
+          "rationale": "Os serviços de RBT só podem ser prestados sob supervisão contínua de um profissional que atenda aos requisitos do BACB. A autorização da pessoa cuidadora ou a documentação não substituem a supervisão qualificada."
+        },
+        "D": {
+          "text": "Realizar a sessão e documentar que não havia supervisor disponível",
+          "rationale": "Documentar a ausência de supervisão não torna permissíveis serviços prestados sem supervisão."
+        }
+      }
+    },
+    {
+      "item_code": "F-04-001",
+      "locale": "pt-BR",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "Qual arranjo de supervisão reflete mais claramente uma prática eficaz para ensinar a um RBT um novo procedimento de coleta de dados?",
+      "options": {
+        "A": {
+          "text": "O supervisor envia a definição por e mail e pede ao RBT que confirme o recebimento",
+          "rationale": "Confirmar o recebimento de instruções escritas não demonstra habilidade de execução."
+        },
+        "B": {
+          "text": "O supervisor explica e modela o procedimento, observa o ensaio e a implementação durante a prestação do serviço e fornece feedback de desempenho",
+          "rationale": "A supervisão eficaz inclui instrução clara, modelação, ensaio, feedback e observação da prestação de serviços pelo RBT. Essa abordagem avalia diretamente e fortalece a competência de implementação."
+        },
+        "C": {
+          "text": "O supervisor revisa os totais mensais sem observar a implementação",
+          "rationale": "Revisar apenas os totais resumidos não é suficiente para verificar a precisão da implementação."
+        },
+        "D": {
+          "text": "O RBT assiste a um vídeo online não relacionado e começa a usar o procedimento",
+          "rationale": "O estudo independente de material não relacionado não substitui treinamento e supervisão específicos para a tarefa."
+        }
+      }
+    },
+    {
+      "item_code": "F-05-001-R",
+      "locale": "pt-BR",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "Um RBT quer revisar o histórico de sessões de um cliente antes de uma sessão de reposição, mas não foi informado se o empregador permite acesso aos registros fora do horário normal de trabalho. O que o RBT deve fazer?",
+      "options": {
+        "A": {
+          "text": "Antes de abrir os registros, confirmar com o supervisor ou empregador o procedimento estabelecido para acesso autorizado",
+          "rationale": "O cumprimento da confidencialidade exige tanto segurança quanto autorização. A criptografia ou um método seguro de acesso aborda a segurança, mas não estabelece, por si só, que o RBT está autorizado a acessar o registro naquele momento. Antes do acesso, o RBT deve confirmar a autorização com o supervisor ou empregador de acordo com os procedimentos aplicáveis da organização e a legislação."
+        },
+        "B": {
+          "text": "Pedir a um colega que envie capturas de tela dos registros necessários",
+          "rationale": "Pedir capturas de tela não estabelece autorização para acessar os registros nem confirma que o método de transmissão é aprovado."
+        },
+        "C": {
+          "text": "Abrir os registros em qualquer dispositivo criptografado",
+          "rationale": "Um método tecnicamente seguro não resolve a questão da autorização. Segurança e autorização são requisitos distintos; cumprir um não substitui o outro."
+        },
+        "D": {
+          "text": "Abrir todo o histórico de registros porque o RBT trabalha com esse cliente",
+          "rationale": "Trabalhar com o cliente estabelece uma relação profissional, mas não uma autorização contínua para acessar registros fora dos procedimentos estabelecidos."
+        }
+      }
+    },
+    {
+      "item_code": "F-05-002",
+      "locale": "pt-BR",
+      "version": 1,
+      "source_master_version": 2,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "O empregador do RBT exige que todas as notas de sessão sejam inseridas somente por meio de uma plataforma de software segura designada. O RBT também possui um aplicativo pessoal criptografado para anotações que não foi aprovado pelo empregador. O que o RBT deve fazer?",
+      "options": {
+        "A": {
+          "text": "Usar o aplicativo pessoal criptografado porque a criptografia, por si só, atende aos requisitos de confidencialidade",
+          "rationale": "A criptografia, por si só, não é suficiente. O Código exige o cumprimento dos requisitos do empregador, e o aplicativo não foi aprovado."
+        },
+        "B": {
+          "text": "Perguntar à família do cliente qual dos dois sistemas prefere para as anotações das sessões do filho",
+          "rationale": "O sistema de registro é determinado pelos requisitos da organização, e não pela preferência da família."
+        },
+        "C": {
+          "text": "Alternar entre os dois sistemas, conforme o dispositivo mais conveniente em cada sessão",
+          "rationale": "O uso inconsistente de sistemas contorna os controles estabelecidos pelo empregador e dispersa os dados."
+        },
+        "D": {
+          "text": "Usar a plataforma exigida pelo empregador, mesmo que o aplicativo pessoal também criptografe as anotações",
+          "rationale": "O Padrão 2.08 exige que o RBT proteja a confidencialidade enquanto cumpre os requisitos do BACB, do empregador e da legislação. Quando o empregador designa um sistema, o RBT deve seguir essa exigência mesmo que um aplicativo alternativo ofereça criptografia."
+        }
+      }
+    },
+    {
+      "item_code": "F-06-001-R",
+      "locale": "pt-BR",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "O perfil profissional de um RBT nas redes sociais apresenta o cargo “Behavior Analyst”. A pessoa possui certificação RBT, mas não possui outra qualificação profissional em análise do comportamento. Qual é a principal preocupação ética?",
+      "options": {
+        "A": {
+          "text": "Não há problema porque a pessoa aplica procedimentos de análise do comportamento todos os dias",
+          "rationale": "Implementar procedimentos sob supervisão faz parte do papel do RBT e não torna o título “Behavior Analyst” correto."
+        },
+        "B": {
+          "text": "O título apresenta incorretamente o status profissional; declarações públicas devem refletir com precisão a certificação RBT",
+          "rationale": "O Padrão 1.05 proíbe declarações falsas, enganosas ou exageradas sobre qualificações. O título “Behavior Analyst” sugere qualificações ou autoridade além da certificação RBT e, portanto, representa incorretamente o status profissional, independentemente das tarefas diárias."
+        },
+        "C": {
+          "text": "O perfil só é preocupante se for possível identificar um cliente por meio dele",
+          "rationale": "A representação incorreta do status profissional é uma preocupação independentemente da possibilidade de identificar um cliente. A identificação do cliente é uma questão separada segundo o Padrão 2.09."
+        },
+        "D": {
+          "text": "Um perfil em rede social é atividade pessoal e não está sujeito ao Código de Ética do RBT",
+          "rationale": "Um perfil que apresenta um título profissional constitui uma declaração pública sobre atividade profissional e está sujeito ao Padrão 1.05 e à tarefa F.6 do TCO."
+        }
+      }
+    },
+    {
+      "item_code": "F-06-002",
+      "locale": "pt-BR",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "Uma publicação de um RBT nas redes sociais identifica corretamente o título “Registered Behavior Technician”, mas acrescenta: “Toda criança com quem trabalho tem progresso rápido garantido”. Qual é a principal preocupação ética?",
+      "options": {
+        "A": {
+          "text": "Não há problema porque a certificação está indicada corretamente",
+          "rationale": "Indicar corretamente a certificação não elimina uma alegação de eficácia sem fundamento."
+        },
+        "B": {
+          "text": "A publicação é aceitável se o RBT acreditar sinceramente que a afirmação é verdadeira",
+          "rationale": "A crença pessoal na afirmação não torna aceitável uma garantia sem fundamento."
+        },
+        "C": {
+          "text": "A publicação faz uma garantia de resultados sem fundamento, mesmo que a certificação esteja indicada corretamente",
+          "rationale": "A representação correta da certificação não elimina outro problema: declarações públicas não devem conter promessas sem fundamento sobre resultados dos serviços. “Progresso garantido” é uma afirmação de resultado que a ABA não pode razoavelmente garantir para uma pessoa específica, portanto é inadequada independentemente do título correto."
+        },
+        "D": {
+          "text": "Só há problema se uma pessoa cuidadora reclamar da publicação",
+          "rationale": "A exigência ética se aplica independentemente de haver uma reclamação."
+        }
+      }
+    },
+    {
+      "item_code": "F-07-001",
+      "locale": "pt-BR",
+      "version": 1,
+      "source_master_version": 2,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "O pai ou a mãe de um cliente oferece pagar ao RBT para cuidar da criança todos os fins de semana. O que o RBT deve fazer?",
+      "options": {
+        "A": {
+          "text": "Recusar a oferta e informar o supervisor sobre ela",
+          "rationale": "O Padrão 1.10 orienta os RBTs a evitar relações múltiplas com clientes. O glossário do Código inclui papéis com pessoas estreitamente associadas ou relacionadas ao cliente; por isso, cuidar da criança mediante pagamento do pai ou da mãe acrescentaria um papel pessoal ou comercial, e o RBT recusa. A introdução do Código torna o supervisor responsável por todo o trabalho realizado pelos RBTs e orienta os RBTs a buscar o apoio do supervisor ao aplicar o Código; por isso, o RBT informa o supervisor sobre a oferta."
+        },
+        "B": {
+          "text": "Aceitar se as sessões de ABA e o cuidado da criança forem pagos separadamente",
+          "rationale": "Pagamentos separados não eliminam o conflito entre os papéis."
+        },
+        "C": {
+          "text": "Aceitar porque cuidar da criança não é um serviço de análise do comportamento",
+          "rationale": "O fato de o cuidado da criança não ser formalmente um serviço clínico não elimina o risco de relação múltipla."
+        },
+        "D": {
+          "text": "Aceitar uma vez e depois decidir se isso afeta os serviços",
+          "rationale": "Iniciar o arranjo pode criar exatamente o risco que o RBT deve evitar."
+        }
+      }
+    },
+    {
+      "item_code": "F-08-001-R",
+      "locale": "pt-BR",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "No final do ano, uma pessoa cuidadora oferece ao RBT um cartão presente de US$ 25 como agradecimento pelas sessões do ano. O empregador do RBT não possui política escrita sobre presentes. O que o RBT deve fazer?",
+      "options": {
+        "A": {
+          "text": "Aceitar porque é uma expressão ocasional de gratidão",
+          "rationale": "Uma expressão ocasional de gratidão é uma condição necessária, mas não suficiente, para aceitação segundo o Código."
+        },
+        "B": {
+          "text": "Recusar porque o valor excede o limite estabelecido pelo Código de Ética do RBT",
+          "rationale": "O Padrão 1.11 limita presentes oferecidos ou aceitos ao valor monetário de US$ 10. Um cartão presente de US$ 25 excede esse limite independentemente da intenção, frequência ou divulgação. A ausência de política do empregador não elimina a exigência do Código."
+        },
+        "C": {
+          "text": "Aceitar e informar o supervisor na próxima reunião de supervisão",
+          "rationale": "Informar o supervisor não autoriza a aceitação de um presente que excede o limite estabelecido."
+        },
+        "D": {
+          "text": "Aceitar e registrar o presente na nota da sessão para garantir transparência",
+          "rationale": "A documentação registra o evento, mas não torna permissível uma aceitação que não é permitida."
+        }
+      }
+    },
+    {
+      "item_code": "F-08-002",
+      "locale": "pt-BR",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "Após uma sessão, uma pessoa cuidadora oferece ao RBT um cartão presente de café no valor de US$ 5. O valor está dentro do limite do Código de Ética do RBT. Entretanto, o empregador proíbe os funcionários de aceitar presentes de clientes de qualquer valor. O que o RBT deve fazer?",
+      "options": {
+        "A": {
+          "text": "Aceitar porque o valor está dentro do limite do Código",
+          "rationale": "Isso está correto quanto ao limite monetário do Código, mas ignora uma política obrigatória do empregador."
+        },
+        "B": {
+          "text": "Aceitar se o supervisor der autorização verbal",
+          "rationale": "A autorização verbal, por si só, não estabelece uma exceção permitida à política declarada."
+        },
+        "C": {
+          "text": "Aceitar e doar valor equivalente ao fundo de materiais da clínica",
+          "rationale": "Redirecionar o valor não altera o fato de que o presente foi aceito apesar da política."
+        },
+        "D": {
+          "text": "Recusar porque a política mais restritiva do empregador se aplica nessa situação",
+          "rationale": "Quando a política do empregador é mais restritiva do que o Código de Ética, o RBT segue a exigência mais restritiva. Cumprir o limite monetário do Código não isenta o RBT da proibição da organização."
+        }
+      }
+    },
+    {
+      "item_code": "F-08-003",
+      "locale": "pt-BR",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "Durante doze sessões semanais consecutivas, uma pessoa cuidadora dá ao RBT, em cada sessão, um pequeno item no valor aproximado de US$ 5. O empregador não possui política sobre presentes. Cada presente individual está dentro do limite do Código de Ética do RBT. Como o RBT deve avaliar a situação?",
+      "options": {
+        "A": {
+          "text": "Não há problema porque cada presente individual está dentro do limite",
+          "rationale": "Avaliar cada presente isoladamente é exatamente o raciocínio abordado pela disposição sobre presentes cumulativos."
+        },
+        "B": {
+          "text": "Não há problema porque o RBT não pediu nenhum dos presentes",
+          "rationale": "O Código regula a aceitação de presentes, não o fato de eles terem sido solicitados."
+        },
+        "C": {
+          "text": "Um padrão repetido de presentes pode gerar preocupação segundo o Código apesar do baixo valor de cada item; o RBT deve discutir a situação com o supervisor",
+          "rationale": "O Padrão 1.11 considera aceitável um presente quando é uma expressão ocasional de gratidão que não resulta em benefício financeiro e observa que presentes contínuos ou cumulativos podem constituir violação se se tornarem uma fonte contínua e esperada de valor para o destinatário. Doze presentes semanais consecutivos podem criar esse padrão; por isso, o RBT deve discutir a situação com o supervisor, mesmo que nenhum presente individual exceda US$ 10."
+        },
+        "D": {
+          "text": "Não há problema se o RBT compartilhar os presentes com colegas",
+          "rationale": "Dar os presentes a outras pessoas não altera o padrão repetido de aceitá los."
+        }
+      }
+    },
+    {
+      "item_code": "F-09-001",
+      "locale": "pt-BR",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "Um supervisor fornece feedback corretivo sobre atraso no registro de dados. Qual resposta demonstra melhor habilidades profissionais e interpessoais?",
+      "options": {
+        "A": {
+          "text": "Explicar que o supervisor está sendo crítico demais",
+          "rationale": "Rejeitar o feedback sem esclarecer as expectativas ou abordar o atraso no registro de dados não é uma interação profissional construtiva."
+        },
+        "B": {
+          "text": "Ouvir, fazer perguntas de esclarecimento, resumir a mudança esperada e implementar o feedback",
+          "rationale": "Habilidades profissionais incluem aceitar feedback, ouvir ativamente, buscar orientação, colaborar e agir para melhorar o desempenho. Esclarecer e implementar o feedback torna a mudança esperada observável."
+        },
+        "C": {
+          "text": "Concordar durante a supervisão, mas continuar trabalhando da mesma forma",
+          "rationale": "Concordar sem mudança de comportamento não melhora o desempenho."
+        },
+        "D": {
+          "text": "Discutir o feedback do supervisor com a família do cliente",
+          "rationale": "A família do cliente não é o público apropriado para discutir uma divergência de supervisão."
+        }
+      }
+    },
+    {
+      "item_code": "F-10-001",
+      "locale": "pt-BR",
+      "version": 1,
+      "source_master_version": 2,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "Uma família explica que um exemplo comum de ensino entra em conflito com uma prática cultural importante. O procedimento em si não foi alterado. O que o RBT deve fazer?",
+      "options": {
+        "A": {
+          "text": "Ouvir, perguntar à família sobre a prática, examinar vieses pessoais e compartilhar a preocupação com o supervisor",
+          "rationale": "O Padrão 1.07 orienta os RBTs a colaborar com o supervisor sobre responsividade cultural e a avaliar seus próprios vieses. Ouvir, esclarecer a prática, examinar vieses pessoais e levar a preocupação ao supervisor atende a essa exigência sem alterar o plano de forma independente."
+        },
+        "B": {
+          "text": "Substituir imediatamente o exemplo de ensino por outro adequado à família, sem consultar o supervisor",
+          "rationale": "O RBT não deve modificar o plano de intervenção de forma independente."
+        },
+        "C": {
+          "text": "Explicar à família que procedimentos baseados em evidências devem ser culturalmente neutros, então o exemplo permanece como está",
+          "rationale": "A prestação de serviços baseada em evidências pode e deve ser culturalmente responsiva."
+        },
+        "D": {
+          "text": "Evitar discutir a cultura da família, porque questões culturais estão fora do papel do RBT",
+          "rationale": "Evitar o tema interfere na colaboração responsiva com a família e não aborda sua preocupação."
+        }
+      }
+    },
+    {
+      "item_code": "F-01-001",
+      "locale": "es-419",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "Durante una sesión, una persona cuidadora llama al cliente “estúpido” al comentar un error. El cliente está lo suficientemente cerca para escucharlo. ¿Qué debe hacer el RBT?",
+      "options": {
+        "A": {
+          "text": "Usar lenguaje respetuoso, redirigir la conversación para proteger la dignidad del cliente y solicitar orientación del supervisor si es necesario",
+          "rationale": "Esta respuesta es consistente con la compasión, la dignidad, el respeto y la integridad, y se mantiene dentro del rol del RBT. Protege al cliente sin formular conclusiones legales o disciplinarias sin fundamento."
+        },
+        "B": {
+          "text": "Continuar la sesión sin responder porque la persona cuidadora es la representante legal del cliente",
+          "rationale": "Ignorar la situación no protege la dignidad del cliente."
+        },
+        "C": {
+          "text": "Decir a la persona cuidadora que está prohibido hablar sobre el cliente en cualquier circunstancia",
+          "rationale": "Hablar de asuntos relevantes no siempre está prohibido, pero debe hacerse de manera respetuosa y apropiada."
+        },
+        "D": {
+          "text": "Interrumpir inmediatamente los servicios y presentar un reporte al BACB",
+          "rationale": "Los hechos presentados no requieren automáticamente la interrupción inmediata de los servicios ni un reporte al BACB."
+        }
+      }
+    },
+    {
+      "item_code": "F-02-001",
+      "locale": "es-419",
+      "version": 1,
+      "source_master_version": 3,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "Un supervisor añade un procedimiento de reforzamiento con fichas que el RBT nunca ha implementado. Hay un plan escrito disponible, pero el RBT no ha recibido entrenamiento ni ha demostrado el procedimiento. ¿Qué debe hacer primero?",
+      "options": {
+        "A": {
+          "text": "Leer el plan escrito con atención e implementar el procedimiento de forma independiente en la próxima sesión",
+          "rationale": "Un plan escrito por sí solo no es suficiente para establecer competencia."
+        },
+        "B": {
+          "text": "Pedir a la persona cuidadora, que ya ha visto usar el procedimiento, que lo demuestre durante la sesión",
+          "rationale": "La persona cuidadora no sustituye el entrenamiento profesional y la supervisión requeridos."
+        },
+        "C": {
+          "text": "Negarse a volver a trabajar con este cliente y pedir al supervisor que reasigne el caso",
+          "rationale": "Por lo general, la situación puede resolverse con entrenamiento. Retirarse del caso, incluso mediante una reasignación, no es el primer paso."
+        },
+        "D": {
+          "text": "Informar al supervisor que se requieren entrenamiento y verificación de competencia antes de la implementación",
+          "rationale": "Según el Estándar 1.06, un RBT presta servicios solo después de que el supervisor confirma competencia demostrada. El Estándar 2.04 también exige que el RBT reciba un entrenamiento adecuado antes de usar una intervención desconocida. El RBT debe informar al supervisor oportunamente, documentar la comunicación y solicitar instrucción, modelado, práctica, retroalimentación y verificación de competencia antes de implementar el procedimiento desconocido."
+        }
+      }
+    },
+    {
+      "item_code": "F-03-001",
+      "locale": "es-419",
+      "version": 1,
+      "source_master_version": 2,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "Un RBT se entera de que su único supervisor calificado registrado terminó la supervisión ayer. La agencia le pide que realice una sesión hoy mientras busca un reemplazo. ¿Cuál es la mejor respuesta?",
+      "options": {
+        "A": {
+          "text": "Realizar la sesión porque el plan de intervención no ha cambiado",
+          "rationale": "Que el plan no haya cambiado no elimina el requisito de supervisión."
+        },
+        "B": {
+          "text": "Realizar la sesión si la persona cuidadora está de acuerdo",
+          "rationale": "La persona cuidadora no puede autorizar una práctica que contradiga los requisitos de certificación."
+        },
+        "C": {
+          "text": "No prestar servicios como RBT hasta que se establezca supervisión continua por un supervisor calificado",
+          "rationale": "Los servicios de RBT solo pueden prestarse bajo supervisión continua de un profesional que cumpla los requisitos del BACB. El permiso de la persona cuidadora o la documentación no sustituyen la supervisión calificada."
+        },
+        "D": {
+          "text": "Realizar la sesión y documentar que no había supervisor disponible",
+          "rationale": "Documentar la ausencia de supervisión no hace permisibles los servicios sin supervisión."
+        }
+      }
+    },
+    {
+      "item_code": "F-04-001",
+      "locale": "es-419",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "¿Qué modalidad de supervisión refleja con mayor claridad una práctica eficaz para enseñar a un RBT un nuevo procedimiento de recolección de datos?",
+      "options": {
+        "A": {
+          "text": "El supervisor envía la definición por correo electrónico y pide al RBT que confirme la recepción",
+          "rationale": "Confirmar la recepción de instrucciones escritas no demuestra habilidades de ejecución."
+        },
+        "B": {
+          "text": "El supervisor explica y modela el procedimiento, observa la práctica y la implementación durante la prestación del servicio y proporciona retroalimentación sobre el desempeño",
+          "rationale": "La supervisión eficaz incluye instrucción clara, modelado, práctica, retroalimentación y observación de la prestación de servicios del RBT. Este enfoque evalúa directamente y fortalece la competencia de implementación."
+        },
+        "C": {
+          "text": "El supervisor revisa los totales mensuales sin observar la implementación",
+          "rationale": "Revisar únicamente los totales resumidos no es suficiente para verificar la precisión de la implementación."
+        },
+        "D": {
+          "text": "El RBT mira un video en línea no relacionado y comienza a usar el procedimiento",
+          "rationale": "El estudio independiente de material no relacionado no sustituye el entrenamiento y la supervisión específicos de la tarea."
+        }
+      }
+    },
+    {
+      "item_code": "F-05-001-R",
+      "locale": "es-419",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "Un RBT desea revisar el historial de sesiones de un cliente antes de una sesión de reposición, pero no le han informado si el empleador permite acceder a los registros fuera del horario normal de trabajo. ¿Qué debe hacer?",
+      "options": {
+        "A": {
+          "text": "Antes de abrir los registros, confirmar con el supervisor o el empleador el procedimiento establecido para el acceso autorizado",
+          "rationale": "El cumplimiento de la confidencialidad requiere tanto seguridad como autorización. El cifrado o un método seguro de acceso atiende la seguridad, pero no establece por sí solo que el RBT esté autorizado a acceder al registro en ese momento. Antes del acceso, el RBT debe confirmar la autorización con el supervisor o empleador de acuerdo con los procedimientos aplicables de la organización y la ley."
+        },
+        "B": {
+          "text": "Pedir a un compañero que envíe capturas de pantalla de los registros necesarios",
+          "rationale": "Pedir capturas de pantalla no establece autorización para acceder a los registros ni confirma que el método de transmisión esté aprobado."
+        },
+        "C": {
+          "text": "Abrir los registros desde cualquier dispositivo cifrado",
+          "rationale": "Un método técnicamente seguro no resuelve la cuestión de la autorización. Seguridad y autorización son requisitos distintos; cumplir uno no sustituye el otro."
+        },
+        "D": {
+          "text": "Abrir todo el historial de registros porque el RBT trabaja con este cliente",
+          "rationale": "Trabajar con el cliente establece una relación profesional, pero no una autorización continua para acceder a registros fuera de los procedimientos establecidos."
+        }
+      }
+    },
+    {
+      "item_code": "F-05-002",
+      "locale": "es-419",
+      "version": 1,
+      "source_master_version": 2,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "El empleador del RBT exige que todas las notas de sesión se ingresen únicamente mediante una plataforma de software segura designada. El RBT también tiene una aplicación personal cifrada para notas que el empleador no ha aprobado. ¿Qué debe hacer?",
+      "options": {
+        "A": {
+          "text": "Usar la aplicación personal cifrada porque el cifrado por sí solo cumple los requisitos de confidencialidad",
+          "rationale": "El cifrado por sí solo no es suficiente. El Código exige cumplir los requisitos del empleador, y la aplicación no ha sido aprobada."
+        },
+        "B": {
+          "text": "Preguntar a la familia del cliente cuál de los dos sistemas prefiere para las notas de sesión de su hijo",
+          "rationale": "El sistema de registro lo determinan los requisitos de la organización, no la preferencia de la familia."
+        },
+        "C": {
+          "text": "Alternar entre ambos sistemas, según el dispositivo más conveniente en cada sesión",
+          "rationale": "El uso inconsistente de sistemas elude los controles establecidos por el empleador y dispersa los datos."
+        },
+        "D": {
+          "text": "Usar la plataforma exigida por el empleador, aunque la aplicación personal también cifre las notas",
+          "rationale": "El Estándar 2.08 exige que los RBT protejan la confidencialidad mientras cumplen los requisitos del BACB, del empleador y de la ley. Cuando el empleador designa un sistema, el RBT debe seguir ese requisito aunque una aplicación alternativa ofrezca cifrado."
+        }
+      }
+    },
+    {
+      "item_code": "F-06-001-R",
+      "locale": "es-419",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "El perfil profesional de un RBT en redes sociales muestra el cargo “Behavior Analyst”. La persona tiene certificación RBT, pero no posee otra cualificación profesional en análisis de conducta. ¿Cuál es la principal preocupación ética?",
+      "options": {
+        "A": {
+          "text": "No hay problema porque la persona aplica procedimientos de análisis de conducta todos los días",
+          "rationale": "Implementar procedimientos bajo supervisión forma parte del rol del RBT y no hace correcto el título “Behavior Analyst”."
+        },
+        "B": {
+          "text": "El título representa de manera incorrecta su estatus profesional; las declaraciones públicas deben reflejar con precisión la certificación RBT",
+          "rationale": "El Estándar 1.05 prohíbe declaraciones falsas, engañosas o exageradas sobre las cualificaciones. El título “Behavior Analyst” implica cualificaciones o autoridad más allá de la certificación RBT y, por lo tanto, representa incorrectamente el estatus profesional independientemente de las funciones diarias."
+        },
+        "C": {
+          "text": "El perfil solo es preocupante si se puede identificar a un cliente a partir de él",
+          "rationale": "La representación incorrecta del estatus profesional es una preocupación independientemente de que pueda identificarse a un cliente. La identificación del cliente es una cuestión separada según el Estándar 2.09."
+        },
+        "D": {
+          "text": "Un perfil en redes sociales es actividad personal y no está cubierto por el Código de Ética del RBT",
+          "rationale": "Un perfil que presenta un título profesional constituye una declaración pública sobre actividad profesional y está sujeto al Estándar 1.05 y a la tarea F.6 del TCO."
+        }
+      }
+    },
+    {
+      "item_code": "F-06-002",
+      "locale": "es-419",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "Una publicación de un RBT en redes sociales indica correctamente el título “Registered Behavior Technician”, pero añade: “Todo niño con el que trabajo tiene progreso rápido garantizado”. ¿Cuál es la principal preocupación ética?",
+      "options": {
+        "A": {
+          "text": "No hay problema porque la certificación está indicada correctamente",
+          "rationale": "Indicar correctamente la certificación no elimina una afirmación de eficacia sin fundamento."
+        },
+        "B": {
+          "text": "La publicación es aceptable si el RBT cree sinceramente que la afirmación es verdadera",
+          "rationale": "La creencia personal en la afirmación no hace aceptable una garantía sin fundamento."
+        },
+        "C": {
+          "text": "La publicación hace una garantía de resultados sin fundamento, aunque la certificación esté indicada correctamente",
+          "rationale": "La representación correcta de la certificación no elimina otro problema: las declaraciones públicas no deben contener promesas sin fundamento sobre resultados de los servicios. “Progreso garantizado” es una afirmación de resultado que el ABA no puede garantizar razonablemente para una persona específica, por lo que es impropia independientemente del título correcto."
+        },
+        "D": {
+          "text": "Solo hay problema si una persona cuidadora se queja de la publicación",
+          "rationale": "El requisito ético se aplica independientemente de que se reciba una queja."
+        }
+      }
+    },
+    {
+      "item_code": "F-07-001",
+      "locale": "es-419",
+      "version": 1,
+      "source_master_version": 2,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "El padre o la madre de un cliente ofrece pagar al RBT para cuidar al niño todos los fines de semana. ¿Qué debe hacer el RBT?",
+      "options": {
+        "A": {
+          "text": "Rechazar la oferta e informar al supervisor sobre ella",
+          "rationale": "El Estándar 1.10 indica que los RBT deben evitar relaciones múltiples con los clientes. El glosario del Código incluye roles con personas estrechamente asociadas o relacionadas con el cliente; por eso, cuidar al niño a cambio de un pago del padre o la madre agregaría un rol personal o comercial, y el RBT rechaza la oferta. La introducción del Código hace al supervisor responsable de todo el trabajo que realizan los RBT e indica que los RBT deben buscar el apoyo del supervisor al aplicar el Código; por eso, el RBT informa al supervisor sobre la oferta."
+        },
+        "B": {
+          "text": "Aceptar si las sesiones de ABA y el cuidado del niño se pagan por separado",
+          "rationale": "Los pagos separados no eliminan el conflicto entre los roles."
+        },
+        "C": {
+          "text": "Aceptar porque cuidar al niño no es un servicio de análisis de conducta",
+          "rationale": "Que el cuidado del niño no sea formalmente un servicio clínico no elimina el riesgo de relación múltiple."
+        },
+        "D": {
+          "text": "Aceptar una vez y luego decidir si afecta los servicios",
+          "rationale": "Iniciar el acuerdo puede crear precisamente el riesgo que el RBT debe evitar."
+        }
+      }
+    },
+    {
+      "item_code": "F-08-001-R",
+      "locale": "es-419",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "Al final del año, una persona cuidadora ofrece a un RBT una tarjeta de regalo de US$ 25 como agradecimiento por las sesiones del año. El empleador del RBT no tiene una política escrita sobre regalos. ¿Qué debe hacer el RBT?",
+      "options": {
+        "A": {
+          "text": "Aceptar porque es una expresión ocasional de gratitud",
+          "rationale": "Una expresión ocasional de gratitud es una condición necesaria, pero no suficiente, para la aceptación según el Código."
+        },
+        "B": {
+          "text": "Rechazar porque el valor supera el límite establecido por el Código de Ética del RBT",
+          "rationale": "El Estándar 1.11 limita los regalos entregados o aceptados a un valor monetario de US$ 10. Una tarjeta de US$ 25 supera ese límite independientemente de la intención, la frecuencia o la divulgación. La ausencia de una política del empleador no elimina el requisito del Código."
+        },
+        "C": {
+          "text": "Aceptar e informar al supervisor en la próxima reunión de supervisión",
+          "rationale": "Informar al supervisor no autoriza aceptar un regalo que supera el límite establecido."
+        },
+        "D": {
+          "text": "Aceptar y documentar el regalo en la nota de sesión para mantener la transparencia",
+          "rationale": "La documentación registra el evento, pero no hace permisible una aceptación que no está permitida."
+        }
+      }
+    },
+    {
+      "item_code": "F-08-002",
+      "locale": "es-419",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "Después de una sesión, una persona cuidadora ofrece a un RBT una tarjeta de regalo para café de US$ 5. El valor está dentro del límite del Código de Ética del RBT. Sin embargo, el empleador prohíbe al personal aceptar regalos de clientes de cualquier valor. ¿Qué debe hacer el RBT?",
+      "options": {
+        "A": {
+          "text": "Aceptar porque el valor está dentro del límite del Código",
+          "rationale": "Esto es correcto respecto al límite monetario del Código, pero ignora una política obligatoria del empleador."
+        },
+        "B": {
+          "text": "Aceptar si el supervisor da permiso verbal",
+          "rationale": "El permiso verbal por sí solo no establece una excepción permitida a la política declarada."
+        },
+        "C": {
+          "text": "Aceptar y donar una cantidad equivalente al fondo de materiales de la clínica",
+          "rationale": "Redirigir el valor no cambia el hecho de que el regalo fue aceptado a pesar de la política."
+        },
+        "D": {
+          "text": "Rechazar porque en esta situación se aplica la política más estricta del empleador",
+          "rationale": "Cuando la política del empleador es más estricta que el Código de Ética, el RBT sigue el requisito más estricto. Cumplir el límite monetario del Código no exime al RBT de la prohibición de la organización."
+        }
+      }
+    },
+    {
+      "item_code": "F-08-003",
+      "locale": "es-419",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "Durante doce sesiones semanales consecutivas, una persona cuidadora entrega al RBT un artículo pequeño de aproximadamente US$ 5 cada vez. El empleador no tiene una política sobre regalos. Cada regalo individual está dentro del límite del Código de Ética del RBT. ¿Cómo debe evaluar el RBT la situación?",
+      "options": {
+        "A": {
+          "text": "No hay problema porque cada regalo individual está dentro del límite",
+          "rationale": "Evaluar cada regalo de forma aislada es precisamente el razonamiento que aborda la disposición sobre regalos acumulativos."
+        },
+        "B": {
+          "text": "No hay problema porque el RBT no solicitó ninguno de los regalos",
+          "rationale": "El Código regula la aceptación de regalos, no si fueron solicitados."
+        },
+        "C": {
+          "text": "Un patrón repetido de regalos puede generar una preocupación según el Código a pesar del bajo valor de cada regalo; el RBT debe discutir la situación con el supervisor",
+          "rationale": "El Estándar 1.11 considera aceptable un regalo cuando es una expresión ocasional de gratitud que no produce beneficio financiero y señala que los regalos continuos o acumulativos pueden constituir una infracción si se convierten en una fuente continua y esperada de valor para el receptor. Doce regalos semanales consecutivos pueden crear ese patrón, por lo que el RBT debe discutirlo con el supervisor aunque ningún regalo individual supere los US$ 10."
+        },
+        "D": {
+          "text": "No hay problema si el RBT comparte los regalos con sus compañeros",
+          "rationale": "Entregar los regalos a otras personas no cambia el patrón repetido de aceptarlos."
+        }
+      }
+    },
+    {
+      "item_code": "F-09-001",
+      "locale": "es-419",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "Un supervisor proporciona retroalimentación correctiva sobre retrasos en el ingreso de datos. ¿Qué respuesta demuestra mejor habilidades profesionales e interpersonales?",
+      "options": {
+        "A": {
+          "text": "Explicar que el supervisor está siendo demasiado crítico",
+          "rationale": "Rechazar la retroalimentación sin aclarar las expectativas ni abordar el retraso en el ingreso de datos no es una interacción profesional constructiva."
+        },
+        "B": {
+          "text": "Escuchar, hacer preguntas aclaratorias, resumir el cambio esperado e implementar la retroalimentación",
+          "rationale": "Las habilidades profesionales incluyen aceptar retroalimentación, escuchar activamente, buscar orientación, colaborar y actuar para mejorar el desempeño. Aclarar e implementar la retroalimentación hace observable el cambio esperado."
+        },
+        "C": {
+          "text": "Estar de acuerdo durante la supervisión, pero continuar trabajando de la misma manera",
+          "rationale": "Estar de acuerdo sin un cambio de conducta no mejora el desempeño."
+        },
+        "D": {
+          "text": "Hablar de la retroalimentación del supervisor con la familia del cliente",
+          "rationale": "La familia del cliente no es la audiencia apropiada para discutir un desacuerdo de supervisión."
+        }
+      }
+    },
+    {
+      "item_code": "F-10-001",
+      "locale": "es-419",
+      "version": 1,
+      "source_master_version": 2,
+      "language_status": "draft",
+      "language_reviewer": null,
+      "language_reviewed_on": null,
+      "language_notes": null,
+      "stem": "Una familia explica que un ejemplo común de enseñanza entra en conflicto con una práctica cultural importante. El procedimiento en sí no se ha cambiado. ¿Qué debe hacer el RBT?",
+      "options": {
+        "A": {
+          "text": "Escuchar, preguntar a la familia sobre la práctica, examinar sesgos personales y compartir la preocupación con el supervisor",
+          "rationale": "El Estándar 1.07 indica que los RBT deben colaborar con su supervisor en relación con la responsividad cultural y evaluar sus propios sesgos. Escuchar, aclarar la práctica, examinar sesgos personales y llevar la preocupación al supervisor cumple ese requisito sin modificar el plan de manera independiente."
+        },
+        "B": {
+          "text": "Reemplazar de inmediato el ejemplo de enseñanza por uno adecuado para la familia, sin consultar al supervisor",
+          "rationale": "El RBT no debe modificar el plan de intervención de manera independiente."
+        },
+        "C": {
+          "text": "Explicar a la familia que los procedimientos basados en evidencia deben ser culturalmente neutrales, por lo que el ejemplo se mantiene como está",
+          "rationale": "La prestación de servicios basada en evidencia puede y debe ser culturalmente responsiva."
+        },
+        "D": {
+          "text": "Evitar hablar de la cultura de la familia, porque las cuestiones culturales están fuera del rol del RBT",
+          "rationale": "Evitar el tema interfiere con una colaboración responsiva con la familia y no aborda su preocupación."
+        }
+      }
+    },
+    {
+      "item_code": "F-01-001",
+      "locale": "uk-UA",
+      "version": 2,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-07",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-07 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "Під час сесії особа, яка доглядає за клієнтом, називає його «дурним», обговорюючи допущену ним помилку. Клієнт перебуває достатньо близько, щоб чути розмову. Як має діяти RBT?",
+      "options": {
+        "A": {
+          "text": "Використовувати шанобливі висловлювання, спрямувати розмову в інше русло, щоб захистити гідність клієнта, і за потреби звернутися до супервізора за порадою",
+          "rationale": "Така відповідь відповідає основним принципам співчуття, гідності, поваги та доброчесності й водночас залишається в межах професійної ролі RBT. Вона захищає гідність клієнта без необґрунтованих юридичних висновків або висновків щодо необхідності дисциплінарних заходів."
+        },
+        "B": {
+          "text": "Продовжити сесію, не реагуючи на сказане, оскільки ця особа уповноважена ухвалювати рішення за клієнта",
+          "rationale": "Ігнорування такої ситуації не захищає гідності клієнта."
+        },
+        "C": {
+          "text": "Сказати особі, яка доглядає за клієнтом, що обговорювати його заборонено за будь-яких обставин",
+          "rationale": "Обговорення питань, пов’язаних із клієнтом, не завжди заборонене. Однак воно має відбуватися в шанобливій формі та належним чином."
+        },
+        "D": {
+          "text": "Негайно припинити надання послуг і подати повідомлення до BACB",
+          "rationale": "Описані обставини самі по собі не вимагають негайного припинення надання послуг і подання повідомлення до BACB."
+        }
+      }
+    },
+    {
+      "item_code": "F-02-001",
+      "locale": "uk-UA",
+      "version": 2,
+      "source_master_version": 3,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-07",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-07 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "Супервізор запроваджує процедуру жетонної системи підкріплення, яку RBT раніше не застосовував. Письмовий план доступний, однак RBT не пройшов навчання та не продемонстрував уміння виконувати цю процедуру. Що RBT має зробити насамперед?",
+      "options": {
+        "A": {
+          "text": "Уважно прочитати письмовий план і самостійно застосувати процедуру під час наступної сесії",
+          "rationale": "Самого ознайомлення з письмовим планом недостатньо для підтвердження компетентності RBT."
+        },
+        "B": {
+          "text": "Попросити особу, яка доглядає за клієнтом і вже спостерігала за виконанням процедури, продемонструвати її під час сесії",
+          "rationale": "Демонстрація процедури особою, яка доглядає за клієнтом, не замінює необхідного професійного навчання та супервізії."
+        },
+        "C": {
+          "text": "Відмовитися від подальшої роботи з цим клієнтом і попросити супервізора передати випадок іншому фахівцю",
+          "rationale": "Зазвичай цю ситуацію можна вирішити шляхом навчання. Відмова від роботи з клієнтом, навіть із передачею випадку іншому фахівцю, не є першочерговою дією."
+        },
+        "D": {
+          "text": "Повідомити супервізора, що перед застосуванням процедури необхідні навчання та перевірка компетентності",
+          "rationale": "Відповідно до стандарту 1.06, RBT надає послуги лише після того, як супервізор підтвердить продемонстровану компетентність. Стандарт 2.04 також вимагає належного навчання перед застосуванням незнайомого втручання. RBT має своєчасно повідомити супервізора, задокументувати звернення та попросити провести інструктаж, моделювання, практичне відпрацювання, надати зворотний зв’язок і перевірити компетентність перед застосуванням нової процедури."
+        }
+      }
+    },
+    {
+      "item_code": "F-03-001",
+      "locale": "uk-UA",
+      "version": 2,
+      "source_master_version": 2,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-07",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-07 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "RBT дізнається, що єдиний закріплений за ним кваліфікований супервізор учора припинив здійснювати супервізію. Агенція просить RBT провести сьогодні сесію, поки шукає іншого супервізора. Як RBT має діяти?",
+      "options": {
+        "A": {
+          "text": "Провести сесію, оскільки план втручання не змінився",
+          "rationale": "Те, що план втручання не змінився, не скасовує вимоги щодо супервізії."
+        },
+        "B": {
+          "text": "Провести сесію, якщо особа, яка доглядає за клієнтом, погоджується",
+          "rationale": "Згода особи, яка доглядає за клієнтом, не дає RBT права надавати послуги всупереч вимогам сертифікації."
+        },
+        "C": {
+          "text": "Не надавати послуги як RBT, доки не буде забезпечено постійну супервізію кваліфікованого фахівця",
+          "rationale": "RBT може надавати послуги лише за умови постійної супервізії кваліфікованого фахівця, який відповідає вимогам BACB. Згода особи, яка доглядає за клієнтом, або документування відсутності супервізора не замінюють належної супервізії."
+        },
+        "D": {
+          "text": "Провести сесію та задокументувати, що супервізор був відсутній",
+          "rationale": "Документування відсутності супервізора не робить надання послуг без супервізії допустимим."
+        }
+      }
+    },
+    {
+      "item_code": "F-04-001",
+      "locale": "uk-UA",
+      "version": 2,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-07",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-07 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "Який із наведених варіантів супервізії найкраще відповідає принципам ефективного навчання RBT нової процедури збору даних?",
+      "options": {
+        "A": {
+          "text": "Супервізор надсилає електронною поштою визначення процедури та просить RBT підтвердити отримання повідомлення",
+          "rationale": "Підтвердження отримання письмових інструкцій не свідчить про здатність RBT правильно виконувати процедуру."
+        },
+        "B": {
+          "text": "Супервізор пояснює та моделює процедуру, спостерігає за її практичним відпрацюванням і застосуванням під час надання послуг, а потім надає зворотний зв’язок щодо виконання",
+          "rationale": "Ефективна супервізія передбачає чіткий інструктаж, моделювання, практичне відпрацювання, зворотний зв’язок і спостереження за наданням послуг RBT. Такий підхід дає змогу безпосередньо оцінити та підвищити компетентність RBT у застосуванні процедури."
+        },
+        "C": {
+          "text": "Супервізор переглядає щомісячні підсумкові показники, не спостерігаючи за застосуванням процедури",
+          "rationale": "Перегляд лише підсумкових показників не дає змоги перевірити точність дотримання процедури під час її застосування."
+        },
+        "D": {
+          "text": "RBT переглядає в інтернеті відео, не пов’язане з цією процедурою, і починає її застосовувати",
+          "rationale": "Самостійний перегляд відео, не пов’язаного з конкретною процедурою, не замінює відповідного навчання та супервізії."
+        }
+      }
+    },
+    {
+      "item_code": "F-05-001-R",
+      "locale": "uk-UA",
+      "version": 2,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-07",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-07 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "RBT хоче переглянути історію сесій клієнта перед сесією, призначеною замість пропущеної. Однак RBT не знає, чи дозволяє роботодавець доступ до записів поза звичайним робочим часом. Як має діяти RBT?",
+      "options": {
+        "A": {
+          "text": "Перш ніж переглядати записи, уточнити в супервізора або роботодавця встановлений порядок дозволеного доступу до них",
+          "rationale": "Для дотримання вимог конфіденційності необхідні як захист інформації, так і дозвіл на доступ до неї. Шифрування або інший захищений спосіб доступу забезпечують безпеку, але самі по собі не підтверджують, що RBT має право переглядати записи в цей час. Тому перед переглядом записів RBT повинен уточнити порядок дозволеного доступу в супервізора або роботодавця відповідно до вимог Кодексу щодо дотримання встановлених роботодавцем процедур і законодавства."
+        },
+        "B": {
+          "text": "Попросити колегу надіслати знімки екрана з потрібними записами",
+          "rationale": "Прохання надіслати знімки екрана не підтверджує, що RBT має дозвіл на доступ до записів або що такий спосіб передавання інформації дозволений."
+        },
+        "C": {
+          "text": "Отримати доступ до записів із будь-якого пристрою, що підтримує шифрування",
+          "rationale": "Технічно захищений спосіб доступу не вирішує питання дозволу. Безпека інформації та дозвіл на доступ є окремими вимогами. Дотримання однієї з них не замінює дотримання іншої."
+        },
+        "D": {
+          "text": "Отримати доступ до всієї історії записів, оскільки RBT працює з цим клієнтом",
+          "rationale": "Робота з клієнтом означає наявність професійних відносин, але не надає RBT постійного дозволу переглядати записи поза встановленим порядком."
+        }
+      }
+    },
+    {
+      "item_code": "F-05-002",
+      "locale": "uk-UA",
+      "version": 2,
+      "source_master_version": 2,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-07",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-07 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "Роботодавець вимагає, щоб RBT вносив усі записи про сесії лише через визначену захищену програмну платформу. RBT також має особистий зашифрований застосунок для нотаток, використання якого роботодавець не схвалив. Як має діяти RBT?",
+      "options": {
+        "A": {
+          "text": "Використовувати особистий зашифрований застосунок, оскільки він сам по собі відповідає вимогам конфіденційності",
+          "rationale": "Самого шифрування недостатньо для дотримання вимог Кодексу, оскільки RBT також повинен виконувати правила роботодавця, який не схвалив використання цього застосунку."
+        },
+        "B": {
+          "text": "Запитати в сім’ї клієнта, якій із двох систем вона віддає перевагу для ведення записів про сесії",
+          "rationale": "Вибір системи для ведення записів визначається вимогами роботодавця, а не вподобаннями сім’ї клієнта."
+        },
+        "C": {
+          "text": "Чергувати обидві системи залежно від того, яким пристроєм зручніше користуватися під час кожної сесії",
+          "rationale": "Непослідовне використання двох систем порушує встановлений роботодавцем порядок контролю за записами та призводить до розпорошення даних."
+        },
+        "D": {
+          "text": "Використовувати платформу, яку вимагає роботодавець, навіть якщо особистий застосунок також забезпечує шифрування записів",
+          "rationale": "Стандарт 2.08 вимагає від RBT захищати конфіденційність інформації, дотримуючись вимог BACB, роботодавця та законодавства. Якщо роботодавець визначив обов’язкову платформу для ведення записів, RBT повинен використовувати саме її, навіть якщо альтернативний застосунок також забезпечує шифрування."
+        }
+      }
+    },
+    {
+      "item_code": "F-06-001-R",
+      "locale": "uk-UA",
+      "version": 2,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-07",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-07 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "У професійному профілі RBT у соціальних мережах зазначено посаду «Behavior Analyst» («поведінковий аналітик»). Вона має сертифікацію RBT, але не має жодної іншої професійної кваліфікації в галузі аналізу поведінки. У чому полягає основна етична проблема?",
+      "options": {
+        "A": {
+          "text": "Проблеми немає, оскільки вона щодня застосовує процедури аналізу поведінки",
+          "rationale": "Застосування процедур аналізу поведінки під супервізією входить до професійних обов’язків RBT, але не дає підстав називати себе «Behavior Analyst»."
+        },
+        "B": {
+          "text": "Зазначена посада створює хибне уявлення про її професійну кваліфікацію. Публічні заяви повинні точно відображати наявну сертифікацію RBT",
+          "rationale": "Стандарт 1.05 забороняє неправдиві, оманливі або перебільшені заяви щодо професійної кваліфікації. Назва «Behavior Analyst» може створювати враження, що особа має кваліфікацію або повноваження, які виходять за межі сертифікації RBT. Таке представлення професійного статусу є оманливим незалежно від її щоденних обов’язків."
+        },
+        "C": {
+          "text": "Профіль викликає занепокоєння лише тоді, коли за ним можна ідентифікувати клієнта",
+          "rationale": "Неправдиве представлення професійної кваліфікації є етичною проблемою незалежно від того, чи можна ідентифікувати клієнта. Розкриття інформації, за якою можна ідентифікувати клієнта, є окремим питанням, що регулюється стандартом 2.09."
+        },
+        "D": {
+          "text": "Профіль у соціальних мережах належить до особистої діяльності, на яку не поширюється Етичний кодекс RBT",
+          "rationale": "Профіль, у якому зазначено професійну посаду, є формою публічного представлення професійної діяльності. На такі заяви поширюються стандарт 1.05 та вимоги завдання F.6 переліку TCO."
+        }
+      }
+    },
+    {
+      "item_code": "F-06-002",
+      "locale": "uk-UA",
+      "version": 2,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-07",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-07 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "У дописі в соціальній мережі RBT правильно зазначає свою професійну посаду: «Registered Behavior Technician». Однак вона також стверджує: «Кожна дитина, з якою я працюю, гарантовано досягає швидкого прогресу». У чому полягає основна етична проблема?",
+      "options": {
+        "A": {
+          "text": "Проблеми немає, оскільки сертифікацію зазначено правильно",
+          "rationale": "Правильне зазначення сертифікації не усуває проблеми необґрунтованого твердження про ефективність послуг."
+        },
+        "B": {
+          "text": "Допис є прийнятним, якщо RBT щиро вважає своє твердження правдивим",
+          "rationale": "Особиста переконаність у правдивості твердження не робить необґрунтовану гарантію допустимою."
+        },
+        "C": {
+          "text": "Допис містить необґрунтовану гарантію результатів, попри правильне зазначення сертифікації",
+          "rationale": "Правильне зазначення сертифікації не усуває окремої етичної проблеми: публічні заяви не повинні містити необґрунтованих тверджень щодо результатів надання послуг. Гарантія прогресу є твердженням про результат, який неможливо обґрунтовано гарантувати кожному окремому клієнту на підставі ABA. Такі гарантії неприпустимі незалежно від правильності зазначеної професійної посади."
+        },
+        "D": {
+          "text": "Проблема виникає лише в разі скарги від особи, яка доглядає за клієнтом",
+          "rationale": "Дотримання етичних вимог не залежить від того, чи надходила скарга на публікацію."
+        }
+      }
+    },
+    {
+      "item_code": "F-07-001",
+      "locale": "uk-UA",
+      "version": 2,
+      "source_master_version": 2,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-07",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-07 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "Батько або мати клієнта пропонує RBT за окрему плату доглядати за дитиною кожних вихідних. Як має діяти RBT?",
+      "options": {
+        "A": {
+          "text": "Відмовитися від пропозиції та повідомити про неї супервізора",
+          "rationale": "Стандарт 1.10 вимагає від RBT уникати множинних стосунків із клієнтами. Згідно з глосарієм Кодексу, такі стосунки можуть виникати з особами, тісно пов’язаними з клієнтом, або його родичами. Оплачуваний догляд за дитиною на прохання одного з батьків створив би додаткову особисту або ділову роль, тому RBT має відмовитися від пропозиції. Вступ до Кодексу покладає на супервізора відповідальність за роботу RBT і передбачає звернення до нього по допомогу в застосуванні етичних вимог. Тому RBT також повідомляє супервізора про отриману пропозицію."
+        },
+        "B": {
+          "text": "Погодитися, якщо сесії та догляд за дитиною оплачуються окремо",
+          "rationale": "Окрема оплата сесій і догляду за дитиною не усуває конфлікту професійних та особистих ролей."
+        },
+        "C": {
+          "text": "Погодитися, оскільки догляд за дитиною не є послугою з аналізу поведінки",
+          "rationale": "Те, що догляд за дитиною не є послугою з аналізу поведінки, не усуває ризику виникнення множинних стосунків."
+        },
+        "D": {
+          "text": "Погодитися один раз, а потім вирішити, чи впливає це на надання послуг",
+          "rationale": "Навіть одноразова згода може створити ризик множинних стосунків, якого RBT повинен уникати."
+        }
+      }
+    },
+    {
+      "item_code": "F-08-001-R",
+      "locale": "uk-UA",
+      "version": 2,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-07",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-07 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "Наприкінці року особа, яка доглядає за клієнтом, пропонує RBT подарункову картку номіналом 25 доларів США на знак подяки за проведені протягом року сесії. Роботодавець RBT не має письмових правил щодо подарунків. Як має діяти RBT?",
+      "options": {
+        "A": {
+          "text": "Прийняти подарунок, оскільки це нечастий вияв вдячності",
+          "rationale": "Нечастий вияв вдячності є необхідною, але недостатньою умовою прийнятності подарунка відповідно до Кодексу."
+        },
+        "B": {
+          "text": "Відмовитися від подарунка, оскільки його вартість перевищує межу, встановлену Етичним кодексом RBT",
+          "rationale": "Стандарт 1.11 обмежує вартість подарунків, які RBT може дарувати або приймати, сумою 10 доларів США. Подарункова картка номіналом 25 доларів перевищує цю межу незалежно від наміру, частоти дарування чи повідомлення про подарунок. Відсутність письмових правил роботодавця не скасовує вимог Кодексу."
+        },
+        "C": {
+          "text": "Прийняти подарунок і повідомити про нього супервізора під час наступної зустрічі із супервізії",
+          "rationale": "Повідомлення супервізора не дає дозволу приймати подарунок, вартість якого перевищує встановлену межу."
+        },
+        "D": {
+          "text": "Прийняти подарунок і зазначити його отримання в записі про сесію для забезпечення прозорості",
+          "rationale": "Документування факту отримання подарунка не робить його прийняття допустимим, якщо воно суперечить вимогам Кодексу."
+        }
+      }
+    },
+    {
+      "item_code": "F-08-002",
+      "locale": "uk-UA",
+      "version": 2,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-07",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-07 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "Після сесії особа, яка доглядає за клієнтом, пропонує RBT подарункову картку на каву номіналом 5 доларів США. Вартість подарунка не перевищує межу, встановлену Етичним кодексом RBT. Однак роботодавець забороняє працівникам приймати подарунки від клієнтів незалежно від їхньої вартості. Як має діяти RBT?",
+      "options": {
+        "A": {
+          "text": "Прийняти подарунок, оскільки його вартість не перевищує встановлену Кодексом межу",
+          "rationale": "Вартість подарунка справді не перевищує встановлену Кодексом межу, але це не скасовує обов’язку дотримуватися правил роботодавця."
+        },
+        "B": {
+          "text": "Прийняти подарунок, якщо супервізор надасть усний дозвіл",
+          "rationale": "Самого усного дозволу супервізора недостатньо, щоб зробити виняток із встановленої роботодавцем заборони."
+        },
+        "C": {
+          "text": "Прийняти подарунок і пожертвувати еквівалентну суму до фонду витратних матеріалів клініки",
+          "rationale": "Передавання еквівалентної суми до фонду клініки не змінює того факту, що RBT прийняв подарунок усупереч правилам роботодавця."
+        },
+        "D": {
+          "text": "Відмовитися від подарунка, оскільки в цій ситуації діють суворіші правила роботодавця",
+          "rationale": "Якщо правила роботодавця суворіші за вимоги Етичного кодексу, RBT повинен дотримуватися суворіших правил. Те, що вартість подарунка не перевищує встановлену Кодексом межу, не звільняє RBT від обов’язку виконувати заборону роботодавця."
+        }
+      }
+    },
+    {
+      "item_code": "F-08-003",
+      "locale": "uk-UA",
+      "version": 2,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-07",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-07 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "Протягом дванадцяти тижнів поспіль особа, яка доглядає за клієнтом, під час кожної щотижневої сесії дарує RBT невеликий подарунок вартістю приблизно 5 доларів США. Роботодавець RBT не має правил щодо подарунків. Вартість кожного подарунка окремо не перевищує межу, встановлену Етичним кодексом RBT. Як RBT має оцінити цю ситуацію?",
+      "options": {
+        "A": {
+          "text": "Проблеми немає, оскільки вартість кожного подарунка окремо не перевищує встановлену межу",
+          "rationale": "Оцінювання кожного подарунка окремо не враховує положення Кодексу щодо сукупних подарунків."
+        },
+        "B": {
+          "text": "Проблеми немає, оскільки RBT не просив жодного з цих подарунків",
+          "rationale": "Кодекс регулює прийняття подарунків, а не лише їх прохання."
+        },
+        "C": {
+          "text": "Регулярне отримання подарунків може викликати питання щодо дотримання Кодексу, попри невелику вартість кожного з них. RBT слід обговорити цю ситуацію із супервізором",
+          "rationale": "Відповідно до стандарту 1.11, подарунок може бути прийнятним, якщо він є нечастим виявом вдячності та не призводить до фінансової вигоди. Однак регулярні або сукупні подарунки можуть становити порушення, якщо стають очікуваним джерелом цінності для отримувача. Подарунки протягом дванадцяти тижнів поспіль можуть сформувати таку закономірність. Тому RBT слід обговорити ситуацію із супервізором, навіть якщо вартість кожного окремого подарунка не перевищує 10 доларів США."
+        },
+        "D": {
+          "text": "Проблеми немає, якщо RBT ділиться подарунками з колегами",
+          "rationale": "Передавання подарунків колегам не змінює факту їх регулярного прийняття."
+        }
+      }
+    },
+    {
+      "item_code": "F-09-001",
+      "locale": "uk-UA",
+      "version": 2,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-07",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-07 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "Супервізор надає RBT коригувальний зворотний зв’язок щодо несвоєчасного внесення даних. Яка реакція RBT найкраще демонструє професійні навички та навички міжособистісної взаємодії?",
+      "options": {
+        "A": {
+          "text": "Пояснити, що супервізор надто критично оцінює його роботу",
+          "rationale": "Відхилення зворотного зв’язку без уточнення очікувань і вирішення проблеми несвоєчасного внесення даних не демонструє конструктивного підходу до професійної взаємодії."
+        },
+        "B": {
+          "text": "Уважно вислухати супервізора, поставити уточнювальні запитання, коротко підсумувати, що необхідно змінити, і застосувати отримані рекомендації",
+          "rationale": "Професійні навички передбачають готовність приймати зворотний зв’язок, активно слухати, звертатися за порадою, співпрацювати та вживати заходів для поліпшення якості роботи. Уточнення очікувань і застосування рекомендацій дають змогу спостерігати за відповідними змінами в роботі RBT."
+        },
+        "C": {
+          "text": "Погодитися із супервізором під час супервізії, але продовжувати працювати так само",
+          "rationale": "Формальна згода без фактичної зміни поведінки не сприяє поліпшенню якості роботи."
+        },
+        "D": {
+          "text": "Обговорити зворотний зв’язок супервізора із сім’єю клієнта",
+          "rationale": "Сім’я клієнта не є належною стороною для обговорення розбіжностей між RBT і супервізором щодо професійного зворотного зв’язку."
+        }
+      }
+    },
+    {
+      "item_code": "F-10-001",
+      "locale": "uk-UA",
+      "version": 2,
+      "source_master_version": 2,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-07",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-07 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "Сім’я пояснює, що поширений приклад, який використовується під час навчання, суперечить важливій для неї культурній практиці. Саму процедуру не змінювали. Як має діяти RBT?",
+      "options": {
+        "A": {
+          "text": "Вислухати сім’ю, розпитати про культурну практику, оцінити власні упередження та повідомити про це супервізора",
+          "rationale": "Стандарт 1.07 передбачає, що RBT має співпрацювати із супервізором для належного урахування культурних особливостей та оцінювати власні упередження. Уважно вислухати сім’ю, уточнити особливості її культурної практики, оцінити власні упередження та передати це питання супервізору означає дотримуватися цих вимог, не змінюючи самостійно план втручання."
+        },
+        "B": {
+          "text": "Одразу замінити навчальний приклад на такий, що відповідає культурним особливостям сім’ї, без консультації із супервізором",
+          "rationale": "RBT не повинен самостійно змінювати план втручання без консультації із супервізором."
+        },
+        "C": {
+          "text": "Пояснити сім’ї, що процедури, засновані на доказах, мають бути культурно нейтральними, тому приклад слід залишити без змін",
+          "rationale": "Надання послуг на основі доказів може і повинно передбачати урахування культурних особливостей клієнта та його сім’ї."
+        },
+        "D": {
+          "text": "Уникати обговорення культурних особливостей сім’ї, оскільки ці питання виходять за межі професійної ролі RBT",
+          "rationale": "Уникнення обговорення культурних питань перешкоджає співпраці із сім’єю з урахуванням її потреб і не дає змоги належним чином відреагувати на висловлене занепокоєння."
+        }
+      }
+    },
+    {
+      "item_code": "F-01-001",
+      "locale": "ru-UA",
+      "version": 2,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-05",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-05 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "Во время сеанса лицо, осуществляющее уход за клиентом, называет его «глупым», обсуждая допущенную им ошибку. Клиент находится достаточно близко, чтобы слышать разговор. Как следует поступить RBT?",
+      "options": {
+        "A": {
+          "text": "Использовать уважительные формулировки, направить разговор в другое русло, чтобы защитить достоинство клиента, и при необходимости обратиться к супервизору за рекомендациями",
+          "rationale": "Такой ответ соответствует основным этическим принципам сострадания, уважения человеческого достоинства, уважительного отношения и добросовестности. При этом RBT действует в пределах своей профессиональной роли, защищая достоинство клиента и не делая необоснованных юридических выводов или выводов о необходимости дисциплинарных мер."
+        },
+        "B": {
+          "text": "Продолжить сеанс, не реагируя на сказанное, поскольку это лицо обладает законными полномочиями принимать решения за клиента",
+          "rationale": "Игнорирование подобного обращения не обеспечивает защиту достоинства клиента."
+        },
+        "C": {
+          "text": "Сказать лицу, осуществляющему уход, что обсуждать клиента всегда запрещено",
+          "rationale": "Обсуждение вопросов, связанных с клиентом, не всегда запрещено. Однако такое обсуждение должно проходить в уважительной форме и с соблюдением профессиональных требований."
+        },
+        "D": {
+          "text": "Немедленно прекратить оказание услуг и направить сообщение о нарушении в BACB",
+          "rationale": "Описанные обстоятельства сами по себе не требуют немедленного прекращения оказания услуг и подачи сообщения в BACB."
+        }
+      }
+    },
+    {
+      "item_code": "F-02-001",
+      "locale": "ru-UA",
+      "version": 2,
+      "source_master_version": 3,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-05",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-05 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "Супервизор вводит процедуру жетонной системы подкрепления, которую RBT ранее не применял. Письменный план доступен, однако RBT не прошёл обучение и не продемонстрировал выполнение этой процедуры. Что RBT должен сделать в первую очередь?",
+      "options": {
+        "A": {
+          "text": "Внимательно прочитать письменный план и самостоятельно применить процедуру во время следующего сеанса",
+          "rationale": "Наличие письменного плана само по себе не подтверждает компетентность RBT."
+        },
+        "B": {
+          "text": "Попросить лицо, осуществляющее уход за клиентом, которое уже наблюдало применение процедуры, продемонстрировать её во время сеанса",
+          "rationale": "Лицо, осуществляющее уход за клиентом, не может заменить необходимое профессиональное обучение и супервизию."
+        },
+        "C": {
+          "text": "Отказаться от дальнейшей работы с этим клиентом и попросить супервизора передать случай другому специалисту",
+          "rationale": "Обычно этот вопрос можно решить с помощью обучения. Отказ от работы с клиентом, даже с передачей случая другому специалисту, не является первоочередным действием."
+        },
+        "D": {
+          "text": "Сообщить супервизору о необходимости обучения и проверки компетентности до начала применения процедуры",
+          "rationale": "Стандарт 1.06 предусматривает, что RBT может оказывать услуги только после того, как супервизор подтвердит продемонстрированную им компетентность. Стандарт 2.04 также требует, чтобы RBT прошёл надлежащее обучение перед применением незнакомой процедуры вмешательства. RBT должен своевременно сообщить супервизору о необходимости обучения, задокументировать это обращение и запросить инструкции, моделирование, практическую отработку, обратную связь и проверку компетентности до начала применения новой процедуры."
+        }
+      }
+    },
+    {
+      "item_code": "F-03-001",
+      "locale": "ru-UA",
+      "version": 2,
+      "source_master_version": 2,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-05",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-05 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "RBT узнаёт, что единственный квалифицированный супервизор, закреплённый за ним, вчера прекратил супервизию. Агентство просит провести сегодня сеанс, пока ищет замену. Как следует поступить RBT в этой ситуации?",
+      "options": {
+        "A": {
+          "text": "Провести сеанс, поскольку план вмешательства не изменился",
+          "rationale": "Неизменность плана вмешательства не отменяет требования супервизии."
+        },
+        "B": {
+          "text": "Провести сеанс, если лицо, осуществляющее уход за клиентом, согласно",
+          "rationale": "Лицо, осуществляющее уход за клиентом, не может разрешить оказание услуг с нарушением требований сертификации."
+        },
+        "C": {
+          "text": "Не оказывать услуги в роли RBT, пока не будет обеспечена постоянная супервизия квалифицированного специалиста",
+          "rationale": "RBT может оказывать услуги только при постоянной супервизии специалиста, соответствующего требованиям BACB. Согласие лица, осуществляющего уход за клиентом, или документирование отсутствия супервизора не заменяют квалифицированную супервизию."
+        },
+        "D": {
+          "text": "Провести сеанс и задокументировать отсутствие супервизора",
+          "rationale": "Документирование отсутствия супервизора не делает оказание услуг без супервизии допустимым."
+        }
+      }
+    },
+    {
+      "item_code": "F-04-001",
+      "locale": "ru-UA",
+      "version": 2,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-05",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-05 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "Какой из вариантов супервизии наиболее полно соответствует эффективному обучению RBT новой процедуре сбора данных?",
+      "options": {
+        "A": {
+          "text": "Супервизор отправляет определение по электронной почте и просит RBT подтвердить его получение",
+          "rationale": "Получение письменных инструкций само по себе не подтверждает способность RBT правильно выполнять процедуру."
+        },
+        "B": {
+          "text": "Супервизор объясняет и моделирует процедуру, наблюдает за её практической отработкой и применением при оказании услуг, затем предоставляет обратную связь по результатам выполнения",
+          "rationale": "Эффективная супервизия включает чёткие инструкции, моделирование, практическую отработку, обратную связь и наблюдение за оказанием услуг RBT. Такой подход позволяет непосредственно оценивать и повышать компетентность RBT в применении процедуры."
+        },
+        "C": {
+          "text": "Супервизор изучает месячные итоговые показатели, не наблюдая за применением процедуры",
+          "rationale": "Изучение одних лишь итоговых показателей не позволяет проверить точность соблюдения процедуры при её применении."
+        },
+        "D": {
+          "text": "RBT смотрит в интернете видео, не связанное с изучаемой процедурой, и начинает применять её",
+          "rationale": "Самостоятельное изучение материалов, не связанных с процедурой, не заменяет специального обучения и супервизии."
+        }
+      }
+    },
+    {
+      "item_code": "F-05-001-R",
+      "locale": "ru-UA",
+      "version": 2,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-05",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-05 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "RBT хочет ознакомиться с историей сеансов клиента перед сеансом, назначенным взамен пропущенного. Однако ему неизвестно, разрешает ли работодатель доступ к записям вне обычного рабочего времени. Как следует поступить RBT?",
+      "options": {
+        "A": {
+          "text": "Прежде чем просматривать записи, уточнить у супервизора или работодателя установленный порядок разрешённого доступа к ним",
+          "rationale": "Для соблюдения требований конфиденциальности необходимо обеспечить безопасность информации и иметь разрешение на доступ к ней. Шифрование или использование защищённого способа доступа обеспечивают безопасность данных, но сами по себе не подтверждают право RBT просматривать записи в указанное время. Прежде чем обращаться к записям, RBT должен уточнить порядок разрешённого доступа у супервизора или работодателя в соответствии с требованиями Кодекса, правилами организации и применимым законодательством."
+        },
+        "B": {
+          "text": "Попросить коллегу отправить снимки экрана с необходимыми записями",
+          "rationale": "Просьба к коллеге отправить снимки экрана не подтверждает, что RBT имеет разрешение на доступ к записям или что передача информации таким способом одобрена работодателем."
+        },
+        "C": {
+          "text": "Получить доступ к записям с любого устройства, поддерживающего шифрование",
+          "rationale": "Технически защищённый способ доступа не решает вопрос полномочий. Безопасность информации и разрешение на доступ к ней являются отдельными требованиями, и выполнение одного из них не заменяет другого."
+        },
+        "D": {
+          "text": "Получить доступ ко всей истории записей, поскольку RBT работает с этим клиентом",
+          "rationale": "Работа с клиентом предполагает профессиональные отношения, но не предоставляет RBT постоянного права доступа к записям вне установленного порядка."
+        }
+      }
+    },
+    {
+      "item_code": "F-05-002",
+      "locale": "ru-UA",
+      "version": 2,
+      "source_master_version": 2,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-05",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-05 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "Работодатель требует, чтобы RBT вносил все записи о сеансах только через определённую защищённую программную платформу. У RBT также есть личное зашифрованное приложение для заметок, использование которого не одобрено работодателем. Как следует поступить RBT?",
+      "options": {
+        "A": {
+          "text": "Использовать личное зашифрованное приложение, поскольку оно само по себе соответствует требованиям конфиденциальности",
+          "rationale": "Одного шифрования недостаточно для соблюдения Кодекса, поскольку Кодекс также требует выполнять правила работодателя, а использование данного приложения работодателем не одобрено."
+        },
+        "B": {
+          "text": "Спросить семью клиента, какую из двух систем она предпочитает для ведения записей о сеансах",
+          "rationale": "Выбор системы ведения записей определяется требованиями работодателя, а не предпочтениями семьи клиента."
+        },
+        "C": {
+          "text": "Чередовать обе системы в зависимости от того, каким устройством удобнее пользоваться во время каждого сеанса",
+          "rationale": "Непоследовательное использование разных систем нарушает установленный работодателем порядок ведения записей и приводит к разрозненности данных."
+        },
+        "D": {
+          "text": "Использовать платформу, которую требует работодатель, даже если личное приложение также обеспечивает шифрование записей",
+          "rationale": "Стандарт 2.08 требует от RBT обеспечивать конфиденциальность в соответствии с требованиями BACB, работодателя и действующего законодательства. Если работодатель устанавливает обязательную систему ведения записей, RBT должен соблюдать это требование, даже если альтернативное приложение также обеспечивает шифрование."
+        }
+      }
+    },
+    {
+      "item_code": "F-06-001-R",
+      "locale": "ru-UA",
+      "version": 2,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-05",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-05 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "В профессиональном профиле RBT в социальных сетях указана должность «Behavior Analyst» («поведенческий аналитик»). Она сертифицирована как RBT и не имеет другой профессиональной квалификации в области анализа поведения. В чём заключается основная этическая проблема?",
+      "options": {
+        "A": {
+          "text": "Проблемы нет, поскольку она ежедневно применяет процедуры анализа поведения",
+          "rationale": "Применение процедур анализа поведения под супервизией входит в обязанности RBT, но не делает использование профессионального обозначения «Behavior Analyst» корректным."
+        },
+        "B": {
+          "text": "Указанная должность создаёт неверное представление о её профессиональной квалификации; публичные заявления должны точно отражать наличие сертификации RBT",
+          "rationale": "Стандарт 1.05 запрещает ложные, вводящие в заблуждение или преувеличенные заявления о профессиональной квалификации. Обозначение «Behavior Analyst» предполагает наличие квалификации или полномочий, выходящих за рамки сертификации RBT. Использование этого обозначения создаёт неверное представление о квалификации специалиста независимо от выполняемых им повседневных обязанностей."
+        },
+        "C": {
+          "text": "Профиль вызывает вопросы только в том случае, если по нему можно определить личность клиента",
+          "rationale": "Неверное представление профессиональной квалификации является этической проблемой независимо от того, можно ли идентифицировать клиента. Возможность идентификации клиента рассматривается отдельно в стандарте 2.09."
+        },
+        "D": {
+          "text": "Профиль в социальных сетях относится к личной деятельности, на которую не распространяется Кодекс этики RBT",
+          "rationale": "Профиль, в котором указана профессиональная должность, является публичным заявлением о профессиональной деятельности. На такие заявления распространяются стандарт 1.05 и задача F.6 из RBT Test Content Outline."
+        }
+      }
+    },
+    {
+      "item_code": "F-06-002",
+      "locale": "ru-UA",
+      "version": 2,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-05",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-05 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "В публикации в социальной сети RBT правильно указывает свою профессиональную должность: «Registered Behavior Technician». Однако она также пишет: «Каждый ребёнок, с которым я работаю, гарантированно добивается быстрого прогресса». В чём заключается основная этическая проблема?",
+      "options": {
+        "A": {
+          "text": "Проблемы нет, поскольку сертификация указана правильно",
+          "rationale": "Правильное указание сертификации не устраняет проблему необоснованного заявления об эффективности услуг."
+        },
+        "B": {
+          "text": "Публикация допустима, если RBT искренне считает это утверждение правдивым",
+          "rationale": "Личная убеждённость в истинности утверждения не делает необоснованную гарантию допустимой."
+        },
+        "C": {
+          "text": "Публикация содержит необоснованную гарантию результатов, несмотря на правильное указание сертификации",
+          "rationale": "Точное указание сертификации не устраняет другой проблемы: публичные заявления не должны содержать необоснованных обещаний результатов услуг. Формулировка «гарантированный прогресс» представляет собой обещание результата, который невозможно обоснованно гарантировать конкретному человеку при оказании ABA-услуг. Такие заявления недопустимы независимо от того, насколько точно указана профессиональная должность."
+        },
+        "D": {
+          "text": "Проблема возникает только в случае жалобы лица, осуществляющего уход за клиентом",
+          "rationale": "Этическое требование действует независимо от того, поступила ли жалоба."
+        }
+      }
+    },
+    {
+      "item_code": "F-07-001",
+      "locale": "ru-UA",
+      "version": 2,
+      "source_master_version": 2,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-05",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-05 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "Родитель клиента предлагает RBT за отдельную плату присматривать за ребёнком каждые выходные. Как следует поступить RBT?",
+      "options": {
+        "A": {
+          "text": "Отказаться от предложения и сообщить о нём супервизору",
+          "rationale": "Стандарт 1.10 предписывает RBT избегать множественных отношений с клиентами. Согласно глоссарию Кодекса, такие отношения могут возникать и при взаимодействии с родственниками клиента или другими тесно связанными с ним лицами. Оплачиваемый присмотр за ребёнком по просьбе родителя создаёт дополнительную личную или деловую роль, поэтому RBT должен отказаться от предложения. Введение к Кодексу возлагает на супервизора ответственность за работу RBT и предусматривает обращение к нему за поддержкой при применении этических требований. Поэтому RBT также должен сообщить супервизору о полученном предложении."
+        },
+        "B": {
+          "text": "Согласиться, если сеансы и присмотр за ребёнком оплачиваются отдельно",
+          "rationale": "Раздельная оплата не устраняет конфликт профессиональных и личных ролей."
+        },
+        "C": {
+          "text": "Согласиться, поскольку присмотр за ребёнком не является услугой в области анализа поведения",
+          "rationale": "То, что присмотр за ребёнком формально не относится к клинической работе, не устраняет риск возникновения множественных отношений."
+        },
+        "D": {
+          "text": "Согласиться один раз, а затем решить, влияет ли это на оказание услуг",
+          "rationale": "Начало такой договорённости само по себе может создать риск, которого RBT должен избегать."
+        }
+      }
+    },
+    {
+      "item_code": "F-08-001-R",
+      "locale": "ru-UA",
+      "version": 2,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-05",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-05 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "В конце года лицо, осуществляющее уход за клиентом, предлагает RBT подарочную карту номиналом 25 долларов США в знак благодарности за проведённые в течение года сеансы. У работодателя RBT отсутствуют письменные правила в отношении подарков. Как следует поступить RBT?",
+      "options": {
+        "A": {
+          "text": "Принять подарок, поскольку это редкое выражение благодарности",
+          "rationale": "Редкое выражение благодарности является необходимым, но недостаточным условием допустимости принятия подарка в соответствии с Кодексом."
+        },
+        "B": {
+          "text": "Отказаться от подарка, поскольку его стоимость превышает предел, установленный Кодексом этики RBT",
+          "rationale": "Стандарт 1.11 устанавливает предельную стоимость подарков, которые RBT может дарить или принимать, в размере 10 долларов США. Подарочная карта номиналом 25 долларов превышает установленный предел независимо от намерений дарителя, частоты вручения подарков или уведомления о подарке. Отсутствие письменных правил работодателя не отменяет требований Кодекса."
+        },
+        "C": {
+          "text": "Принять подарок и сообщить о нём супервизору на следующей встрече по супервизии",
+          "rationale": "Уведомление супервизора не даёт разрешения принимать подарок, стоимость которого превышает установленный Кодексом предел."
+        },
+        "D": {
+          "text": "Принять подарок и зафиксировать его получение в записи о сеансе для обеспечения прозрачности",
+          "rationale": "Документирование факта получения подарка не делает его принятие допустимым, если оно запрещено Кодексом."
+        }
+      }
+    },
+    {
+      "item_code": "F-08-002",
+      "locale": "ru-UA",
+      "version": 2,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-05",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-05 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "После сеанса лицо, осуществляющее уход за клиентом, предлагает RBT подарочную карту на кофе номиналом 5 долларов США. Стоимость подарка не превышает предел, установленный Кодексом этики RBT. Однако работодатель запрещает сотрудникам принимать подарки от клиентов независимо от их стоимости. Как следует поступить RBT?",
+      "options": {
+        "A": {
+          "text": "Принять подарок, поскольку его стоимость не превышает установленный Кодексом предел",
+          "rationale": "Стоимость подарка действительно не превышает установленный Кодексом предел, однако этот ответ не учитывает обязательные правила работодателя."
+        },
+        "B": {
+          "text": "Принять подарок, если супервизор даст устное разрешение",
+          "rationale": "Одного устного разрешения недостаточно для подтверждения допустимого исключения из установленной политики работодателя."
+        },
+        "C": {
+          "text": "Принять подарок и перечислить эквивалентную сумму в фонд расходных материалов клиники",
+          "rationale": "Перечисление эквивалентной суммы на другие цели не отменяет факта принятия подарка, запрещённого правилами работодателя."
+        },
+        "D": {
+          "text": "Отказаться от подарка, поскольку в этой ситуации действуют более строгие правила работодателя",
+          "rationale": "Если правила работодателя строже требований Кодекса этики, RBT обязан соблюдать более строгие ограничения. То, что стоимость подарка не превышает установленный Кодексом предел, не освобождает RBT от соблюдения запрета, действующего в организации."
+        }
+      }
+    },
+    {
+      "item_code": "F-08-003",
+      "locale": "ru-UA",
+      "version": 2,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-05",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-05 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "В течение двенадцати недель подряд лицо, осуществляющее уход за клиентом, на каждом еженедельном сеансе дарит RBT небольшой подарок стоимостью около 5 долларов США. У работодателя отсутствуют правила в отношении подарков. Стоимость каждого подарка по отдельности не превышает установленный Кодексом этики предел. Как RBT следует оценить эту ситуацию?",
+      "options": {
+        "A": {
+          "text": "Проблемы нет, поскольку стоимость каждого подарка по отдельности не превышает установленный предел",
+          "rationale": "Положение Кодекса о совокупных подарках как раз направлено на предотвращение ситуаций, когда допустимость каждого подарка оценивается отдельно, без учёта их совокупности."
+        },
+        "B": {
+          "text": "Проблемы нет, поскольку RBT не просил ни одного из этих подарков",
+          "rationale": "Кодекс регулирует принятие подарков, а не просьбы о них."
+        },
+        "C": {
+          "text": "Регулярное получение подарков может вызывать вопросы с точки зрения Кодекса, несмотря на небольшую стоимость каждого. RBT следует обсудить ситуацию с супервизором",
+          "rationale": "Стандарт 1.11 рассматривает подарок как допустимый, если он является редким выражением благодарности и не приводит к финансовой выгоде. При этом регулярные или совокупные подарки могут представлять собой нарушение, если становятся ожидаемым постоянным источником ценности для получателя. Двенадцать еженедельных подарков подряд могут сформировать такую закономерность. Поэтому RBT следует обсудить ситуацию с супервизором, даже если стоимость каждого отдельного подарка не превышает 10 долларов США."
+        },
+        "D": {
+          "text": "Проблемы нет, если RBT делится подарками с коллегами",
+          "rationale": "Передача подарков другим людям не меняет регулярного характера их принятия."
+        }
+      }
+    },
+    {
+      "item_code": "F-09-001",
+      "locale": "ru-UA",
+      "version": 2,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-05",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-05 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "Супервизор даёт RBT корректирующую обратную связь по поводу несвоевременного внесения данных. Какое поведение RBT лучше всего демонстрирует профессиональные навыки и навыки межличностного взаимодействия?",
+      "options": {
+        "A": {
+          "text": "Объяснить, что супервизор слишком критичен",
+          "rationale": "Отвергать обратную связь, не уточняя ожиданий супервизора и не предпринимая действий для устранения задержки внесения данных, означает избегать конструктивного взаимодействия."
+        },
+        "B": {
+          "text": "Выслушать супервизора, задать уточняющие вопросы, кратко сформулировать, что необходимо изменить, и применить полученные рекомендации",
+          "rationale": "Профессиональные навыки включают готовность принимать обратную связь, активное слушание, обращение за рекомендациями, сотрудничество и действия, направленные на улучшение работы. Уточнение ожиданий и применение полученных рекомендаций позволяют наблюдать, были ли внесены необходимые изменения."
+        },
+        "C": {
+          "text": "Согласиться во время супервизии, но продолжать работать по-прежнему",
+          "rationale": "Согласие без изменения поведения не улучшает выполнение работы."
+        },
+        "D": {
+          "text": "Обсудить обратную связь супервизора с семьёй клиента",
+          "rationale": "Семья клиента не является подходящей стороной для обсуждения разногласий, возникающих в ходе супервизии."
+        }
+      }
+    },
+    {
+      "item_code": "F-10-001",
+      "locale": "ru-UA",
+      "version": 2,
+      "source_master_version": 2,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-05",
+      "language_notes": "Full language review by Yevheniia Lobas, approved in writing on 2026-11-05 (confirmation of 2026-11-07). Final periods removed from the options at her request; wording unchanged.",
+      "stem": "Семья объясняет, что часто используемый в обучении пример противоречит важной для неё культурной практике. Сама процедура не изменялась. Как следует поступить RBT?",
+      "options": {
+        "A": {
+          "text": "Выслушать семью, расспросить о культурной практике, оценить собственные предубеждения и сообщить об этом супервизору",
+          "rationale": "Стандарт 1.07 требует от RBT сотрудничать с супервизором для учёта культурных особенностей и оценивать собственные предубеждения. Выслушивание семьи, уточнение её культурной практики, оценка собственных предубеждений и передача вопроса супервизору соответствуют этому требованию без самостоятельного изменения плана вмешательства."
+        },
+        "B": {
+          "text": "Сразу заменить учебный пример на подходящий для семьи без консультации с супервизором",
+          "rationale": "RBT не должен самостоятельно изменять план вмешательства."
+        },
+        "C": {
+          "text": "Объяснить семье, что процедуры, основанные на доказательствах, должны быть культурно нейтральными, поэтому пример следует оставить без изменений",
+          "rationale": "Оказание услуг на основе доказательств может и должно учитывать культурные особенности."
+        },
+        "D": {
+          "text": "Избегать обсуждения культурных особенностей семьи, поскольку эти вопросы выходят за рамки роли RBT",
+          "rationale": "Избегание обсуждения культурных особенностей препятствует конструктивному сотрудничеству с семьёй и не позволяет ответить на её обеспокоенность."
+        }
+      }
+    }
+  ]
+}

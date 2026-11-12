@@ -42,7 +42,7 @@ return [
     'aboutWhat' => 'What this is',
     'aboutWhatBody' => 'Independent practice for people preparing to take the RBT® examination. Questions about your training, supervision, or eligibility go to your RBT Supervisor or RBT Requirements Coordinator, or to the BACB directly.',
     'tmTitle' => 'Trademarks',
-    'tmBody' => 'RBT® and BACB® are registered marks of the Behavior Analyst Certification Board, Inc. This app is not affiliated with, endorsed by, or approved by the BACB.',
+    'tmBody' => 'RBT, BCBA, and BACB are marks of the Behavior Analyst Certification Board. Flow Behavior is not affiliated with or endorsed by the BACB.',
     'dataTitle' => 'Your data',
     'dataBody' => 'Your answers are saved on our server under a random identifier kept in a cookie on this device. There is no account, no name or email, and no analytics.',
     'clear' => 'Clear my practice data',

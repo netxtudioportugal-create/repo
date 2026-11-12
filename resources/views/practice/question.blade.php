@@ -9,7 +9,7 @@
     $ok = $revealed && $pick === $key;
     $isLast = $index === $count;
     $locale = app()->getLocale();
-    $contentLang = $fallback ? 'en' : $locale;
+    $contentLang = $fallback ? config('examprep.fallback_locale') : $locale;
 @endphp
 
 @section('content')
@@ -77,7 +77,7 @@
                     <p lang="{{ $contentLang }}"><strong>{{ __('app.whyYours') }}</strong>{{ $content->option_rationales[$pick] }}</p>
                 @endif
                 @if ($item->source_ref)
-                    <p class="src">{{ __('app.source') }}: RBT Ethics Code (2.0), {{ $item->source_ref }}</p>
+                    <p class="src">{{ __('app.source') }}: {{ $item->authority_source ?? 'RBT Ethics Code (2.0)' }}, {{ $item->source_ref }}</p>
                 @endif
             </div>
         @endif

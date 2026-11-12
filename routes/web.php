@@ -39,6 +39,7 @@ Route::prefix('staff')->name('staff.')->group(function () {
         Route::get('/items', [ItemReviewController::class, 'index'])->name('items.index');
         Route::get('/items/{item}', [ItemReviewController::class, 'show'])->name('items.show');
         Route::post('/items/{item}/transition', [ItemReviewController::class, 'transition'])->name('items.transition');
+        Route::post('/items/{item}/language', [ItemReviewController::class, 'language'])->name('items.language');
         Route::get('/notes', NotesController::class)->name('notes');
     });
 });

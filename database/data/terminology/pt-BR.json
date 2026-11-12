@@ -1,0 +1,86 @@
+{
+  "dictionary_id": "flow_exam_prep_aba_terms",
+  "dictionary_version": "1.0",
+  "package": "Flow_Terminology_pt-BR_Import_Package_v2.docx",
+  "language_label": "Portuguese (Brazil)",
+  "locales": [
+    "pt-BR"
+  ],
+  "review_status": "required",
+  "reviewer": null,
+  "effective_on": null,
+  "approved_by": null,
+  "cover_note": "Language review by Americo required before release. Two terms differ from the Domain A Batch 1 glossary and are settled in that review.",
+  "terms": [
+    {
+      "term_key": "extinction",
+      "source_term_en": "Extinction",
+      "locale": "pt-BR",
+      "localized_term": "Extinção",
+      "status": "staging"
+    },
+    {
+      "term_key": "extinction_burst",
+      "source_term_en": "Extinction burst",
+      "locale": "pt-BR",
+      "localized_term": "Surto de extinção",
+      "status": "staging"
+    },
+    {
+      "term_key": "escape_extinction",
+      "source_term_en": "Escape extinction",
+      "locale": "pt-BR",
+      "localized_term": "Extinção de fuga",
+      "status": "staging"
+    },
+    {
+      "term_key": "prompt_fading",
+      "source_term_en": "Prompt fading",
+      "locale": "pt-BR",
+      "localized_term": "Esvanecimento de prompts (fading)",
+      "status": "staging"
+    },
+    {
+      "term_key": "verbal_operants",
+      "source_term_en": "Verbal operants",
+      "locale": "pt-BR",
+      "localized_term": "Operantes verbais",
+      "status": "staging"
+    },
+    {
+      "term_key": "mand",
+      "source_term_en": "Mand",
+      "locale": "pt-BR",
+      "localized_term": "Mando (mand)",
+      "status": "staging"
+    },
+    {
+      "term_key": "tact",
+      "source_term_en": "Tact",
+      "locale": "pt-BR",
+      "localized_term": "Tato (tact)",
+      "status": "staging"
+    },
+    {
+      "term_key": "echoic",
+      "source_term_en": "Echoic",
+      "locale": "pt-BR",
+      "localized_term": "Ecoico",
+      "status": "staging"
+    },
+    {
+      "term_key": "intraverbal",
+      "source_term_en": "Intraverbal",
+      "locale": "pt-BR",
+      "localized_term": "Intraverbal",
+      "status": "staging"
+    },
+    {
+      "term_key": "initial_competency_assessment",
+      "source_term_en": "Initial Competency Assessment",
+      "locale": "pt-BR",
+      "localized_term": "Initial Competency Assessment (avaliação inicial de competência)",
+      "status": "staging"
+    }
+  ]
+}
