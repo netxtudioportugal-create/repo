@@ -32,7 +32,6 @@ app/
   Services/PracticeService.php modos por domínio e cronometrado, resumo por domínio
   Http/Controllers/           candidato (onboarding, home, prática, sobre) e Staff/ (login, revisão, notas)
 database/data/items.json      banco de itens (fonte da verdade do conteúdo)
-database/data/terminology.json dicionário de terminologia ABA aprovado (uk-UA, ru-UA), versão 1.0
 database/data/taxonomy.json   domínios A–F e rótulos internos de tarefas (nunca o texto oficial da BACB)
 lang/{en,pt,es,uk,ru-UA}/     textos da interface (uk e ru-UA: rascunho, aguardando revisão nativa)
 ```
@@ -64,8 +63,6 @@ O conteúdo dos itens vive no repositório (`database/data/items.json`); o statu
 ```bash
 php artisan items:import --dry-run   # valida sem gravar
 php artisan items:import             # aplica; itens alterados ganham nova versão e voltam para draft
-php artisan terms:import --dry-run   # valida o dicionário de terminologia sem gravar
-php artisan terms:import             # importa; mudar um termo aprovado exige nova dictionary_version
 ```
 
 Cada passo de revisão exige um papel (`staff:create --role=...`):

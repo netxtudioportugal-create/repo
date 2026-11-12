@@ -51,13 +51,10 @@ composer install --no-dev --optimize-autoloader --no-interaction
 php artisan migrate --force
 php artisan db:seed --class=TaxonomySeeder --force
 php artisan items:import --no-interaction
-php artisan terms:import --no-interaction
 php artisan optimize
 ```
 
 `items:import` é idempotente: itens sem mudança ficam como estão, itens alterados ganham nova versão e voltam para draft. Se um item for inválido, nada é gravado e o deploy falha, o que é o comportamento desejado.
-
-`terms:import` importa o dicionário de terminologia uk-UA / ru-UA (`database/data/terminology.json`). Também é idempotente. Se o ficheiro alterar um termo já aprovado sem mudar `dictionary_version`, a importação é rejeitada e o deploy falha: termos aprovados nunca são reescritos no lugar.
 
 ## 6. Primeiro acesso da equipe
 

@@ -11,7 +11,6 @@ if [ "${RUN_MIGRATIONS:-true}" = "true" ]; then
   php artisan migrate --force
   php artisan db:seed --class=TaxonomySeeder --force
   php artisan items:import --no-interaction
-  php artisan terms:import --no-interaction
 fi
 
 exec "$@"
