@@ -2,7 +2,6 @@
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
@@ -40,10 +39,6 @@ return new class extends Migration
             $table->unique(['dictionary_version', 'term_key', 'locale']);
             $table->index(['term_key', 'locale']);
         });
-
-        // Gate 0 freezes the locale set: ru-RU is not valid anywhere.
-        DB::table('item_translations')->where('locale', 'ru-RU')->delete();
-        DB::table('learners')->where('locale', 'ru-RU')->update(['locale' => 'ru-UA']);
     }
 
     public function down(): void

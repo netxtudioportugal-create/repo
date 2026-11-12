@@ -88,7 +88,7 @@ class TerminologyImportTest extends TestCase
 
         $this->assertFalse(TerminologyTerm::where(['term_key' => 'mand', 'locale' => 'pt-BR'])->first()->isReleasable());
         $this->assertTrue(TerminologyTerm::where(['term_key' => 'mand', 'locale' => 'uk-UA'])->first()->isReleasable());
-        $this->assertStringContainsString('esvanecimento de dicas', TerminologyTerm::where(['term_key' => 'prompt_fading', 'locale' => 'pt-BR'])->value('notes'));
+        $this->assertNull(TerminologyTerm::where(['term_key' => 'mand', 'locale' => 'pt-BR'])->value('reviewer'));
     }
 
     public function test_reimport_is_idempotent(): void
@@ -117,6 +117,7 @@ class TerminologyImportTest extends TestCase
         $pt = $this->packages()['pt-BR'];
         $pt['dictionary_version'] = '1.1';
         $pt['review_status'] = 'completed';
+        $pt['reviewer'] = 'Americo Silva, MS, BCBA, IBA';
         $pt['terms'] = array_map(fn ($t) => ['status' => 'approved'] + $t, $pt['terms']);
         $pt['terms'][5]['localized_term'] = 'Mando';
         $en = $this->packages()['en-US'];
@@ -125,7 +126,7 @@ class TerminologyImportTest extends TestCase
         app(TerminologyImporter::class)->import([$en, $pt]);
 
         $this->assertSame('Mando (mand)', TerminologyTerm::where(['dictionary_version' => '1.0', 'term_key' => 'mand', 'locale' => 'pt-BR'])->value('localized_term'));
-        $this->assertSame('Mando', TerminologyTerm::lookup('mand', 'pt'));
+        $this->assertSame('Mando', TerminologyTerm::lookup('mand', 'pt-BR'));
     }
 
     public function test_ru_ru_and_other_locales_are_rejected(): void
@@ -175,14 +176,14 @@ class TerminologyImportTest extends TestCase
         $this->assertRejected($packages, 'must stay in English');
     }
 
-    public function test_lookup_maps_app_locales_and_falls_back_to_english(): void
+    public function test_lookup_by_locale_falls_back_to_english(): void
     {
         $this->seedBank();
 
-        $this->assertSame('Extinction', TerminologyTerm::lookup('extinction', 'en'));
-        $this->assertSame('Extinção', TerminologyTerm::lookup('extinction', 'pt'));
-        $this->assertSame('Extinción', TerminologyTerm::lookup('extinction', 'es'));
-        $this->assertSame('Згасання', TerminologyTerm::lookup('extinction', 'uk'));
+        $this->assertSame('Extinction', TerminologyTerm::lookup('extinction', 'en-US'));
+        $this->assertSame('Extinção', TerminologyTerm::lookup('extinction', 'pt-BR'));
+        $this->assertSame('Extinción', TerminologyTerm::lookup('extinction', 'es-419'));
+        $this->assertSame('Згасання', TerminologyTerm::lookup('extinction', 'uk-UA'));
         $this->assertSame('Гашение', TerminologyTerm::lookup('extinction', 'ru-UA'));
         $this->assertSame('Extinction', TerminologyTerm::lookup('extinction', 'fr'));
         $this->assertNull(TerminologyTerm::lookup('unknown_key', 'uk'));

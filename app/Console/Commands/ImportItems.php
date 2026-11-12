@@ -10,7 +10,7 @@ class ImportItems extends Command
 {
     protected $signature = 'items:import {path? : JSON item bank (default: database/data/items.json)} {--dry-run : Validate and report without writing}';
 
-    protected $description = 'Import the item bank in one transaction. Changed items get a new version and go back to draft.';
+    protected $description = 'Import an item file (masters and language records) in one transaction. Changed masters get a new revision and go back to draft.';
 
     public function handle(ItemImporter $importer): int
     {
@@ -35,9 +35,11 @@ class ImportItems extends Command
             return self::FAILURE;
         }
 
-        $this->table(['Result', 'Count', 'Items'], collect($report)->map(fn ($codes, $k) => [
-            $k, count($codes), implode(', ', array_slice($codes, 0, 12)).(count($codes) > 12 ? ', …' : ''),
-        ])->values()->all());
+        $this->table(['', 'Created', 'Updated', 'Unchanged', 'Skipped'], [
+            ['Masters', ...array_map('count', array_values($report['masters']))],
+            ['Language records', ...array_map('count', array_values($report['languages']))],
+        ]);
+        $this->line(count($report['stale']).' language record(s) turned stale.');
 
         if ($this->option('dry-run')) {
             $this->warn('Dry run: nothing was written.');

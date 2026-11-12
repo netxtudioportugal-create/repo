@@ -3,19 +3,34 @@
 return [
 
     /*
-    | Locales offered in the language menu, in display order. "ru-UA" is a
-    | Russian-language locale for Ukrainian and diaspora families (never ru-RU)
-    | and is listed right after Ukrainian, per the Framing Language document.
+    | The locale set, frozen at Gate 0: en-US, pt-BR, es-419, uk-UA, ru-UA.
+    | These codes are used everywhere (content, learners, lang/ folders).
+    | "menu" is the short label in the language menu and is display only.
+    | ru-UA is Russian for Ukrainian and diaspora families (never ru-RU) and is
+    | listed right after Ukrainian, per the Framing Language document.
     */
     'locales' => [
-        'en' => ['name' => 'English', 'html' => 'en'],
-        'pt' => ['name' => 'Português (Brasil)', 'html' => 'pt-BR'],
-        'es' => ['name' => 'Español', 'html' => 'es'],
-        'uk' => ['name' => 'Українська', 'html' => 'uk-UA'],
-        'ru-UA' => ['name' => 'Русский', 'html' => 'ru-UA'],
+        'en-US' => ['name' => 'English', 'menu' => 'EN', 'html' => 'en-US'],
+        'pt-BR' => ['name' => 'Português (Brasil)', 'menu' => 'PT', 'html' => 'pt-BR'],
+        'es-419' => ['name' => 'Español', 'menu' => 'ES', 'html' => 'es-419'],
+        'uk-UA' => ['name' => 'Українська', 'menu' => 'УКР', 'html' => 'uk-UA'],
+        'ru-UA' => ['name' => 'Русский', 'menu' => 'РУС', 'html' => 'ru-UA'],
     ],
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'en-US',
+
+    /*
+    | Codes used before the locale migration. Only read to carry over a
+    | language choice stored in an old browser session.
+    */
+    'legacy_locales' => [
+        'en' => 'en-US',
+        'pt' => 'pt-BR',
+        'es' => 'es-419',
+        'es-LATAM' => 'es-419',
+        'uk' => 'uk-UA',
+        'ru-RU' => 'ru-UA',
+    ],
 
     /*
     | Gate 0. While closed, nothing can be moved to "released", so candidates
@@ -49,7 +64,20 @@ return [
         'secret_key' => env('TURNSTILE_SECRET_KEY'),
     ],
 
+    /*
+    | Item bank for domains A to E, imported on every deploy (idempotent).
+    */
     'items_file' => database_path('data/items.json'),
+
+    /*
+    | Ethics Pilot (domain F), all locales: one file per import step. Steps
+    | are run by hand, in order, with pilot:import, so the stale and version
+    | evidence can be recorded between steps.
+    */
+    'pilot' => [
+        'path' => database_path('data/ethics_pilot'),
+        'steps' => [3, 4, 5, 6],
+    ],
 
     /*
     | Controlled ABA terminology dictionary (flow_exam_prep_aba_terms), one
@@ -68,15 +96,6 @@ return [
             'es-419' => ['staging', 'approved'],
             'uk-UA' => ['staging', 'approved'],
             'ru-UA' => ['staging', 'approved'],
-        ],
-
-        // App locale (menu and lang/ folder) to dictionary locale.
-        'locale_map' => [
-            'en' => 'en-US',
-            'pt' => 'pt-BR',
-            'es' => 'es-419',
-            'uk' => 'uk-UA',
-            'ru-UA' => 'ru-UA',
         ],
 
         // Keep these titles in English; a localized explanation may follow in parentheses.

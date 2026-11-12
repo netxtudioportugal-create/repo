@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Validator;
 
 class CreateStaffUser extends Command
 {
-    protected $signature = 'staff:create {email} {--name=} {--role=tester : admin, bcba_reviewer, fairness_reviewer or tester}';
+    protected $signature = 'staff:create {email} {--name=} {--role=tester : admin, bcba_reviewer, fairness_reviewer, language_reviewer or tester}';
 
     protected $description = 'Create or update a staff account for the review area';
 

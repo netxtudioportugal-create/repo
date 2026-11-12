@@ -37,19 +37,12 @@ class TerminologyTerm extends Model
         return in_array($this->status, ['canonical', 'approved'], true);
     }
 
-    /** Maps an app locale ("pt", "uk") to its dictionary locale ("pt-BR", "uk-UA"). */
-    public static function dictionaryLocale(string $locale): string
-    {
-        return config("examprep.terminology.locale_map.{$locale}", $locale);
-    }
-
     /**
-     * Term for a concept in a locale. Accepts app locales and dictionary
-     * locales. Falls back to the canonical en-US term.
+     * Term for a concept in a locale. Falls back to the canonical en-US term.
      */
     public static function lookup(string $termKey, ?string $locale = null): ?string
     {
-        $locale = static::dictionaryLocale($locale ?? app()->getLocale());
+        $locale ??= app()->getLocale();
 
         $rows = static::current()->where('term_key', $termKey)->whereIn('locale', [$locale, 'en-US'])
             ->pluck('localized_term', 'locale');

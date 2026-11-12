@@ -55,7 +55,23 @@ php artisan terms:import --no-interaction
 php artisan optimize
 ```
 
-`items:import` é idempotente: itens sem mudança ficam como estão, itens alterados ganham nova versão e voltam para draft. Se um item for inválido, nada é gravado e o deploy falha, o que é o comportamento desejado.
+`migrate` inclui a migração de locales (fase 1, passo 1): os códigos antigos (`en`, `pt`, `es`, `es-LATAM`, `uk`, `ru-RU`) passam a `en-US`, `pt-BR`, `es-419`, `uk-UA`, `ru-UA` no lugar. Se as contagens antes e depois não forem iguais, a migração para e nada é alterado.
+
+`TaxonomySeeder` grava os domínios e as 43 tarefas (rótulos internos; `official_wording` fica NULL).
+
+`items:import` importa o banco dos domínios A–E e é idempotente: itens sem mudança ficam como estão, masters alterados ganham nova revisão e voltam para draft. Se uma linha for inválida, nada é gravado e o deploy falha, o que é o comportamento desejado.
+
+**O Ethics Pilot (domínio F) não corre no deploy.** Depois do deploy, abra os comandos do ambiente e rode um passo de cada vez, por ordem, guardando a saída de cada um como evidência:
+
+```
+php artisan pilot:evidence          # estado depois dos passos 1 e 2
+php artisan pilot:import --step=3
+php artisan pilot:import --step=4
+php artisan pilot:import --step=5
+php artisan pilot:import --step=6
+```
+
+Cada `pilot:import` corre numa transação, mostra o que foi criado, atualizado e marcado como `stale`, e termina com a tabela de evidência. `--dry-run` valida sem gravar. Não altere nenhum `language_status` à mão entre os passos 5 e 6.
 
 `terms:import` importa o dicionário de terminologia ABA (`database/data/terminology/`, um ficheiro por pacote: en-US, pt-BR, es-419, uk-UA + ru-UA). Também é idempotente. Se um ficheiro alterar um termo já controlado sem mudar `dictionary_version`, a importação é rejeitada e o deploy falha: termos controlados nunca são reescritos no lugar. Os termos pt-BR e es-419 entram como `staging` e só passam a `approved` depois da revisão linguística do Americo, numa nova versão do dicionário.
 

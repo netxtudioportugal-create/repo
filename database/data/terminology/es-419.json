@@ -7,7 +7,7 @@
     "es-419"
   ],
   "review_status": "required",
-  "reviewer": "Americo Silva, MS, BCBA, IBA",
+  "reviewer": null,
   "effective_on": null,
   "approved_by": null,
   "cover_note": "Language review by Americo required before release. Two terms differ from the Domain A Batch 1 glossary and are settled in that review.",
@@ -38,8 +38,7 @@
       "source_term_en": "Prompt fading",
       "locale": "es-419",
       "localized_term": "Desvanecimiento de ayudas o prompts (fading)",
-      "status": "staging",
-      "notes": "Differs from Domain A Batch 1 glossary (\"desvanecimiento de ayudas\"). Settled in Americo's language review."
+      "status": "staging"
     },
     {
       "term_key": "verbal_operants",
@@ -53,8 +52,7 @@
       "source_term_en": "Mand",
       "locale": "es-419",
       "localized_term": "Mando (mand)",
-      "status": "staging",
-      "notes": "Differs from Domain A Batch 1 glossary (\"mando\"). Settled in Americo's language review."
+      "status": "staging"
     },
     {
       "term_key": "tact",
@@ -82,8 +80,7 @@
       "source_term_en": "Initial Competency Assessment",
       "locale": "es-419",
       "localized_term": "Initial Competency Assessment (evaluación inicial de competencia)",
-      "status": "staging",
-      "notes": "Keep English BACB title; translation is explanatory only."
+      "status": "staging"
     }
   ]
 }

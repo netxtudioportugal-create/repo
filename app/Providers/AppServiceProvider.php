@@ -6,6 +6,7 @@ use App\Models\PracticeSession;
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Lang;
 use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\URL;
@@ -25,6 +26,11 @@ class AppServiceProvider extends ServiceProvider
         if ($this->app->isProduction()) {
             URL::forceScheme('https');
         }
+
+        // Interface text falls back to en-US, then to the framework's own "en" messages.
+        Lang::determineLocalesUsing(fn (array $locales) => array_values(array_unique([
+            ...$locales, config('examprep.fallback_locale'), 'en',
+        ])));
 
         Route::model('session', PracticeSession::class);
         Route::pattern('session', '[0-9a-f-]{36}');

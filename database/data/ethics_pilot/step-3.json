@@ -1,0 +1,611 @@
+{
+  "source": "Flow_ExamPrep_Ethics_Import_All_Locales_v2.xlsx",
+  "phase": 1,
+  "step": 3,
+  "contains": "14 English masters, 56 options (en-US Import Package v3).",
+  "masters": [
+    {
+      "item_code": "F-01-001",
+      "task_code": "F.1",
+      "master_version": 1,
+      "key_concept": "Core principles: dignity and respect",
+      "question_type": "scenario",
+      "difficulty_author": 2,
+      "source_standard": "Introduction",
+      "authority_source": "BACB RBT Ethics Code (2.0)",
+      "authority_version": "Updated 08/2024",
+      "source_checked_on": "2026-10-03",
+      "is_rule_dependent": false,
+      "requires_reverification": false,
+      "cadence_months": null,
+      "status": "draft",
+      "stem": "During a session, a caregiver calls the client \"stupid\" while discussing a mistake. The client is within hearing distance. What should the RBT do?",
+      "options": {
+        "A": {
+          "text": "Use respectful language, redirect the conversation to protect the client's dignity, and inform the supervisor if guidance is needed",
+          "rationale": "The response applies the core principles of compassion, dignity, respect, and integrity while remaining within the RBT role. It protects the client without making an unsupported legal or disciplinary conclusion.",
+          "is_key": true,
+          "is_target_misconception": false
+        },
+        "B": {
+          "text": "Continue the session without responding because the caregiver is the legal decision-maker",
+          "rationale": "Ignoring the interaction does not protect dignity.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "C": {
+          "text": "Tell the caregiver that discussing the client is always prohibited",
+          "rationale": "Relevant discussion is not always prohibited, but it should be respectful and appropriately handled.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "D": {
+          "text": "End services immediately and submit a report to the BACB",
+          "rationale": "Immediate termination and a BACB report are not automatically required by the facts provided.",
+          "is_key": false,
+          "is_target_misconception": false
+        }
+      }
+    },
+    {
+      "item_code": "F-02-001",
+      "task_code": "F.2",
+      "master_version": 2,
+      "key_concept": "Competence before service delivery",
+      "question_type": "scenario",
+      "difficulty_author": 1,
+      "source_standard": "1.06; 2.04",
+      "authority_source": "BACB RBT Ethics Code (2.0)",
+      "authority_version": "Updated 08/2024",
+      "source_checked_on": "2026-10-29",
+      "is_rule_dependent": false,
+      "requires_reverification": false,
+      "cadence_months": null,
+      "status": "draft",
+      "stem": "A supervisor adds a token economy procedure that the RBT has never implemented. The written plan is available, but the RBT has not received training or demonstrated the procedure. What should the RBT do first?",
+      "options": {
+        "A": {
+          "text": "Read the plan and implement it independently",
+          "rationale": "A written plan alone does not establish competence.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "B": {
+          "text": "Ask the caregiver to demonstrate it",
+          "rationale": "A caregiver does not replace required clinical training and supervision.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "C": {
+          "text": "Refuse to work with the client again",
+          "rationale": "The issue can ordinarily be addressed through training, not immediate abandonment of the case.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "D": {
+          "text": "Tell the supervisor that training and competency verification are needed before implementation",
+          "rationale": "Standard 1.06: RBTs provide services only after their supervisor confirms they have demonstrated competence. Standard 2.04 also requires the RBT to receive proper training before using an unfamiliar intervention. The RBT should promptly inform the supervisor, document that communication, and request instruction, modeling, rehearsal, feedback, and competency verification before implementing the unfamiliar procedure.",
+          "is_key": true,
+          "is_target_misconception": false
+        }
+      }
+    },
+    {
+      "item_code": "F-03-001",
+      "task_code": "F.3",
+      "master_version": 2,
+      "key_concept": "Ongoing qualified supervision",
+      "question_type": "scenario",
+      "difficulty_author": 1,
+      "source_standard": "1.03; 3.01",
+      "authority_source": "BACB RBT Ethics Code (2.0)",
+      "authority_version": "Updated 08/2024",
+      "source_checked_on": "2026-10-03",
+      "is_rule_dependent": false,
+      "requires_reverification": false,
+      "cadence_months": null,
+      "status": "draft",
+      "stem": "An RBT learns that their only listed qualified supervisor ended supervision yesterday. The agency asks the RBT to conduct a session today while it finds a replacement. What is the best response?",
+      "options": {
+        "A": {
+          "text": "Provide the session because the intervention plan has not changed",
+          "rationale": "An unchanged plan does not remove the supervision requirement.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "B": {
+          "text": "Provide the session if the caregiver agrees",
+          "rationale": "A caregiver cannot authorize practice outside certification requirements.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "C": {
+          "text": "Do not provide RBT services until ongoing supervision by a qualified supervisor is established",
+          "rationale": "RBT services may be provided only under ongoing supervision from a supervisor who meets BACB requirements. Caregiver permission or documentation does not substitute for qualified ongoing supervision.",
+          "is_key": true,
+          "is_target_misconception": false
+        },
+        "D": {
+          "text": "Provide the session and document that no supervisor was available",
+          "rationale": "Documenting the absence of supervision does not make unsupervised services permissible.",
+          "is_key": false,
+          "is_target_misconception": false
+        }
+      }
+    },
+    {
+      "item_code": "F-04-001",
+      "task_code": "F.4",
+      "master_version": 1,
+      "key_concept": "Effective supervision practices (BST)",
+      "question_type": "concept",
+      "difficulty_author": 2,
+      "source_standard": null,
+      "authority_source": null,
+      "authority_version": null,
+      "source_checked_on": null,
+      "is_rule_dependent": false,
+      "requires_reverification": false,
+      "cadence_months": null,
+      "status": "draft",
+      "stem": "Which supervision arrangement most clearly reflects effective practice for teaching an RBT a new data collection procedure?",
+      "options": {
+        "A": {
+          "text": "The supervisor emails the definition and asks the RBT to confirm receipt",
+          "rationale": "Receipt of written instructions does not demonstrate performance.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "B": {
+          "text": "The supervisor explains and models the procedure, observes rehearsal and service delivery, and provides performance feedback",
+          "rationale": "Effective supervision includes clear instruction, modeling, rehearsal, feedback, and observation of RBT service delivery. This arrangement directly evaluates and strengthens implementation competence.",
+          "is_key": true,
+          "is_target_misconception": false
+        },
+        "C": {
+          "text": "The supervisor reviews monthly totals without observing implementation",
+          "rationale": "Reviewing totals alone cannot verify implementation fidelity.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "D": {
+          "text": "The RBT watches an unrelated online video and begins using the procedure",
+          "rationale": "Unrelated self-study does not replace task-specific training and supervision.",
+          "is_key": false,
+          "is_target_misconception": false
+        }
+      }
+    },
+    {
+      "item_code": "F-05-001-R",
+      "task_code": "F.5",
+      "master_version": 1,
+      "key_concept": "Confidentiality: authorization vs. security (isolated)",
+      "question_type": "scenario",
+      "difficulty_author": 2,
+      "source_standard": "Introduction; 1.01; 2.08",
+      "authority_source": "BACB RBT Ethics Code (2.0)",
+      "authority_version": "Updated 08/2024",
+      "source_checked_on": "2026-10-03",
+      "is_rule_dependent": true,
+      "requires_reverification": true,
+      "cadence_months": 12,
+      "status": "draft",
+      "stem": "An RBT wants to review a client's session history before a make-up session but has not been told whether the employer permits access outside normal working hours. What should the RBT do?",
+      "options": {
+        "A": {
+          "text": "Confirm the authorized access procedure with the supervisor or employer before accessing the record",
+          "rationale": "Confidentiality compliance requires both security and authorization. Encryption or a protected method addresses security, but it does not establish that the RBT is authorized to access the record at that time. The RBT must confirm authorization with the supervisor or employer before acting, consistent with the Code's requirement to follow applicable employer and legal procedures.",
+          "is_key": true,
+          "is_target_misconception": false
+        },
+        "B": {
+          "text": "Ask a coworker to send screenshots of the relevant notes",
+          "rationale": "Asking a coworker for screenshots does not establish that the RBT is authorized to access the record, or that screenshots are an approved way to share it.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "C": {
+          "text": "Access the record through any encrypted device",
+          "rationale": "A technically secure method does not resolve whether access is authorized. Security and authorization are separate requirements, and satisfying one does not satisfy the other.",
+          "is_key": false,
+          "is_target_misconception": true
+        },
+        "D": {
+          "text": "Access the complete record because the RBT works with the client",
+          "rationale": "Working with the client establishes a professional relationship, not standing authorization to access records outside normal procedure.",
+          "is_key": false,
+          "is_target_misconception": false
+        }
+      }
+    },
+    {
+      "item_code": "F-05-002",
+      "task_code": "F.5",
+      "master_version": 1,
+      "key_concept": "Workplace system compliance (isolated)",
+      "question_type": "scenario",
+      "difficulty_author": 2,
+      "source_standard": "2.08",
+      "authority_source": "BACB RBT Ethics Code (2.0)",
+      "authority_version": "Updated 08/2024",
+      "source_checked_on": "2026-10-03",
+      "is_rule_dependent": true,
+      "requires_reverification": true,
+      "cadence_months": 12,
+      "status": "draft",
+      "stem": "An RBT's employer requires all session notes to be entered only through a specific secure software platform. The RBT also owns a personal encrypted note-taking application that is not approved by the employer. What should the RBT do?",
+      "options": {
+        "A": {
+          "text": "Use the personal encrypted app, since it independently satisfies confidentiality requirements",
+          "rationale": "Encryption alone does not satisfy the Code, because the Code requires compliance with employer requirements, and the employer has not approved this application.",
+          "is_key": false,
+          "is_target_misconception": true
+        },
+        "B": {
+          "text": "Ask the client's family which system they prefer",
+          "rationale": "System selection is a workplace requirement, not a family preference.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "C": {
+          "text": "Alternate between both systems depending on convenience",
+          "rationale": "Inconsistent practice undermines the employer's system-based control and creates data fragmentation.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "D": {
+          "text": "Use the employer's required platform, because workplace requirements govern how the note is entered even if another application provides encryption",
+          "rationale": "Standard 2.08 requires RBTs to protect confidentiality by following the requirements set by the BACB, employers, and the law. Where an employer specifies a system, that requirement governs the RBT's conduct even if the alternative application provides encryption.",
+          "is_key": true,
+          "is_target_misconception": false
+        }
+      }
+    },
+    {
+      "item_code": "F-06-001-R",
+      "task_code": "F.6",
+      "master_version": 1,
+      "key_concept": "Credential representation in public statements (isolated)",
+      "question_type": "scenario",
+      "difficulty_author": 2,
+      "source_standard": "1.05; 2.09",
+      "authority_source": "BACB RBT Ethics Code (2.0)",
+      "authority_version": "Updated 08/2024",
+      "source_checked_on": "2026-10-03",
+      "is_rule_dependent": true,
+      "requires_reverification": true,
+      "cadence_months": 12,
+      "status": "draft",
+      "stem": "An RBT's professional social media profile lists her title as \"Behavior Analyst.\" She holds RBT certification and no other behavior-analytic credential. What is the primary ethical concern?",
+      "options": {
+        "A": {
+          "text": "None, because she implements behavior-analytic procedures every workday",
+          "rationale": "Implementing procedures under supervision is the RBT role. It does not make the title \"Behavior Analyst\" accurate.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "B": {
+          "text": "The title misrepresents her professional credentials; her public statements should describe her RBT certification accurately",
+          "rationale": "Standard 1.05 prohibits false, misleading, or exaggerated statements about qualifications. The title \"Behavior Analyst\" suggests qualifications or authority beyond her RBT certification. Listing it misrepresents her qualifications regardless of her daily duties.",
+          "is_key": true,
+          "is_target_misconception": false
+        },
+        "C": {
+          "text": "The profile is a concern only if a client can be identified from it",
+          "rationale": "Credential misrepresentation is a concern whether or not any client is identifiable. Client identification is a separate issue under Standard 2.09.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "D": {
+          "text": "Her social media profile is personal activity and falls outside the RBT Ethics Code",
+          "rationale": "A profile that states her professional title is a public statement about professional activities, which Standard 1.05 and TCO task F.6 cover.",
+          "is_key": false,
+          "is_target_misconception": false
+        }
+      }
+    },
+    {
+      "item_code": "F-06-002",
+      "task_code": "F.6",
+      "master_version": 1,
+      "key_concept": "Outcome and efficacy claims (isolated)",
+      "question_type": "scenario",
+      "difficulty_author": 2,
+      "source_standard": "1.05",
+      "authority_source": "BACB RBT Ethics Code (2.0)",
+      "authority_version": "Updated 08/2024",
+      "source_checked_on": "2026-10-03",
+      "is_rule_dependent": true,
+      "requires_reverification": true,
+      "cadence_months": 12,
+      "status": "draft",
+      "stem": "An RBT's social media post accurately states her job title as \"Registered Behavior Technician\" and adds, \"Every child I work with makes rapid, guaranteed progress.\" What is the primary ethical concern?",
+      "options": {
+        "A": {
+          "text": "No concern arises because the credential is stated accurately",
+          "rationale": "Correct credentialing does not cure an unsupported efficacy claim.",
+          "is_key": false,
+          "is_target_misconception": true
+        },
+        "B": {
+          "text": "The post is acceptable if the RBT genuinely believes the statement to be true",
+          "rationale": "Personal belief in a claim's truth does not make an unsupported guarantee permissible.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "C": {
+          "text": "The post makes an unsupported guarantee of outcomes, regardless of the credential being correctly stated",
+          "rationale": "Accurate credential representation does not resolve a separate problem: public statements must not make unsupported claims about service outcomes. \"Guaranteed progress\" is an outcome claim ABA cannot substantiate at the individual level and is prohibited independent of role accuracy.",
+          "is_key": true,
+          "is_target_misconception": false
+        },
+        "D": {
+          "text": "The concern applies only if a caregiver complains about the post",
+          "rationale": "The ethical requirement does not depend on whether a complaint is received.",
+          "is_key": false,
+          "is_target_misconception": false
+        }
+      }
+    },
+    {
+      "item_code": "F-07-001",
+      "task_code": "F.7",
+      "master_version": 2,
+      "key_concept": "Avoiding multiple relationships",
+      "question_type": "scenario",
+      "difficulty_author": 2,
+      "source_standard": "Introduction; 1.10",
+      "authority_source": "BACB RBT Ethics Code (2.0)",
+      "authority_version": "Updated 08/2024",
+      "source_checked_on": "2026-10-28",
+      "is_rule_dependent": false,
+      "requires_reverification": false,
+      "cadence_months": null,
+      "status": "draft",
+      "stem": "A client's parent asks the RBT to provide paid babysitting every weekend. What should the RBT do?",
+      "options": {
+        "A": {
+          "text": "Decline the offer and tell the supervisor about it",
+          "rationale": "Standard 1.10 directs RBTs to avoid multiple relationships with clients. The Code's glossary includes roles with people closely associated with or related to the client, so paid babysitting for the parent would add a personal or business role, and the RBT declines. The Code's introduction makes the supervisor responsible for all work RBTs perform and directs RBTs to seek the supervisor's support when applying the Code, so the RBT tells the supervisor about the offer.",
+          "is_key": true,
+          "is_target_misconception": false
+        },
+        "B": {
+          "text": "Accept if sessions and babysitting are billed separately",
+          "rationale": "Separate billing does not resolve conflicting roles.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "C": {
+          "text": "Accept because babysitting is not a behavior-analytic service",
+          "rationale": "A nonclinical label does not remove the multiple relationship risk.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "D": {
+          "text": "Accept once, then decide whether it affects services",
+          "rationale": "Beginning the arrangement can create the very risk the RBT should avoid.",
+          "is_key": false,
+          "is_target_misconception": false
+        }
+      }
+    },
+    {
+      "item_code": "F-08-001-R",
+      "task_code": "F.8",
+      "master_version": 1,
+      "key_concept": "BACB monetary threshold (isolated)",
+      "question_type": "scenario",
+      "difficulty_author": 2,
+      "source_standard": "1.11",
+      "authority_source": "BACB RBT Ethics Code (2.0)",
+      "authority_version": "Updated 08/2024",
+      "source_checked_on": "2026-10-03",
+      "is_rule_dependent": true,
+      "requires_reverification": true,
+      "cadence_months": 6,
+      "status": "draft",
+      "stem": "At the end of the year a caregiver offers an RBT a $25 gift card as a thank-you for the year's sessions. The RBT's employer has no written policy on gifts. What should the RBT do?",
+      "options": {
+        "A": {
+          "text": "Accept it, because it is an occasional expression of gratitude",
+          "rationale": "Occasional gratitude is a necessary condition under the Code, not a sufficient one.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "B": {
+          "text": "Decline it, because its value exceeds the limit set in the RBT Ethics Code",
+          "rationale": "Standard 1.11 limits gifts given or accepted to a monetary value of $10 US. A $25 gift card exceeds that ceiling regardless of intent, frequency, or disclosure. The absence of an employer policy does not remove the Code obligation.",
+          "is_key": true,
+          "is_target_misconception": false
+        },
+        "C": {
+          "text": "Accept it and disclose it to the supervisor at the next supervision meeting",
+          "rationale": "Disclosure to a supervisor does not authorize acceptance of a gift that exceeds the Code threshold.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "D": {
+          "text": "Accept it and record it in the session note for transparency",
+          "rationale": "Documentation records what occurred; it does not make an impermissible acceptance permissible.",
+          "is_key": false,
+          "is_target_misconception": false
+        }
+      }
+    },
+    {
+      "item_code": "F-08-002",
+      "task_code": "F.8",
+      "master_version": 1,
+      "key_concept": "Employer policy precedence (isolated)",
+      "question_type": "scenario",
+      "difficulty_author": 2,
+      "source_standard": "1.11",
+      "authority_source": "BACB RBT Ethics Code (2.0)",
+      "authority_version": "Updated 08/2024",
+      "source_checked_on": "2026-10-03",
+      "is_rule_dependent": true,
+      "requires_reverification": true,
+      "cadence_months": 6,
+      "status": "draft",
+      "stem": "A caregiver offers an RBT a $5 coffee gift card after a session. The value is within the RBT Ethics Code limit. The RBT's employer prohibits staff from accepting client gifts of any value. What should the RBT do?",
+      "options": {
+        "A": {
+          "text": "Accept it, because the value is within the Ethics Code limit",
+          "rationale": "It is correct on the Code question and wrong on the governing question.",
+          "is_key": false,
+          "is_target_misconception": true
+        },
+        "B": {
+          "text": "Accept it if the supervisor gives verbal permission",
+          "rationale": "Verbal permission alone does not establish an authorized exception to the stated policy.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "C": {
+          "text": "Accept it and donate its value to the clinic's supply fund",
+          "rationale": "Redirecting the value does not change the fact of acceptance, which the policy prohibits.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "D": {
+          "text": "Decline it, because the employer policy is stricter and governs in this situation",
+          "rationale": "Where an employer policy is more restrictive than the Ethics Code, the RBT follows the stricter standard. Compliance with the Code's monetary ceiling does not exempt the RBT from an organizational prohibition.",
+          "is_key": true,
+          "is_target_misconception": false
+        }
+      }
+    },
+    {
+      "item_code": "F-08-003",
+      "task_code": "F.8",
+      "master_version": 1,
+      "key_concept": "Cumulative and repeated gifts",
+      "question_type": "scenario",
+      "difficulty_author": 3,
+      "source_standard": "1.11",
+      "authority_source": "BACB RBT Ethics Code (2.0)",
+      "authority_version": "Updated 08/2024",
+      "source_checked_on": "2026-10-03",
+      "is_rule_dependent": true,
+      "requires_reverification": true,
+      "cadence_months": 6,
+      "status": "draft",
+      "stem": "Over twelve consecutive weekly sessions, a caregiver gives the RBT a small item worth approximately $5 each time. The RBT's employer has no gift policy. Each individual gift is within the Ethics Code limit. How should the RBT evaluate this situation?",
+      "options": {
+        "A": {
+          "text": "No concern arises, because each gift is individually within the limit",
+          "rationale": "Item-by-item compliance is exactly the reasoning the cumulative provision addresses.",
+          "is_key": false,
+          "is_target_misconception": true
+        },
+        "B": {
+          "text": "No concern arises, because the RBT never requested any of the items",
+          "rationale": "The Code governs acceptance, not solicitation.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "C": {
+          "text": "A repeated pattern may raise a concern under the Code despite individual values; the RBT should raise it with the supervisor",
+          "rationale": "Standard 1.11 treats a gift as acceptable when it is an occasional expression of gratitude that does not result in financial benefit, and states that ongoing or cumulative gifts may rise to the level of a violation if they become a regularly expected source of value to the recipient. Twelve consecutive weekly gifts can become that kind of expected pattern, so the RBT raises it with the supervisor even though no single gift exceeds the $10 limit.",
+          "is_key": true,
+          "is_target_misconception": false
+        },
+        "D": {
+          "text": "No concern arises provided the RBT shares the items with colleagues",
+          "rationale": "Redistribution does not alter the pattern of acceptance.",
+          "is_key": false,
+          "is_target_misconception": false
+        }
+      }
+    },
+    {
+      "item_code": "F-09-001",
+      "task_code": "F.9",
+      "master_version": 1,
+      "key_concept": "Professional skills when representing oneself as an RBT",
+      "question_type": "scenario",
+      "difficulty_author": 2,
+      "source_standard": "2.03",
+      "authority_source": "BACB RBT Ethics Code (2.0)",
+      "authority_version": "Updated 08/2024",
+      "source_checked_on": "2026-10-03",
+      "is_rule_dependent": false,
+      "requires_reverification": false,
+      "cadence_months": null,
+      "status": "draft",
+      "stem": "A supervisor gives corrective feedback about delayed data entry. Which response best demonstrates professional and interpersonal skills?",
+      "options": {
+        "A": {
+          "text": "Explain that the supervisor is being overly critical",
+          "rationale": "Dismissing the feedback without clarifying expectations or addressing the delay does not demonstrate constructive engagement.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "B": {
+          "text": "Listen, ask clarifying questions, summarize the expected change, and implement the feedback",
+          "rationale": "Professional skills include accepting feedback, listening actively, seeking input, collaborating, and taking action to improve performance. Clarification and implementation make the expected change observable.",
+          "is_key": true,
+          "is_target_misconception": false
+        },
+        "C": {
+          "text": "Agree during supervision but continue the same practice",
+          "rationale": "Agreement without behavior change does not improve performance.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "D": {
+          "text": "Discuss the supervisor's feedback with the client's family",
+          "rationale": "The client's family is not the appropriate audience for a supervision disagreement.",
+          "is_key": false,
+          "is_target_misconception": false
+        }
+      }
+    },
+    {
+      "item_code": "F-10-001",
+      "task_code": "F.10",
+      "master_version": 1,
+      "key_concept": "Cultural humility and responsiveness",
+      "question_type": "scenario",
+      "difficulty_author": 3,
+      "source_standard": "1.07",
+      "authority_source": "BACB RBT Ethics Code (2.0)",
+      "authority_version": "Updated 08/2024",
+      "source_checked_on": "2026-10-03",
+      "is_rule_dependent": false,
+      "requires_reverification": false,
+      "cadence_months": null,
+      "status": "draft",
+      "stem": "A family explains that a common teaching example conflicts with an important cultural practice. The procedure itself has not been changed. What should the RBT do?",
+      "options": {
+        "A": {
+          "text": "Listen without arguing or interrupting, ask the family to describe the practice, examine possible personal bias, and promptly share the concern with the supervisor for culturally responsive direction",
+          "rationale": "Standard 1.07 directs RBTs to work with their supervisor on cultural responsiveness and to evaluate their own biases. Listening, asking about the practice, and bringing the concern to the supervisor does that without independently modifying the plan.",
+          "is_key": true,
+          "is_target_misconception": false
+        },
+        "B": {
+          "text": "Replace the target immediately without consulting the supervisor",
+          "rationale": "The RBT should not independently redesign the intervention.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "C": {
+          "text": "Tell the family that evidence-based procedures must be culturally neutral",
+          "rationale": "Evidence-based service delivery can and should be culturally responsive.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "D": {
+          "text": "Avoid discussing culture because it is outside the RBT role",
+          "rationale": "Avoidance prevents responsive collaboration and does not address the family's concern.",
+          "is_key": false,
+          "is_target_misconception": false
+        }
+      }
+    }
+  ],
+  "languages": []
+}
