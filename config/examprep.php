@@ -50,4 +50,41 @@ return [
     ],
 
     'items_file' => database_path('data/items.json'),
+
+    /*
+    | Controlled ABA terminology dictionary (flow_exam_prep_aba_terms), one
+    | JSON file per import package. The locale set is frozen at Gate 0:
+    | en-US, pt-BR, es-419, uk-UA, ru-UA (ru-RU is never valid). en-US is the
+    | canonical source; other locales are "staging" until language review
+    | is completed, then "approved".
+    */
+    'terminology' => [
+        'path' => database_path('data/terminology'),
+
+        // Allowed statuses per dictionary locale.
+        'statuses' => [
+            'en-US' => ['canonical'],
+            'pt-BR' => ['staging', 'approved'],
+            'es-419' => ['staging', 'approved'],
+            'uk-UA' => ['staging', 'approved'],
+            'ru-UA' => ['staging', 'approved'],
+        ],
+
+        // App locale (menu and lang/ folder) to dictionary locale.
+        'locale_map' => [
+            'en' => 'en-US',
+            'pt' => 'pt-BR',
+            'es' => 'es-419',
+            'uk' => 'uk-UA',
+            'ru-UA' => 'ru-UA',
+        ],
+
+        // Keep these titles in English; a localized explanation may follow in parentheses.
+        'bacb_titles' => [
+            'RBT Supervisor',
+            'RBT Requirements Coordinator',
+            'RBT Test Content Outline',
+            'RBT Initial Competency Assessment',
+        ],
+    ],
 ];
