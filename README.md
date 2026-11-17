@@ -57,7 +57,7 @@ php artisan serve
 
 Abra `http://localhost:8000`. Como candidato você verá “Ainda não há itens de prática”, porque nada foi liberado. Entre em `/staff/login` para usar a visão de teste com todos os rascunhos.
 
-Testes: `php artisan test` (cobrem gabarito oculto, correção, posse de sessão, cronômetro no servidor, limpeza de dados, gates, importação, passos do Ethics Pilot, terminologia, cabeçalhos de cache e Turnstile).
+Testes: `php artisan test` (cobrem gabarito oculto, correção, posse de sessão, cronômetro no servidor, limpeza de dados, gates, importação, passos do Ethics Pilot, terminologia, cabeçalhos de cache, Turnstile e o papel só de leitura).
 
 Com Docker e Postgres: `APP_KEY=$(php artisan key:generate --show) docker compose up --build`.
 
@@ -83,6 +83,13 @@ Cada passo de revisão exige um papel (`staff:create --role=...`):
 | fairness_review → approved | `fairness_reviewer` |
 | approved → released | `admin`, e só com `EXAMPREP_RELEASE_GATE_OPEN=true` (Gate 0) |
 | qualquer revisão → draft | revisor, com nota obrigatória |
+
+Há também o papel **`viewer`** (só leitura): vê a lista de itens, estados, versões, histórico e a pré-visualização dos ecrãs do candidato em qualquer idioma (`/staff/items/{código}/preview`). Não pode mudar estados, importar, apagar nem ver o log de respostas, e não consegue criar dados no lado do candidato. A pré-visualização não grava nada. O papel `tester` continua podendo enviar rascunhos para revisão BCBA; para acesso realmente só de leitura use `viewer`.
+
+```bash
+php artisan staff:create leitor@exemplo.com --name="Leitor" --role=viewer --generate-password
+php artisan staff:remove leitor@exemplo.com   # revoga o acesso e encerra as sessões
+```
 
 O revisor aprova a versão que leu: se o item mudar enquanto a página está aberta, a aprovação é recusada.
 

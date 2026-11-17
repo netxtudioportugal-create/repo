@@ -37,6 +37,10 @@ class ItemWorkflow
 
     public function returnToDraft(Item $item, User $by, string $note): Item
     {
+        if ($by->isReadOnly()) {
+            throw new AuthorizationException('Read-only access.');
+        }
+
         if (! $item->status->canReturnToDraft()) {
             throw ValidationException::withMessages(['status' => 'This item cannot be returned to draft.']);
         }

@@ -29,9 +29,16 @@
         @if ($item->source_review_hold) Source review hold. @endif
     </p>
 
+    <p class="row">
+        <a class="btn ghost" href="{{ route('staff.items.preview', $item) }}">Preview candidate screen</a>
+        <a class="btn ghost" href="{{ route('staff.items.preview', [$item, 'reveal' => 1]) }}">Preview answer screen</a>
+    </p>
+
     <section class="card">
         <h2>Review decision</h2>
-        @if ($step)
+        @if ($user->isReadOnly())
+            <p class="muted">Read-only access. You can see this item, its status and versions, but not change them.</p>
+        @elseif ($step)
             <form method="POST" action="{{ route('staff.items.transition', $item) }}">
                 @csrf
                 <input type="hidden" name="version" value="{{ $item->version }}">

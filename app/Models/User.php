@@ -27,8 +27,21 @@ class User extends Authenticatable
         ];
     }
 
+    public function isReadOnly(): bool
+    {
+        return $this->role === StaffRole::Viewer;
+    }
+
+    /**
+     * May this account take an action that needs $role (null: any acting staff)?
+     * A read-only account can never act, whatever the role asked for.
+     */
     public function hasRole(?string $role): bool
     {
+        if ($this->isReadOnly()) {
+            return false;
+        }
+
         if ($role === null) {
             return true;
         }

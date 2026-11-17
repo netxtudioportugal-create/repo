@@ -11,15 +11,15 @@ use App\Http\Controllers\Staff\NotesController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/welcome', [OnboardingController::class, 'show'])->name('onboarding');
-Route::post('/welcome', [OnboardingController::class, 'store'])->name('onboarding.store');
+Route::post('/welcome', [OnboardingController::class, 'store'])->middleware('not-read-only')->name('onboarding.store');
 Route::post('/locale', LocaleController::class)->name('locale');
 
 Route::middleware('acknowledged')->group(function () {
     Route::get('/', HomeController::class)->name('home');
     Route::get('/about', [AboutController::class, 'show'])->name('about');
-    Route::delete('/about/data', [AboutController::class, 'clear'])->name('about.clear');
+    Route::delete('/about/data', [AboutController::class, 'clear'])->middleware('not-read-only')->name('about.clear');
 
-    Route::middleware('throttle:practice')->prefix('practice')->name('practice.')->group(function () {
+    Route::middleware(['throttle:practice', 'not-read-only'])->prefix('practice')->name('practice.')->group(function () {
         Route::post('/domain/{domain}', [PracticeController::class, 'startDomain'])->name('domain');
         Route::post('/timed', [PracticeController::class, 'startTimed'])->name('timed');
         Route::get('/{session}/q/{position}', [PracticeController::class, 'question'])->whereNumber('position')->name('question');
@@ -35,9 +35,15 @@ Route::prefix('staff')->name('staff.')->group(function () {
     Route::post('/login', [AuthController::class, 'login'])->middleware('guest');
     Route::post('/logout', [AuthController::class, 'logout'])->middleware('auth')->name('logout');
 
+    // Every staff account, read-only included: look, never touch.
     Route::middleware('staff')->group(function () {
         Route::get('/items', [ItemReviewController::class, 'index'])->name('items.index');
         Route::get('/items/{item}', [ItemReviewController::class, 'show'])->name('items.show');
+        Route::get('/items/{item}/preview', [ItemReviewController::class, 'preview'])->name('items.preview');
+    });
+
+    // Acting staff only. The response log holds candidate data, so read-only accounts do not see it.
+    Route::middleware('staff:full')->group(function () {
         Route::post('/items/{item}/transition', [ItemReviewController::class, 'transition'])->name('items.transition');
         Route::post('/items/{item}/language', [ItemReviewController::class, 'language'])->name('items.language');
         Route::get('/notes', NotesController::class)->name('notes');

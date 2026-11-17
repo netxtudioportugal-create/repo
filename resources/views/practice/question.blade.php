@@ -35,7 +35,21 @@
         <p class="pending">{{ __('app.pending') }}</p>
     @endif
 
-    <form method="POST" action="{{ $mode === 'review' ? '#' : route('practice.answer', [$session, $si->position]) }}">
+    @if ($mode === 'preview')
+        <div class="card small" role="note">
+            <strong>Preview of {{ $item->code }} v{{ $item->version }} ({{ $item->status->label() }}).</strong>
+            Nothing on this screen is saved.
+            <span style="display:block;margin-top:6px">
+                @foreach (config('examprep.locales') as $code => $meta)
+                    <a href="{{ route('staff.items.preview', [$item, 'locale' => $code, 'reveal' => $revealed ? 1 : null]) }}" @if ($code === $previewLocale) aria-current="true" @endif>{{ $code }}</a>@if (! $loop->last) · @endif
+                @endforeach
+                — <a href="{{ route('staff.items.preview', [$item, 'locale' => $previewLocale, 'reveal' => $revealed ? null : 1]) }}">{{ $revealed ? 'Hide answer' : 'Show answer screen' }}</a>
+                — <a href="{{ route('staff.items.show', $item) }}">Back to item</a>
+            </span>
+        </div>
+    @endif
+
+    <form method="POST" action="{{ in_array($mode, ['review', 'preview'], true) ? '#' : route('practice.answer', [$session, $si->position]) }}">
         @csrf
         <p class="stem" lang="{{ $contentLang }}">{{ $content->stem }}</p>
 
@@ -66,7 +80,7 @@
 
         @if ($revealed)
             <div class="feedback" role="status">
-                <strong>{{ $mode === 'review' ? __('app.why') : ($ok ? __('app.correct') : __('app.incorrect')) }}</strong>
+                <strong>{{ in_array($mode, ['review', 'preview'], true) ? __('app.why') : ($ok ? __('app.correct') : __('app.incorrect')) }}</strong>
                 @if ($mode === 'review' && ! $pick)
                     <p>{{ __('app.yourAnswerNone') }}</p>
                 @endif
