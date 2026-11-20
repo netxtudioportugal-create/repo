@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 /** Internal task label. Never the official BACB task wording (IP hold). */
 class Task extends Model
 {
-    protected $fillable = ['domain_id', 'code', 'labels'];
+    protected $fillable = ['domain_id', 'code', 'labels', 'official_wording', 'source_version', 'source_url'];
 
     protected function casts(): array
     {

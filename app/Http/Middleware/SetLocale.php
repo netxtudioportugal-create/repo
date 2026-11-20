@@ -14,13 +14,26 @@ class SetLocale
         $supported = array_keys(config('examprep.locales'));
         $learner = $request->attributes->get('learner');
 
-        $locale = $request->session()->get('locale')
-            ?? $learner?->locale
-            ?? $request->getPreferredLanguage($supported)
-            ?? config('examprep.fallback_locale');
+        $locale = $request->session()->get('locale') ?? $learner?->locale ?? $this->fromBrowser($request, $supported);
+        $locale = config('examprep.legacy_locales')[$locale] ?? $locale;
 
         App::setLocale(in_array($locale, $supported, true) ? $locale : config('examprep.fallback_locale'));
 
         return $next($request);
+    }
+
+    /** First browser language whose language part matches a supported locale. ru-UA needs an exact match. */
+    private function fromBrowser(Request $request, array $supported): ?string
+    {
+        foreach ($request->getLanguages() as $language) {
+            $language = str_replace('_', '-', $language);
+            foreach ($supported as $locale) {
+                if ($language === $locale || ($locale !== 'ru-UA' && strtok($language, '-') === strtok($locale, '-'))) {
+                    return $locale;
+                }
+            }
+        }
+
+        return null;
     }
 }

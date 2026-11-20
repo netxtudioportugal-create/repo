@@ -33,14 +33,14 @@
         </a>
 
         <details class="langwrap">
-            <summary class="langbtn">{{ __('app.language') }}: {{ $locales[$current]['name'] }} <span aria-hidden="true">▾</span></summary>
+            <summary class="langbtn">{{ __('app.language') }}: {{ $locales[$current]['menu'] }} <span aria-hidden="true">▾</span></summary>
             <ul class="langlist">
                 @foreach ($locales as $code => $meta)
                     <li>
                         <form method="POST" action="{{ route('locale') }}">
                             @csrf
                             <button name="locale" value="{{ $code }}" lang="{{ $meta['html'] }}" @if ($code === $current) aria-current="true" @endif>
-                                <b>{{ $meta['name'] }}</b>
+                                <b>{{ $meta['menu'] }} · {{ $meta['name'] }}</b>
                                 @if ($code === 'ru-UA')<span>{{ __('app.ruSub', [], $code) }}</span>@endif
                             </button>
                         </form>

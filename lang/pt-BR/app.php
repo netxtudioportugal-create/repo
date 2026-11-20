@@ -42,7 +42,7 @@ return [
     'aboutWhat' => 'O que é',
     'aboutWhatBody' => 'Prática independente para quem se prepara para o exame RBT®. Dúvidas sobre treinamento, supervisão ou elegibilidade devem ir para o seu RBT Supervisor ou RBT Requirements Coordinator, ou diretamente ao BACB.',
     'tmTitle' => 'Marcas registradas',
-    'tmBody' => 'RBT® e BACB® são marcas registradas do Behavior Analyst Certification Board, Inc. Este app não é afiliado, endossado nem aprovado pelo BACB.',
+    'tmBody' => 'RBT, BCBA e BACB são marcas registadas do Behavior Analyst Certification Board (Conselho de Certificação de Analistas do Comportamento). A Flow Behavior não é afiliada nem endossada pelo BACB.',
     'dataTitle' => 'Seus dados',
     'dataBody' => 'Suas respostas ficam salvas no nosso servidor sob um identificador aleatório guardado em um cookie neste dispositivo. Não há conta, nome, e-mail nem análises de uso.',
     'clear' => 'Apagar meus dados de prática',

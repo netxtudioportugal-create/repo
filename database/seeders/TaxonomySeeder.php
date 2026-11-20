@@ -6,7 +6,10 @@ use App\Models\Domain;
 use App\Models\Task;
 use Illuminate\Database\Seeder;
 
-/** Domains A-F and internal task labels, from database/data/taxonomy.json. */
+/**
+ * Domains A-F and the 43 tasks of the outline, from database/data/taxonomy.json.
+ * Tasks carry internal labels only: official_wording is never written (IP hold).
+ */
 class TaxonomySeeder extends Seeder
 {
     public function run(): void
@@ -19,10 +22,12 @@ class TaxonomySeeder extends Seeder
         }
 
         $domains = Domain::pluck('id', 'code');
-        foreach ($data['tasks'] as $code => $labels) {
+        foreach ($data['tasks'] as $code => $task) {
             Task::updateOrCreate(['code' => $code], [
-                'domain_id' => $domains[strtok($code, '.')],
-                'labels' => $labels,
+                'domain_id' => $domains[$task['domain']],
+                'labels' => $task['labels'],
+                'source_version' => $task['source_version'],
+                'source_url' => $task['source_url'],
             ]);
         }
     }

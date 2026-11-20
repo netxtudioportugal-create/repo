@@ -1,118 +1,433 @@
 {
   "domains": {
     "A": {
-      "en": "Data Collection and Graphing",
-      "pt": "Coleta de dados e gráficos",
-      "es": "Recolección de datos y gráficas",
-      "uk": "Збір даних і графіки",
+      "en-US": "Data Collection and Graphing",
+      "pt-BR": "Coleta de dados e gráficos",
+      "es-419": "Recolección de datos y gráficas",
+      "uk-UA": "Збір даних і графіки",
       "ru-UA": "Сбор данных и графики"
     },
     "B": {
-      "en": "Behavior Assessment",
-      "pt": "Avaliação do comportamento",
-      "es": "Evaluación de la conducta",
-      "uk": "Оцінювання поведінки",
+      "en-US": "Behavior Assessment",
+      "pt-BR": "Avaliação do comportamento",
+      "es-419": "Evaluación de la conducta",
+      "uk-UA": "Оцінювання поведінки",
       "ru-UA": "Оценка поведения"
     },
     "C": {
-      "en": "Behavior Acquisition",
-      "pt": "Aquisição de comportamento",
-      "es": "Adquisición de conducta",
-      "uk": "Набуття поведінки",
+      "en-US": "Behavior Acquisition",
+      "pt-BR": "Aquisição de comportamento",
+      "es-419": "Adquisición de conducta",
+      "uk-UA": "Набуття поведінки",
       "ru-UA": "Приобретение поведения"
     },
     "D": {
-      "en": "Behavior Reduction",
-      "pt": "Redução de comportamento",
-      "es": "Reducción de conducta",
-      "uk": "Зменшення поведінки",
+      "en-US": "Behavior Reduction",
+      "pt-BR": "Redução de comportamento",
+      "es-419": "Reducción de conducta",
+      "uk-UA": "Зменшення поведінки",
       "ru-UA": "Снижение поведения"
     },
     "E": {
-      "en": "Documentation and Reporting",
-      "pt": "Documentação e relatórios",
-      "es": "Documentación e informes",
-      "uk": "Документація та звітність",
+      "en-US": "Documentation and Reporting",
+      "pt-BR": "Documentação e relatórios",
+      "es-419": "Documentación e informes",
+      "uk-UA": "Документація та звітність",
       "ru-UA": "Документация и отчётность"
     },
     "F": {
-      "en": "Ethics",
-      "pt": "Ética",
-      "es": "Ética",
-      "uk": "Етика",
+      "en-US": "Ethics",
+      "pt-BR": "Ética",
+      "es-419": "Ética",
+      "uk-UA": "Етика",
       "ru-UA": "Этика"
     }
   },
+  "tasks_source": "Flow_ExamPrep_Ethics_Import_All_Locales_v2.xlsx (sheet tco_tasks). Internal labels only; official task wording is never stored (IP hold).",
   "tasks": {
+    "A.1": {
+      "domain": "A",
+      "labels": {
+        "en-US": "Continuous measurement"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "A.2": {
+      "domain": "A",
+      "labels": {
+        "en-US": "Discontinuous measurement"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "A.3": {
+      "domain": "A",
+      "labels": {
+        "en-US": "Permanent product recording"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "A.4": {
+      "domain": "A",
+      "labels": {
+        "en-US": "Data entry and graph updates"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "A.5": {
+      "domain": "A",
+      "labels": {
+        "en-US": "Observable, measurable descriptions"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "A.6": {
+      "domain": "A",
+      "labels": {
+        "en-US": "Calculating and summarizing data"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "A.7": {
+      "domain": "A",
+      "labels": {
+        "en-US": "Trends in graphed data"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "A.8": {
+      "domain": "A",
+      "labels": {
+        "en-US": "Data reliability and procedural fidelity risks"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "B.1": {
+      "domain": "B",
+      "labels": {
+        "en-US": "Preference assessments"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "B.2": {
+      "domain": "B",
+      "labels": {
+        "en-US": "Skill strengths and deficits assessments"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "B.3": {
+      "domain": "B",
+      "labels": {
+        "en-US": "Functional assessment components"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "C.1": {
+      "domain": "C",
+      "labels": {
+        "en-US": "Positive and negative reinforcement"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "C.2": {
+      "domain": "C",
+      "labels": {
+        "en-US": "Conditioned reinforcers"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "C.3": {
+      "domain": "C",
+      "labels": {
+        "en-US": "Discrete-trial teaching"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "C.4": {
+      "domain": "C",
+      "labels": {
+        "en-US": "Naturalistic teaching"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "C.5": {
+      "domain": "C",
+      "labels": {
+        "en-US": "Chaining"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "C.6": {
+      "domain": "C",
+      "labels": {
+        "en-US": "Discrimination training"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "C.7": {
+      "domain": "C",
+      "labels": {
+        "en-US": "Prompting and prompt fading"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "C.8": {
+      "domain": "C",
+      "labels": {
+        "en-US": "Generalization"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "C.9": {
+      "domain": "C",
+      "labels": {
+        "en-US": "Maintenance versus acquisition"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "C.10": {
+      "domain": "C",
+      "labels": {
+        "en-US": "Shaping"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "C.11": {
+      "domain": "C",
+      "labels": {
+        "en-US": "Token economies"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "D.1": {
+      "domain": "D",
+      "labels": {
+        "en-US": "Functions of behavior"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "D.2": {
+      "domain": "D",
+      "labels": {
+        "en-US": "Antecedent interventions"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "D.3": {
+      "domain": "D",
+      "labels": {
+        "en-US": "Differential reinforcement"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "D.4": {
+      "domain": "D",
+      "labels": {
+        "en-US": "Extinction"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "D.5": {
+      "domain": "D",
+      "labels": {
+        "en-US": "Punishment procedures"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "D.6": {
+      "domain": "D",
+      "labels": {
+        "en-US": "Secondary effects of extinction and punishment"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "D.7": {
+      "domain": "D",
+      "labels": {
+        "en-US": "Crisis and emergency procedures"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "E.1": {
+      "domain": "E",
+      "labels": {
+        "en-US": "Communicating team concerns to the supervisor"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "E.2": {
+      "domain": "E",
+      "labels": {
+        "en-US": "Seeking clinical direction"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "E.3": {
+      "domain": "E",
+      "labels": {
+        "en-US": "Reporting variables that affect progress"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
+    "E.4": {
+      "domain": "E",
+      "labels": {
+        "en-US": "Objective session reporting"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
+    },
     "F.1": {
-      "en": "Core ethics principles",
-      "pt": "Princípios éticos fundamentais",
-      "es": "Principios éticos fundamentales",
-      "uk": "Основні етичні принципи",
-      "ru-UA": "Основные этические принципы"
+      "domain": "F",
+      "labels": {
+        "en-US": "Core ethics principles",
+        "pt-BR": "Princípios éticos fundamentais",
+        "es-419": "Principios éticos fundamentales",
+        "uk-UA": "Основні етичні принципи",
+        "ru-UA": "Основные этические принципы"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
     },
     "F.2": {
-      "en": "Competence before service delivery",
-      "pt": "Competência antes da prestação de serviços",
-      "es": "Competencia antes de prestar servicios",
-      "uk": "Компетентність до надання послуг",
-      "ru-UA": "Компетентность до оказания услуг"
+      "domain": "F",
+      "labels": {
+        "en-US": "Competence before service delivery",
+        "pt-BR": "Competência antes da prestação de serviços",
+        "es-419": "Competencia antes de prestar servicios",
+        "uk-UA": "Компетентність до надання послуг",
+        "ru-UA": "Компетентность до оказания услуг"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
     },
     "F.3": {
-      "en": "Qualified ongoing supervision",
-      "pt": "Supervisão qualificada contínua",
-      "es": "Supervisión calificada continua",
-      "uk": "Постійна кваліфікована супервізія",
-      "ru-UA": "Постоянная квалифицированная супервизия"
+      "domain": "F",
+      "labels": {
+        "en-US": "Qualified ongoing supervision",
+        "pt-BR": "Supervisão qualificada contínua",
+        "es-419": "Supervisión calificada continua",
+        "uk-UA": "Постійна кваліфікована супервізія",
+        "ru-UA": "Постоянная квалифицированная супервизия"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
     },
     "F.4": {
-      "en": "Effective supervision practices",
-      "pt": "Práticas de supervisão eficazes",
-      "es": "Prácticas de supervisión eficaces",
-      "uk": "Ефективні практики супервізії",
-      "ru-UA": "Эффективные практики супервизии"
+      "domain": "F",
+      "labels": {
+        "en-US": "Effective supervision practices",
+        "pt-BR": "Práticas de supervisão eficazes",
+        "es-419": "Prácticas de supervisión eficaces",
+        "uk-UA": "Ефективні практики супервізії",
+        "ru-UA": "Эффективные практики супервизии"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
     },
     "F.5": {
-      "en": "Confidential information",
-      "pt": "Informações confidenciais",
-      "es": "Información confidencial",
-      "uk": "Конфіденційна інформація",
-      "ru-UA": "Конфиденциальная информация"
+      "domain": "F",
+      "labels": {
+        "en-US": "Confidential information",
+        "pt-BR": "Informações confidenciais",
+        "es-419": "Información confidencial",
+        "uk-UA": "Конфіденційна інформація",
+        "ru-UA": "Конфиденциальная информация"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
     },
     "F.6": {
-      "en": "Public statements",
-      "pt": "Declarações públicas",
-      "es": "Declaraciones públicas",
-      "uk": "Публічні заяви",
-      "ru-UA": "Публичные заявления"
+      "domain": "F",
+      "labels": {
+        "en-US": "Public statements",
+        "pt-BR": "Declarações públicas",
+        "es-419": "Declaraciones públicas",
+        "uk-UA": "Публічні заяви",
+        "ru-UA": "Публичные заявления"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
     },
     "F.7": {
-      "en": "Multiple relationships",
-      "pt": "Relações múltiplas",
-      "es": "Relaciones múltiples",
-      "uk": "Множинні стосунки",
-      "ru-UA": "Множественные отношения"
+      "domain": "F",
+      "labels": {
+        "en-US": "Multiple relationships",
+        "pt-BR": "Relações múltiplas",
+        "es-419": "Relaciones múltiples",
+        "uk-UA": "Множинні стосунки",
+        "ru-UA": "Множественные отношения"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
     },
     "F.8": {
-      "en": "Gifts",
-      "pt": "Presentes",
-      "es": "Regalos",
-      "uk": "Подарунки",
-      "ru-UA": "Подарки"
+      "domain": "F",
+      "labels": {
+        "en-US": "Gifts",
+        "pt-BR": "Presentes",
+        "es-419": "Regalos",
+        "uk-UA": "Подарунки",
+        "ru-UA": "Подарки"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
     },
     "F.9": {
-      "en": "Interpersonal and professional skills",
-      "pt": "Habilidades interpessoais e profissionais",
-      "es": "Habilidades interpersonales y profesionales",
-      "uk": "Міжособистісні та професійні навички",
-      "ru-UA": "Межличностные и профессиональные навыки"
+      "domain": "F",
+      "labels": {
+        "en-US": "Interpersonal and professional skills",
+        "pt-BR": "Habilidades interpessoais e profissionais",
+        "es-419": "Habilidades interpersonales y profesionales",
+        "uk-UA": "Міжособистісні та професійні навички",
+        "ru-UA": "Межличностные и профессиональные навыки"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
     },
     "F.10": {
-      "en": "Cultural humility and responsiveness",
-      "pt": "Humildade e responsividade cultural",
-      "es": "Humildad y sensibilidad cultural",
-      "uk": "Культурна скромність і чутливість",
-      "ru-UA": "Культурная скромность и чуткость"
+      "domain": "F",
+      "labels": {
+        "en-US": "Cultural humility and responsiveness",
+        "pt-BR": "Humildade e responsividade cultural",
+        "es-419": "Humildad y sensibilidad cultural",
+        "uk-UA": "Культурна скромність і чутливість",
+        "ru-UA": "Культурная скромность и чуткость"
+      },
+      "source_version": "Updated 09/2024",
+      "source_url": "https://www.bacb.com/wp-content/rbt-outline-3rdEd/"
     }
   }
 }

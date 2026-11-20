@@ -16,7 +16,14 @@ class EnsureStaff
             return redirect()->guest(route('staff.login'));
         }
 
-        abort_unless($user->hasRole($role), 403);
+        // "staff" alone: any staff account, read-only included.
+        // "staff:full": staff who may act (everyone except read-only).
+        // "staff:<role>": that role or admin.
+        if ($role === 'full') {
+            abort_if($user->isReadOnly(), 403, 'Read-only access.');
+        } elseif ($role !== null) {
+            abort_unless($user->hasRole($role), 403);
+        }
 
         return $next($request);
     }
