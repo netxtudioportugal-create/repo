@@ -15,7 +15,7 @@ return [
     'homeSub' => 'Задания сгруппированы по шести доменам содержания RBT® Test Content Outline (3-е изд.), действующего с 1 января 2026 года.',
     'answered' => 'Выполнено :n из :t',
     'timedTitle' => 'Тренировка на время',
-    'timedBody' => 'All :t items in :m minutes, about one minute per item. That pace is similar to the real exam\'s 90 minutes for 85 questions. You see answers when you finish.',
+    'timedBody' => 'Все :t заданий за :m минут, примерно минута на задание. Такой темп похож на настоящий экзамен: 90 минут на 85 вопросов. Ответы вы увидите после завершения.',
     'timedStart' => 'Начать тренировку',
     'qOf' => 'Вопрос :i из :t',
     'check' => 'Проверить ответ',

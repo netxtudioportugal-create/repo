@@ -15,7 +15,7 @@ return [
     'homeSub' => 'Завдання згруповано за шістьма доменами змісту RBT® Test Content Outline (3-тє вид.), що діє з 1 січня 2026 року.',
     'answered' => 'Виконано :n з :t',
     'timedTitle' => 'Тренування на час',
-    'timedBody' => 'All :t items in :m minutes, about one minute per item. That pace is similar to the real exam\'s 90 minutes for 85 questions. You see answers when you finish.',
+    'timedBody' => 'Усі :t завдань за :m хвилин, приблизно хвилина на завдання. Такий темп схожий на справжній іспит: 90 хвилин на 85 запитань. Відповіді ви побачите після завершення.',
     'timedStart' => 'Почати тренування',
     'qOf' => 'Запитання :i з :t',
     'check' => 'Перевірити відповідь',
