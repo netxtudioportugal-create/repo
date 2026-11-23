@@ -37,7 +37,7 @@
 
         <section class="panel">
             <h2>{{ __('app.timedTitle') }}</h2>
-            <p>{{ __('app.timedBody', ['t' => $total, 'm' => $minutes]) }}</p>
+            <p>{{ __('app.timedBody', ['t' => $total, 'm' => $minutes, 'items' => \App\Support\Plural::word($total, 'app.itemForms'), 'mins' => \App\Support\Plural::word($minutes, 'app.minuteForms')]) }}</p>
             <form method="POST" action="{{ route('practice.timed') }}">
                 @csrf
                 <button class="btn" type="submit">{{ __('app.timedStart') }}</button>
