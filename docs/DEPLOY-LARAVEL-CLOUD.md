@@ -73,6 +73,16 @@ php artisan pilot:import --step=6
 
 Cada `pilot:import` corre numa transação, mostra o que foi criado, atualizado e marcado como `stale`, e termina com a tabela de evidência. `--dry-run` valida sem gravar. Não altere nenhum `language_status` à mão entre os passos 5 e 6.
 
+**Domínio B, lote 1** também não corre no deploy. Depois do deploy que traz a migração `widen_item_authority_fields`, corra um passo de cada vez:
+
+```
+php artisan pilot:import --batch=domain-b --step=1   # terminologia: 160 registos
+php artisan pilot:import --batch=domain-b --step=2   # 8 masters em inglês
+php artisan pilot:import --batch=domain-b --step=3   # 32 traduções aprovadas
+```
+
+A evidência de cada passo lista só os 8 itens do lote (`pilot:evidence --batch=domain-b`).
+
 `terms:import` importa o dicionário de terminologia ABA (`database/data/terminology/`, um ficheiro por pacote: en-US, pt-BR, es-419, uk-UA + ru-UA). Também é idempotente. Se um ficheiro alterar um termo já controlado sem mudar `dictionary_version`, a importação é rejeitada e o deploy falha: termos controlados nunca são reescritos no lugar. Os termos pt-BR e es-419 entram como `staging` e só passam a `approved` depois da revisão linguística do Americo, numa nova versão do dicionário.
 
 ## 6. Primeiro acesso da equipe

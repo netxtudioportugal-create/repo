@@ -25,15 +25,24 @@ class DatabaseSeeder extends Seeder
         ));
 
         $files = [config('examprep.items_file')];
-        foreach (config('examprep.pilot.steps') as $step) {
-            $files[] = config('examprep.pilot.path')."/step-{$step}.json";
+        foreach (config('examprep.pilot.batches') as $batch) {
+            foreach ($batch['steps'] as $step) {
+                $files[] = "{$batch['path']}/step-{$step}.json";
+            }
         }
 
         foreach ($files as $file) {
-            $report = $importer->import($read($file));
+            $data = $read($file);
+            if (isset($data['terminology'])) {
+                $terms = $terminology->import($data['terminology']);
+                $this->command?->info(sprintf('%s: terminology %d created.', basename(dirname($file)).'/'.basename($file), count($terms['created'])));
+
+                continue;
+            }
+            $report = $importer->import($data);
             $this->command?->info(sprintf(
                 '%s: masters %d created, %d updated; language records %d created, %d updated; %d turned stale.',
-                basename($file),
+                basename(dirname($file)).'/'.basename($file),
                 count($report['masters']['created']), count($report['masters']['updated']),
                 count($report['languages']['created']), count($report['languages']['updated']),
                 count($report['stale']),

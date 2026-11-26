@@ -1,0 +1,964 @@
+{
+  "source": "Flow_ExamPrep_DomainB_Import_All_Locales_v1.xlsx",
+  "batch": "domain-b",
+  "phase": 1,
+  "step": 1,
+  "contains": "Domain B terms: 22 terms x 5 locales = 110 records.",
+  "terminology": [
+    {
+      "dictionary_id": "flow_exam_prep_aba_terms",
+      "dictionary_version": "1.0",
+      "package": "Flow_ExamPrep_DomainB_Import_All_Locales_v1.xlsx (sheet Terminology, en-US)",
+      "language_label": "English",
+      "locales": [
+        "en-US"
+      ],
+      "review_status": "not_applicable",
+      "reviewer": null,
+      "effective_on": null,
+      "approved_by": null,
+      "terms": [
+        {
+          "term_key": "preference_assessment",
+          "source_term_en": "Preference assessment",
+          "locale": "en-US",
+          "localized_term": "Preference assessment",
+          "status": "canonical",
+          "notes": "Domain B Batch 1"
+        },
+        {
+          "term_key": "mswo",
+          "source_term_en": "MSWO preference assessment",
+          "locale": "en-US",
+          "localized_term": "MSWO preference assessment",
+          "status": "canonical",
+          "notes": "Domain B Batch 1"
+        },
+        {
+          "term_key": "msw",
+          "source_term_en": "MSW preference assessment",
+          "locale": "en-US",
+          "localized_term": "MSW preference assessment",
+          "status": "canonical",
+          "notes": "Domain B Batch 1"
+        },
+        {
+          "term_key": "paired_stimulus",
+          "source_term_en": "Paired stimulus preference assessment",
+          "locale": "en-US",
+          "localized_term": "Paired stimulus preference assessment",
+          "status": "canonical",
+          "notes": "Domain B Batch 1"
+        },
+        {
+          "term_key": "free_operant",
+          "source_term_en": "Free operant preference assessment",
+          "locale": "en-US",
+          "localized_term": "Free operant preference assessment",
+          "status": "canonical",
+          "notes": "Domain B Batch 1"
+        },
+        {
+          "term_key": "single_stimulus",
+          "source_term_en": "Single stimulus preference assessment",
+          "locale": "en-US",
+          "localized_term": "Single stimulus preference assessment",
+          "status": "canonical",
+          "notes": "Domain B Batch 1"
+        },
+        {
+          "term_key": "stimulus_array",
+          "source_term_en": "Stimulus array",
+          "locale": "en-US",
+          "localized_term": "Stimulus array",
+          "status": "canonical",
+          "notes": "Domain B Batch 1"
+        },
+        {
+          "term_key": "skill_probe",
+          "source_term_en": "Skill probe",
+          "locale": "en-US",
+          "localized_term": "Skill probe",
+          "status": "canonical",
+          "notes": "Domain B Batch 1"
+        },
+        {
+          "term_key": "curriculum_based_assessment",
+          "source_term_en": "Curriculum-based assessment",
+          "locale": "en-US",
+          "localized_term": "Curriculum-based assessment",
+          "status": "canonical",
+          "notes": "Domain B Batch 1"
+        },
+        {
+          "term_key": "prompt",
+          "source_term_en": "Prompt",
+          "locale": "en-US",
+          "localized_term": "Prompt",
+          "status": "canonical",
+          "notes": "Domain B Batch 1"
+        },
+        {
+          "term_key": "trial",
+          "source_term_en": "Trial",
+          "locale": "en-US",
+          "localized_term": "Trial",
+          "status": "canonical",
+          "notes": "Domain B Batch 1"
+        },
+        {
+          "term_key": "feedback",
+          "source_term_en": "Feedback",
+          "locale": "en-US",
+          "localized_term": "Feedback",
+          "status": "canonical",
+          "notes": "Domain B Batch 1"
+        },
+        {
+          "term_key": "antecedent",
+          "source_term_en": "Antecedent",
+          "locale": "en-US",
+          "localized_term": "Antecedent",
+          "status": "canonical",
+          "notes": "Domain B Batch 1"
+        },
+        {
+          "term_key": "consequence",
+          "source_term_en": "Consequence",
+          "locale": "en-US",
+          "localized_term": "Consequence",
+          "status": "canonical",
+          "notes": "Domain B Batch 1"
+        },
+        {
+          "term_key": "abc_data",
+          "source_term_en": "ABC data",
+          "locale": "en-US",
+          "localized_term": "ABC data",
+          "status": "canonical",
+          "notes": "Domain B Batch 1"
+        },
+        {
+          "term_key": "abc_recording",
+          "source_term_en": "ABC recording",
+          "locale": "en-US",
+          "localized_term": "ABC recording",
+          "status": "canonical",
+          "notes": "Domain B Batch 1"
+        },
+        {
+          "term_key": "descriptive_assessment",
+          "source_term_en": "Descriptive assessment",
+          "locale": "en-US",
+          "localized_term": "Descriptive assessment",
+          "status": "canonical",
+          "notes": "Domain B Batch 1"
+        },
+        {
+          "term_key": "fba",
+          "source_term_en": "Functional behavior assessment (FBA)",
+          "locale": "en-US",
+          "localized_term": "Functional behavior assessment (FBA)",
+          "status": "canonical",
+          "notes": "Domain B Batch 1"
+        },
+        {
+          "term_key": "functional_analysis",
+          "source_term_en": "Functional analysis (FA)",
+          "locale": "en-US",
+          "localized_term": "Functional analysis (FA)",
+          "status": "canonical",
+          "notes": "Domain B Batch 1"
+        },
+        {
+          "term_key": "fa_condition",
+          "source_term_en": "Condition of a functional analysis",
+          "locale": "en-US",
+          "localized_term": "Condition of a functional analysis",
+          "status": "canonical",
+          "notes": "Domain B Batch 1"
+        },
+        {
+          "term_key": "escape",
+          "source_term_en": "Escape",
+          "locale": "en-US",
+          "localized_term": "Escape",
+          "status": "canonical",
+          "notes": "Domain B Batch 1"
+        },
+        {
+          "term_key": "avoidance",
+          "source_term_en": "Avoidance",
+          "locale": "en-US",
+          "localized_term": "Avoidance",
+          "status": "canonical",
+          "notes": "Domain B Batch 1"
+        }
+      ]
+    },
+    {
+      "dictionary_id": "flow_exam_prep_aba_terms",
+      "dictionary_version": "1.0",
+      "package": "Flow_ExamPrep_DomainB_Import_All_Locales_v1.xlsx (sheet Terminology, pt-BR)",
+      "language_label": "Portuguese (Brazil)",
+      "locales": [
+        "pt-BR"
+      ],
+      "review_status": "completed",
+      "reviewer": "Americo Silva",
+      "effective_on": null,
+      "approved_by": null,
+      "terms": [
+        {
+          "term_key": "preference_assessment",
+          "source_term_en": "Preference assessment",
+          "locale": "pt-BR",
+          "localized_term": "avaliação de preferências",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "mswo",
+          "source_term_en": "MSWO preference assessment",
+          "locale": "pt-BR",
+          "localized_term": "avaliação de preferências com múltiplos estímulos sem reposição (MSWO)",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "msw",
+          "source_term_en": "MSW preference assessment",
+          "locale": "pt-BR",
+          "localized_term": "avaliação de preferências com múltiplos estímulos com reposição (MSW)",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "paired_stimulus",
+          "source_term_en": "Paired stimulus preference assessment",
+          "locale": "pt-BR",
+          "localized_term": "avaliação de preferências com estímulos pareados",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "free_operant",
+          "source_term_en": "Free operant preference assessment",
+          "locale": "pt-BR",
+          "localized_term": "avaliação de preferências por operante livre",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "single_stimulus",
+          "source_term_en": "Single stimulus preference assessment",
+          "locale": "pt-BR",
+          "localized_term": "avaliação com estímulo único",
+          "status": "approved",
+          "notes": "approved 2026-11-19"
+        },
+        {
+          "term_key": "stimulus_array",
+          "source_term_en": "Stimulus array",
+          "locale": "pt-BR",
+          "localized_term": "conjunto de estímulos",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "skill_probe",
+          "source_term_en": "Skill probe",
+          "locale": "pt-BR",
+          "localized_term": "sondagem de habilidade",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "curriculum_based_assessment",
+          "source_term_en": "Curriculum-based assessment",
+          "locale": "pt-BR",
+          "localized_term": "avaliação baseada no currículo",
+          "status": "approved",
+          "notes": "approved 2026-11-19"
+        },
+        {
+          "term_key": "prompt",
+          "source_term_en": "Prompt",
+          "locale": "pt-BR",
+          "localized_term": "dica",
+          "status": "approved",
+          "notes": "approved 2026-11-19"
+        },
+        {
+          "term_key": "trial",
+          "source_term_en": "Trial",
+          "locale": "pt-BR",
+          "localized_term": "tentativa",
+          "status": "approved",
+          "notes": "approved 2026-11-19"
+        },
+        {
+          "term_key": "feedback",
+          "source_term_en": "Feedback",
+          "locale": "pt-BR",
+          "localized_term": "feedback",
+          "status": "approved",
+          "notes": "approved 2026-11-19"
+        },
+        {
+          "term_key": "antecedent",
+          "source_term_en": "Antecedent",
+          "locale": "pt-BR",
+          "localized_term": "antecedente",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "consequence",
+          "source_term_en": "Consequence",
+          "locale": "pt-BR",
+          "localized_term": "consequência",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "abc_data",
+          "source_term_en": "ABC data",
+          "locale": "pt-BR",
+          "localized_term": "dados ABC",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "abc_recording",
+          "source_term_en": "ABC recording",
+          "locale": "pt-BR",
+          "localized_term": "registro ABC",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "descriptive_assessment",
+          "source_term_en": "Descriptive assessment",
+          "locale": "pt-BR",
+          "localized_term": "avaliação descritiva",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "fba",
+          "source_term_en": "Functional behavior assessment (FBA)",
+          "locale": "pt-BR",
+          "localized_term": "avaliação funcional do comportamento",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "functional_analysis",
+          "source_term_en": "Functional analysis (FA)",
+          "locale": "pt-BR",
+          "localized_term": "análise funcional",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "fa_condition",
+          "source_term_en": "Condition of a functional analysis",
+          "locale": "pt-BR",
+          "localized_term": "condição da análise funcional",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "escape",
+          "source_term_en": "Escape",
+          "locale": "pt-BR",
+          "localized_term": "fuga",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "avoidance",
+          "source_term_en": "Avoidance",
+          "locale": "pt-BR",
+          "localized_term": "esquiva",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        }
+      ]
+    },
+    {
+      "dictionary_id": "flow_exam_prep_aba_terms",
+      "dictionary_version": "1.0",
+      "package": "Flow_ExamPrep_DomainB_Import_All_Locales_v1.xlsx (sheet Terminology, es-419)",
+      "language_label": "Spanish (Latin America)",
+      "locales": [
+        "es-419"
+      ],
+      "review_status": "completed",
+      "reviewer": "Americo Silva",
+      "effective_on": null,
+      "approved_by": null,
+      "terms": [
+        {
+          "term_key": "preference_assessment",
+          "source_term_en": "Preference assessment",
+          "locale": "es-419",
+          "localized_term": "evaluación de preferencias",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "mswo",
+          "source_term_en": "MSWO preference assessment",
+          "locale": "es-419",
+          "localized_term": "evaluación de preferencias con estímulos múltiples sin reemplazo (MSWO)",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "msw",
+          "source_term_en": "MSW preference assessment",
+          "locale": "es-419",
+          "localized_term": "evaluación de preferencias con estímulos múltiples con reemplazo (MSW)",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "paired_stimulus",
+          "source_term_en": "Paired stimulus preference assessment",
+          "locale": "es-419",
+          "localized_term": "evaluación de preferencias con estímulos pareados",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "free_operant",
+          "source_term_en": "Free operant preference assessment",
+          "locale": "es-419",
+          "localized_term": "evaluación de preferencias de operante libre",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "single_stimulus",
+          "source_term_en": "Single stimulus preference assessment",
+          "locale": "es-419",
+          "localized_term": "evaluación de estímulo único",
+          "status": "approved",
+          "notes": "approved 2026-11-19"
+        },
+        {
+          "term_key": "stimulus_array",
+          "source_term_en": "Stimulus array",
+          "locale": "es-419",
+          "localized_term": "conjunto de estímulos",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "skill_probe",
+          "source_term_en": "Skill probe",
+          "locale": "es-419",
+          "localized_term": "sondeo de habilidad",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "curriculum_based_assessment",
+          "source_term_en": "Curriculum-based assessment",
+          "locale": "es-419",
+          "localized_term": "evaluación basada en el currículo",
+          "status": "approved",
+          "notes": "approved 2026-11-19"
+        },
+        {
+          "term_key": "prompt",
+          "source_term_en": "Prompt",
+          "locale": "es-419",
+          "localized_term": "ayuda",
+          "status": "approved",
+          "notes": "approved 2026-11-19"
+        },
+        {
+          "term_key": "trial",
+          "source_term_en": "Trial",
+          "locale": "es-419",
+          "localized_term": "ensayo",
+          "status": "approved",
+          "notes": "approved 2026-11-19"
+        },
+        {
+          "term_key": "feedback",
+          "source_term_en": "Feedback",
+          "locale": "es-419",
+          "localized_term": "retroalimentación",
+          "status": "approved",
+          "notes": "approved 2026-11-19"
+        },
+        {
+          "term_key": "antecedent",
+          "source_term_en": "Antecedent",
+          "locale": "es-419",
+          "localized_term": "antecedente",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "consequence",
+          "source_term_en": "Consequence",
+          "locale": "es-419",
+          "localized_term": "consecuencia",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "abc_data",
+          "source_term_en": "ABC data",
+          "locale": "es-419",
+          "localized_term": "datos ABC",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "abc_recording",
+          "source_term_en": "ABC recording",
+          "locale": "es-419",
+          "localized_term": "registro ABC",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "descriptive_assessment",
+          "source_term_en": "Descriptive assessment",
+          "locale": "es-419",
+          "localized_term": "evaluación descriptiva",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "fba",
+          "source_term_en": "Functional behavior assessment (FBA)",
+          "locale": "es-419",
+          "localized_term": "evaluación funcional de la conducta",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "functional_analysis",
+          "source_term_en": "Functional analysis (FA)",
+          "locale": "es-419",
+          "localized_term": "análisis funcional",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "fa_condition",
+          "source_term_en": "Condition of a functional analysis",
+          "locale": "es-419",
+          "localized_term": "condición del análisis funcional",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "escape",
+          "source_term_en": "Escape",
+          "locale": "es-419",
+          "localized_term": "escape",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        },
+        {
+          "term_key": "avoidance",
+          "source_term_en": "Avoidance",
+          "locale": "es-419",
+          "localized_term": "evitación",
+          "status": "approved",
+          "notes": "approved 2026-11-14 (Plan v2.0)"
+        }
+      ]
+    },
+    {
+      "dictionary_id": "flow_exam_prep_aba_terms",
+      "dictionary_version": "1.0",
+      "package": "Flow_ExamPrep_DomainB_Import_All_Locales_v1.xlsx (sheet Terminology, uk-UA)",
+      "language_label": "Ukrainian",
+      "locales": [
+        "uk-UA"
+      ],
+      "review_status": "completed",
+      "reviewer": "Yevheniia Lobas",
+      "effective_on": null,
+      "approved_by": null,
+      "terms": [
+        {
+          "term_key": "preference_assessment",
+          "source_term_en": "Preference assessment",
+          "locale": "uk-UA",
+          "localized_term": "оцінювання переваг",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "mswo",
+          "source_term_en": "MSWO preference assessment",
+          "locale": "uk-UA",
+          "localized_term": "оцінювання переваг із множинними стимулами без заміни (MSWO)",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "msw",
+          "source_term_en": "MSW preference assessment",
+          "locale": "uk-UA",
+          "localized_term": "оцінювання переваг із множинними стимулами із заміною (MSW)",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "paired_stimulus",
+          "source_term_en": "Paired stimulus preference assessment",
+          "locale": "uk-UA",
+          "localized_term": "оцінювання переваг із попарним пред’явленням стимулів",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "free_operant",
+          "source_term_en": "Free operant preference assessment",
+          "locale": "uk-UA",
+          "localized_term": "оцінювання переваг методом вільного операнта",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "single_stimulus",
+          "source_term_en": "Single stimulus preference assessment",
+          "locale": "uk-UA",
+          "localized_term": "оцінювання з одиничним стимулом",
+          "status": "approved",
+          "notes": "approved within item review 2026-11-20"
+        },
+        {
+          "term_key": "stimulus_array",
+          "source_term_en": "Stimulus array",
+          "locale": "uk-UA",
+          "localized_term": "набір стимулів",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "skill_probe",
+          "source_term_en": "Skill probe",
+          "locale": "uk-UA",
+          "localized_term": "перевірка навички (проба)",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "curriculum_based_assessment",
+          "source_term_en": "Curriculum-based assessment",
+          "locale": "uk-UA",
+          "localized_term": "оцінювання на основі навчальної програми",
+          "status": "approved",
+          "notes": "approved within item review 2026-11-20"
+        },
+        {
+          "term_key": "prompt",
+          "source_term_en": "Prompt",
+          "locale": "uk-UA",
+          "localized_term": "підказка",
+          "status": "approved",
+          "notes": "approved within item review 2026-11-20"
+        },
+        {
+          "term_key": "trial",
+          "source_term_en": "Trial",
+          "locale": "uk-UA",
+          "localized_term": "спроба",
+          "status": "approved",
+          "notes": "approved within item review 2026-11-20"
+        },
+        {
+          "term_key": "feedback",
+          "source_term_en": "Feedback",
+          "locale": "uk-UA",
+          "localized_term": "зворотний зв’язок",
+          "status": "approved",
+          "notes": "approved within item review 2026-11-20"
+        },
+        {
+          "term_key": "antecedent",
+          "source_term_en": "Antecedent",
+          "locale": "uk-UA",
+          "localized_term": "антецедент",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "consequence",
+          "source_term_en": "Consequence",
+          "locale": "uk-UA",
+          "localized_term": "наслідок",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "abc_data",
+          "source_term_en": "ABC data",
+          "locale": "uk-UA",
+          "localized_term": "дані ABC",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "abc_recording",
+          "source_term_en": "ABC recording",
+          "locale": "uk-UA",
+          "localized_term": "таблиця ABC",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "descriptive_assessment",
+          "source_term_en": "Descriptive assessment",
+          "locale": "uk-UA",
+          "localized_term": "описове оцінювання поведінки",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "fba",
+          "source_term_en": "Functional behavior assessment (FBA)",
+          "locale": "uk-UA",
+          "localized_term": "функціональне оцінювання поведінки",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "functional_analysis",
+          "source_term_en": "Functional analysis (FA)",
+          "locale": "uk-UA",
+          "localized_term": "експериментальний функціональний аналіз поведінки",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "fa_condition",
+          "source_term_en": "Condition of a functional analysis",
+          "locale": "uk-UA",
+          "localized_term": "умова функціонального аналізу",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "escape",
+          "source_term_en": "Escape",
+          "locale": "uk-UA",
+          "localized_term": "втеча",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "avoidance",
+          "source_term_en": "Avoidance",
+          "locale": "uk-UA",
+          "localized_term": "уникнення",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        }
+      ]
+    },
+    {
+      "dictionary_id": "flow_exam_prep_aba_terms",
+      "dictionary_version": "1.0",
+      "package": "Flow_ExamPrep_DomainB_Import_All_Locales_v1.xlsx (sheet Terminology, ru-UA)",
+      "language_label": "Russian (Ukraine)",
+      "locales": [
+        "ru-UA"
+      ],
+      "review_status": "completed",
+      "reviewer": "Yevheniia Lobas",
+      "effective_on": null,
+      "approved_by": null,
+      "terms": [
+        {
+          "term_key": "preference_assessment",
+          "source_term_en": "Preference assessment",
+          "locale": "ru-UA",
+          "localized_term": "оценка предпочтений",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "mswo",
+          "source_term_en": "MSWO preference assessment",
+          "locale": "ru-UA",
+          "localized_term": "оценка предпочтений с множественными стимулами без замены (MSWO)",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "msw",
+          "source_term_en": "MSW preference assessment",
+          "locale": "ru-UA",
+          "localized_term": "оценка предпочтений с множественными стимулами с заменой (MSW)",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "paired_stimulus",
+          "source_term_en": "Paired stimulus preference assessment",
+          "locale": "ru-UA",
+          "localized_term": "оценка предпочтений с парным предъявлением стимулов",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "free_operant",
+          "source_term_en": "Free operant preference assessment",
+          "locale": "ru-UA",
+          "localized_term": "оценка предпочтений методом свободного операнта",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "single_stimulus",
+          "source_term_en": "Single stimulus preference assessment",
+          "locale": "ru-UA",
+          "localized_term": "оценка с одиночным стимулом",
+          "status": "approved",
+          "notes": "approved within item review 2026-11-20"
+        },
+        {
+          "term_key": "stimulus_array",
+          "source_term_en": "Stimulus array",
+          "locale": "ru-UA",
+          "localized_term": "набор стимулов",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "skill_probe",
+          "source_term_en": "Skill probe",
+          "locale": "ru-UA",
+          "localized_term": "проверка навыка (проба)",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "curriculum_based_assessment",
+          "source_term_en": "Curriculum-based assessment",
+          "locale": "ru-UA",
+          "localized_term": "оценка на основе учебной программы",
+          "status": "approved",
+          "notes": "approved within item review 2026-11-20"
+        },
+        {
+          "term_key": "prompt",
+          "source_term_en": "Prompt",
+          "locale": "ru-UA",
+          "localized_term": "подсказка",
+          "status": "approved",
+          "notes": "approved within item review 2026-11-20"
+        },
+        {
+          "term_key": "trial",
+          "source_term_en": "Trial",
+          "locale": "ru-UA",
+          "localized_term": "проба",
+          "status": "approved",
+          "notes": "approved within item review 2026-11-20"
+        },
+        {
+          "term_key": "feedback",
+          "source_term_en": "Feedback",
+          "locale": "ru-UA",
+          "localized_term": "обратная связь",
+          "status": "approved",
+          "notes": "approved within item review 2026-11-20"
+        },
+        {
+          "term_key": "antecedent",
+          "source_term_en": "Antecedent",
+          "locale": "ru-UA",
+          "localized_term": "антецедент",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "consequence",
+          "source_term_en": "Consequence",
+          "locale": "ru-UA",
+          "localized_term": "последствие",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "abc_data",
+          "source_term_en": "ABC data",
+          "locale": "ru-UA",
+          "localized_term": "данные ABC",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "abc_recording",
+          "source_term_en": "ABC recording",
+          "locale": "ru-UA",
+          "localized_term": "таблица ABC",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "descriptive_assessment",
+          "source_term_en": "Descriptive assessment",
+          "locale": "ru-UA",
+          "localized_term": "описательная оценка поведения",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "fba",
+          "source_term_en": "Functional behavior assessment (FBA)",
+          "locale": "ru-UA",
+          "localized_term": "функциональная оценка поведения",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "functional_analysis",
+          "source_term_en": "Functional analysis (FA)",
+          "locale": "ru-UA",
+          "localized_term": "экспериментальный функциональный анализ поведения",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "fa_condition",
+          "source_term_en": "Condition of a functional analysis",
+          "locale": "ru-UA",
+          "localized_term": "условие функционального анализа",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "escape",
+          "source_term_en": "Escape",
+          "locale": "ru-UA",
+          "localized_term": "реактивное избегание",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        },
+        {
+          "term_key": "avoidance",
+          "source_term_en": "Avoidance",
+          "locale": "ru-UA",
+          "localized_term": "упреждающее избегание",
+          "status": "approved",
+          "notes": "approved 2026-11-13"
+        }
+      ]
+    }
+  ]
+}

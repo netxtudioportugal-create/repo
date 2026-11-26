@@ -36,6 +36,7 @@ app/
   Http/Controllers/           candidato (onboarding, home, prática, sobre) e Staff/ (login, revisão, notas)
 database/data/items.json      banco de itens dos domínios A–E (masters + registos de língua)
 database/data/ethics_pilot/   Ethics Pilot (domínio F), todas as línguas: um ficheiro por passo (3 a 6)
+database/data/domain_b_batch1/ Domínio B, lote 1, todas as línguas: terminologia (passo 1), masters (2), traduções (3)
 database/data/terminology/    dicionário de terminologia ABA v1.0, um ficheiro por pacote (en-US, pt-BR, es-419, uk-UA + ru-UA)
 database/data/taxonomy.json   domínios A–F e as 43 tarefas com rótulos internos (official_wording fica NULL, IP hold)
 lang/{en-US,pt-BR,es-419,uk-UA,ru-UA}/  textos da interface (uk-UA e ru-UA: rascunho, aguardando revisão nativa)
@@ -69,7 +70,9 @@ O conteúdo dos itens vive no repositório (`database/data/items.json` e `databa
 php artisan items:import --dry-run   # valida sem gravar
 php artisan items:import             # banco A–E; masters alterados ganham nova revisão e voltam para draft
 php artisan pilot:import --step=3    # um passo do Ethics Pilot (3, 4, 5 ou 6), seguido da evidência
+php artisan pilot:import --batch=domain-b --step=1   # um passo do Domínio B, lote 1 (1, 2 ou 3)
 php artisan pilot:evidence           # só leitura: locales, contagens, master_version, status de língua
+php artisan pilot:evidence --batch=domain-b   # o mesmo, só com os itens do lote
 php artisan terms:import --dry-run   # valida o dicionário de terminologia sem gravar
 php artisan terms:import             # importa; mudar um termo aprovado exige nova dictionary_version
 ```
@@ -119,6 +122,18 @@ Fonte: `Flow_ExamPrep_Ethics_Import_All_Locales_v2.xlsx` (Ethics Pilot v3.8, Che
 | 1 | 4 | `pilot:import --step=4` | 56 registos de língua, nenhum `stale` |
 | 2 | 5 | `pilot:import --step=5` | `master_version` 3 em F-02-001; 2 em F-05-002 e F-10-001; 12 registos passam a `stale` |
 | 2 | 6 | `pilot:import --step=6` | Nenhum registo atual `stale`; pt-BR e es-419 `draft`; uk-UA e ru-UA versão 2 `approved` (Yevheniia Lobas) |
+
+### Domínio B, lote 1: importar por passo
+
+Fonte: `Flow_ExamPrep_DomainB_Import_All_Locales_v1.xlsx` (mesmas regras do Ethics v2). Só depois de aprovado o Gate 0 técnico, um passo de cada vez, guardando a saída de cada um como evidência.
+
+| Fase | Passo | Comando | Resultado esperado |
+|---|---|---|---|
+| 1 | 1 | `pilot:import --batch=domain-b --step=1` | Terminologia 50 + 110 = 160 registos, 0 duplicados |
+| 1 | 2 | `pilot:import --batch=domain-b --step=2` | 8 itens novos (B-01-001 a B-03-003), `master_version` 1, `draft`, `ip_clearance` pending; chaves A2 B2 C2 D2; 32 itens no total |
+| 1 | 3 | `pilot:import --batch=domain-b --step=3` | 32 registos de língua, todos `approved`, 0 `stale`; pt-BR e es-419 Americo Silva 2026-11-19; uk-UA e ru-UA Yevheniia Lobas 2026-11-20 |
+
+Os itens ficam em `draft` e não são liberados: a liberação precisa da revisão BCBA, da revisão de equidade e do Launch Gate. O ficheiro regista a decisão de exibição "Mirror Mode" (pergunta e opções em inglês, explicação na língua escolhida); essa mudança no ecrã do candidato ainda não está feita.
 
 ## Deploy
 

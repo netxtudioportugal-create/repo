@@ -70,13 +70,28 @@ return [
     'items_file' => database_path('data/items.json'),
 
     /*
-    | Ethics Pilot (domain F), all locales: one file per import step. Steps
-    | are run by hand, in order, with pilot:import, so the stale and version
-    | evidence can be recorded between steps.
+    | Content batches imported by hand, one step at a time, with
+    | pilot:import --batch=... --step=..., so the evidence can be recorded
+    | between steps. Each step is one JSON file: step-N.json. A step file
+    | holds either terminology packages or masters and language records.
+    | "domain" is the domain whose items the evidence lists.
     */
     'pilot' => [
-        'path' => database_path('data/ethics_pilot'),
-        'steps' => [3, 4, 5, 6],
+        'default' => 'ethics',
+        'batches' => [
+            'ethics' => [
+                'label' => 'Ethics Pilot (domain F), all locales v2',
+                'path' => database_path('data/ethics_pilot'),
+                'domain' => 'F',
+                'steps' => [3, 4, 5, 6],
+            ],
+            'domain-b' => [
+                'label' => 'Domain B, batch 1, all locales v1',
+                'path' => database_path('data/domain_b_batch1'),
+                'domain' => 'B',
+                'steps' => [1, 2, 3],
+            ],
+        ],
     ],
 
     /*

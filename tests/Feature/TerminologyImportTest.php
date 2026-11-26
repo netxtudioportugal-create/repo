@@ -40,6 +40,12 @@ class TerminologyImportTest extends TestCase
         return $out;
     }
 
+    /** The dictionary folder imported on every deploy (the ten Ethics concepts), without content batches. */
+    private function importDictionaryFolder(): void
+    {
+        app(TerminologyImporter::class)->import(array_values($this->packages()));
+    }
+
     private function assertRejected(array $packages, string $message): void
     {
         try {
@@ -52,7 +58,7 @@ class TerminologyImportTest extends TestCase
 
     public function test_ten_concepts_and_ten_records_per_locale_are_imported(): void
     {
-        $this->seedBank();
+        $this->importDictionaryFolder();
 
         $this->assertSame(10, TerminologyTerm::distinct()->count('term_key'));
         $this->assertSame(50, TerminologyTerm::count());
@@ -65,7 +71,7 @@ class TerminologyImportTest extends TestCase
 
     public function test_terms_match_the_packages_exactly(): void
     {
-        $this->seedBank();
+        $this->importDictionaryFolder();
 
         foreach (self::EXPECTED as $key => $locales) {
             foreach ($locales as $locale => $term) {
@@ -76,7 +82,7 @@ class TerminologyImportTest extends TestCase
 
     public function test_status_and_review_follow_each_package(): void
     {
-        $this->seedBank();
+        $this->importDictionaryFolder();
 
         $this->assertSame(10, TerminologyTerm::where(['locale' => 'en-US', 'status' => 'canonical', 'review_status' => 'not_applicable'])->count());
         foreach (['pt-BR', 'es-419'] as $locale) {
@@ -93,7 +99,7 @@ class TerminologyImportTest extends TestCase
 
     public function test_reimport_is_idempotent(): void
     {
-        $this->seedBank();
+        $this->importDictionaryFolder();
 
         $report = app(TerminologyImporter::class)->import(array_values($this->packages()));
 
@@ -103,7 +109,7 @@ class TerminologyImportTest extends TestCase
 
     public function test_a_controlled_term_is_never_overwritten_in_place(): void
     {
-        $this->seedBank();
+        $this->importDictionaryFolder();
         $packages = $this->packages();
         $packages['pt-BR']['terms'][5]['localized_term'] = 'Mando';
 
@@ -113,7 +119,7 @@ class TerminologyImportTest extends TestCase
 
     public function test_review_outcome_is_published_as_a_new_version_and_the_old_one_is_kept(): void
     {
-        $this->seedBank();
+        $this->importDictionaryFolder();
         $pt = $this->packages()['pt-BR'];
         $pt['dictionary_version'] = '1.1';
         $pt['review_status'] = 'completed';
@@ -178,7 +184,7 @@ class TerminologyImportTest extends TestCase
 
     public function test_lookup_by_locale_falls_back_to_english(): void
     {
-        $this->seedBank();
+        $this->importDictionaryFolder();
 
         $this->assertSame('Extinction', TerminologyTerm::lookup('extinction', 'en-US'));
         $this->assertSame('Extinção', TerminologyTerm::lookup('extinction', 'pt-BR'));

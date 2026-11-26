@@ -19,6 +19,7 @@
             <li>Masters and language records: the en-US master carries <code>master_version</code>. Each language record is item + locale + version and records the master version it was made from. When the master version rises, older language records turn stale on their own and candidates see English until an updated translation is imported.</li>
             <li>Language review: draft, in language review, approved, stale. Stale is set by the system only. An approved text is never changed in place, and an import never overwrites a status set by a language reviewer.</li>
             <li>Ethics Pilot (domain F) is imported one step at a time with <code>pilot:import --step=3</code> to <code>6</code>; <code>pilot:evidence</code> prints the figures to record after each step.</li>
+            <li>Domain B, batch 1 is imported the same way with <code>pilot:import --batch=domain-b --step=1</code> to <code>3</code> (terminology, English masters, approved translations). Its items stay draft until BCBA review, fairness review and the Launch Gate.</li>
             <li>Deferred until after Gate 1: candidate accounts, payments, adaptive suggestions, AI features, full-length 85-item practice exam.</li>
         </ul>
     </div>

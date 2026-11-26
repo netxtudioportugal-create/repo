@@ -188,6 +188,13 @@ class ItemImporter
             $item->translations()->where('locale', config('examprep.fallback_locale'))->update(['source_master_version' => $version]);
         }
 
+        // Notes on the English row (locked text revision, fingerprint) are not part of the text.
+        if (! $textChanged && array_key_exists('language_notes', $row)) {
+            $dirty = $item->translations()->where('locale', config('examprep.fallback_locale'))
+                ->where(fn ($q) => $q->whereNull('language_notes')->orWhere('language_notes', '!=', $row['language_notes'] ?? ''))
+                ->update(['language_notes' => $row['language_notes']]) > 0 || $dirty;
+        }
+
         if ($raised) {
             $this->liveLanguageRecords($item, below: $version)->get()->each(function (ItemTranslation $t) use ($code, &$report) {
                 $t->update(['language_status' => LanguageStatus::Stale, 'status_set_by' => null]);
@@ -213,7 +220,10 @@ class ItemImporter
     {
         $item->translations()->updateOrCreate(
             ['locale' => config('examprep.fallback_locale'), 'version' => 1],
-            $this->text($row, $item->getAttribute('key')) + ['source_master_version' => $item->master_version],
+            $this->text($row, $item->getAttribute('key')) + [
+                'source_master_version' => $item->master_version,
+                'language_notes' => $row['language_notes'] ?? null,
+            ],
         );
 
         ItemVersion::create([
@@ -344,8 +354,9 @@ class ItemImporter
             'masters.*.key_concept' => ['nullable', 'string', 'max:255'],
             'masters.*.question_type' => ['nullable', 'string', 'max:20'],
             'masters.*.difficulty_author' => ['nullable', 'integer', 'between:1,5'],
-            'masters.*.authority_source' => ['nullable', 'string', 'max:255'],
-            'masters.*.authority_version' => ['nullable', 'string', 'max:60'],
+            'masters.*.authority_source' => ['nullable', 'string', 'max:2000'],
+            'masters.*.authority_version' => ['nullable', 'string', 'max:255'],
+            'masters.*.language_notes' => ['nullable', 'string'],
             'masters.*.source_checked_on' => ['nullable', 'date_format:Y-m-d'],
             'masters.*.is_rule_dependent' => ['nullable', 'boolean'],
             'masters.*.requires_reverification' => ['nullable', 'boolean'],

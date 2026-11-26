@@ -21,8 +21,8 @@ class ItemImportTest extends TestCase
     {
         $this->seedBank();
 
-        $this->assertSame(24, Item::count());
-        $this->assertSame(24, Item::where('status', ItemStatus::Draft->value)->count());
+        $this->assertSame(32, Item::count()); // 10 A to E, 14 Ethics, 8 Domain B batch 1
+        $this->assertSame(32, Item::where('status', ItemStatus::Draft->value)->count());
         $this->assertSame('D', Item::where('code', 'F-02-001')->first()->getAttribute('key'));
 
         $a01 = Item::where('code', 'A-01')->first();

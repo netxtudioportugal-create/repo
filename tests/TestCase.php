@@ -31,9 +31,9 @@ abstract class TestCase extends BaseTestCase
         return json_decode(file_get_contents($path), true, flags: JSON_THROW_ON_ERROR);
     }
 
-    protected function pilotStep(int $step): array
+    protected function pilotStep(int $step, string $batch = 'ethics'): array
     {
-        return $this->readJson(config('examprep.pilot.path')."/step-{$step}.json");
+        return $this->readJson(config("examprep.pilot.batches.{$batch}.path")."/step-{$step}.json");
     }
 
     protected function importFile(array $file, bool $dryRun = false): array

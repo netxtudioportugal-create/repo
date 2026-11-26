@@ -3,29 +3,43 @@
 namespace App\Console\Commands;
 
 use App\Services\ItemImporter;
+use App\Services\TerminologyImporter;
 use Illuminate\Console\Command;
 use Illuminate\Validation\ValidationException;
 
 class PilotImport extends Command
 {
-    protected $signature = 'pilot:import {--step= : Import step to run: 3, 4, 5 or 6} {--dry-run : Validate and report without writing}';
+    protected $signature = 'pilot:import
+        {--batch= : Content batch: ethics (default) or domain-b}
+        {--step= : Step of that batch to run}
+        {--dry-run : Validate and report without writing}';
 
-    protected $description = 'Run one Ethics Pilot import step (3 to 6) in one transaction, then print the evidence. Run the steps in order, one at a time.';
+    protected $description = 'Run one import step of a content batch in one transaction, then print the evidence. Run the steps in order, one at a time.';
 
-    public function handle(ItemImporter $importer): int
+    public function handle(ItemImporter $items, TerminologyImporter $terminology): int
     {
-        $step = (int) $this->option('step');
-        if (! in_array($step, config('examprep.pilot.steps'), true)) {
-            $this->error('Choose a step with --step=3, 4, 5 or 6. Steps 1 and 2 (locale migration, tasks, terminology) run on deploy.');
+        $name = $this->option('batch') ?: config('examprep.pilot.default');
+        $batch = config("examprep.pilot.batches.{$name}");
+        if (! $batch) {
+            $this->error("Unknown batch {$name}. Batches: ".implode(', ', array_keys(config('examprep.pilot.batches'))).'.');
 
             return self::FAILURE;
         }
 
-        $file = json_decode(file_get_contents(config('examprep.pilot.path')."/step-{$step}.json"), true, flags: JSON_THROW_ON_ERROR);
-        $this->info("Phase {$file['phase']}, step {$step}: {$file['contains']}");
+        $step = (int) $this->option('step');
+        if (! in_array($step, $batch['steps'], true)) {
+            $this->error("Choose a step of {$batch['label']} with --step=".implode(', ', $batch['steps']).'.');
+
+            return self::FAILURE;
+        }
+
+        $file = json_decode(file_get_contents("{$batch['path']}/step-{$step}.json"), true, flags: JSON_THROW_ON_ERROR);
+        $this->info("{$batch['label']}. Phase {$file['phase']}, step {$step}: {$file['contains']}");
 
         try {
-            $report = $importer->import($file, (bool) $this->option('dry-run'));
+            isset($file['terminology'])
+                ? $this->terminology($terminology, $file['terminology'])
+                : $this->items($items, $file);
         } catch (ValidationException $e) {
             $this->error('Import rejected. Nothing was written.');
             foreach ($e->errors() as $field => $messages) {
@@ -34,6 +48,32 @@ class PilotImport extends Command
 
             return self::FAILURE;
         }
+
+        if ($this->option('dry-run')) {
+            $this->warn('Dry run: nothing was written.');
+
+            return self::SUCCESS;
+        }
+
+        return $this->call('pilot:evidence', ['--batch' => $name]);
+    }
+
+    private function terminology(TerminologyImporter $importer, array $packages): void
+    {
+        $report = $importer->import($packages, (bool) $this->option('dry-run'));
+
+        $byLocale = fn (array $ids) => collect($ids)->countBy(fn ($id) => explode('|', $id)[1]);
+        $created = $byLocale($report['created']);
+        $unchanged = $byLocale($report['unchanged']);
+
+        $this->table(['Terminology', 'Created', 'Unchanged'], $created->keys()->merge($unchanged->keys())->unique()->sort()->map(
+            fn ($l) => [$l, $created[$l] ?? 0, $unchanged[$l] ?? 0],
+        )->values()->all());
+    }
+
+    private function items(ItemImporter $importer, array $file): void
+    {
+        $report = $importer->import($file, (bool) $this->option('dry-run'));
 
         $this->table(['', 'Created', 'Updated', 'Unchanged', 'Skipped'], [
             ['Masters', ...array_map('count', array_values($report['masters']))],
@@ -47,13 +87,5 @@ class PilotImport extends Command
         foreach ($report['stale'] as $id) {
             $this->line("  {$id}");
         }
-
-        if ($this->option('dry-run')) {
-            $this->warn('Dry run: nothing was written.');
-
-            return self::SUCCESS;
-        }
-
-        return $this->call('pilot:evidence');
     }
 }

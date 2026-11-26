@@ -1,0 +1,362 @@
+{
+  "source": "Flow_ExamPrep_DomainB_Import_All_Locales_v1.xlsx",
+  "batch": "domain-b",
+  "phase": 1,
+  "step": 2,
+  "contains": "8 English masters (B-01-001 to B-03-003), 32 options. Locked 2026-11-14 by Americo Silva, MS, BCBA, IBA.",
+  "masters": [
+    {
+      "item_code": "B-01-001",
+      "task_code": "B.1",
+      "master_version": 1,
+      "key_concept": "MSWO: a selected item is not returned to the array",
+      "question_type": "scenario",
+      "difficulty_author": 2,
+      "source_standard": null,
+      "authority_source": "RBT Test Content Outline, 3rd ed., B.1; Cooper, 3rd ed., ch. 11, “Stimulus Preference Assessment,” subsection “Multiple Stimulus Without Replacement”; DeLeon & Iwata (1996), pp. 520 to 522, especially pp. 521 to 522.",
+      "authority_version": "Cooper 3rd ed. (2020); RBT Ethics Code (2.0), updated 08/2024",
+      "source_checked_on": "2026-11-14",
+      "is_rule_dependent": false,
+      "requires_reverification": false,
+      "cadence_months": null,
+      "status": "draft",
+      "language_notes": "English v3 LOCKED 2026-11-14, fingerprint c39eccfe863c",
+      "stem": "An RBT is conducting a multiple stimulus without replacement (MSWO) preference assessment with five items placed in a row in front of the client. The client selects the toy car and plays with it for the allotted time. What should the RBT do before the next trial?",
+      "options": {
+        "A": {
+          "text": "Remove the toy car and present the remaining four items on the next trial",
+          "rationale": "In an MSWO assessment, the selected item is not returned to the array. The remaining items are presented again on the next trial, and the order in which items are selected contributes to the preference ranking.",
+          "is_key": true,
+          "is_target_misconception": false
+        },
+        "B": {
+          "text": "Return the toy car to its place and present all five items again",
+          "rationale": "Returning the selected item to the array describes a multiple stimulus with replacement (MSW) assessment, not MSWO.",
+          "is_key": false,
+          "is_target_misconception": true
+        },
+        "C": {
+          "text": "Present the toy car next to one other item, one pair at a time",
+          "rationale": "Presenting items two at a time describes a paired stimulus assessment.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "D": {
+          "text": "Leave all five items on the table so the client can approach any of them",
+          "rationale": "Leaving all items freely available describes a free operant assessment, which does not use trials.",
+          "is_key": false,
+          "is_target_misconception": false
+        }
+      }
+    },
+    {
+      "item_code": "B-01-002",
+      "task_code": "B.1",
+      "master_version": 1,
+      "key_concept": "Paired stimulus: items presented two at a time, each paired with every other item",
+      "question_type": "concept",
+      "difficulty_author": 1,
+      "source_standard": null,
+      "authority_source": "RBT Test Content Outline, 3rd ed., B.1; Cooper, 3rd ed., ch. 11, “Stimulus Preference Assessment,” subsection “Paired Stimuli”; Fisher et al. (1992), pp. 491 to 493, especially pp. 492 to 493.",
+      "authority_version": "Cooper 3rd ed. (2020); RBT Ethics Code (2.0), updated 08/2024",
+      "source_checked_on": "2026-11-14",
+      "is_rule_dependent": false,
+      "requires_reverification": false,
+      "cadence_months": null,
+      "status": "draft",
+      "language_notes": "English v3 LOCKED 2026-11-14, fingerprint d9ad5fe0f8c8",
+      "stem": "Which description matches a paired stimulus preference assessment?",
+      "options": {
+        "A": {
+          "text": "One item is presented at a time, and approach to that item is recorded",
+          "rationale": "Presenting one item at a time describes a single stimulus assessment.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "B": {
+          "text": "All items are presented at once, and a selected item is removed before the next trial",
+          "rationale": "Presenting all items at once and removing the selected item describes an MSWO assessment.",
+          "is_key": false,
+          "is_target_misconception": true
+        },
+        "C": {
+          "text": "Items are presented two at a time, and each item is paired with every other item",
+          "rationale": "In a paired stimulus assessment, two items are presented on each trial and the client selects one. Across trials, each item is paired with every other item, and the percentage of trials in which an item is selected gives its relative preference.",
+          "is_key": true,
+          "is_target_misconception": false
+        },
+        "D": {
+          "text": "All items are available at the same time, and engagement time with each is recorded",
+          "rationale": "Free access with engagement time recorded describes a free operant assessment.",
+          "is_key": false,
+          "is_target_misconception": false
+        }
+      }
+    },
+    {
+      "item_code": "B-01-003",
+      "task_code": "B.1",
+      "master_version": 1,
+      "key_concept": "Free operant: all items stay available; duration of engagement is recorded",
+      "question_type": "scenario",
+      "difficulty_author": 2,
+      "source_standard": null,
+      "authority_source": "RBT Test Content Outline, 3rd ed., B.1; Cooper, 3rd ed., ch. 11, “Stimulus Preference Assessment,” subsection “Free Operant”; Roane et al. (1998), pp. 607 to 609.",
+      "authority_version": "Cooper 3rd ed. (2020); RBT Ethics Code (2.0), updated 08/2024",
+      "source_checked_on": "2026-11-14",
+      "is_rule_dependent": false,
+      "requires_reverification": false,
+      "cadence_months": null,
+      "status": "draft",
+      "language_notes": "English v3 LOCKED 2026-11-14, fingerprint 63fde6845e08",
+      "stem": "During a 5-minute free operant preference assessment, several leisure items are available on a table. The client plays with the puzzle for about 3 minutes, then moves to the tablet. What should the RBT do?",
+      "options": {
+        "A": {
+          "text": "Remove the puzzle so that the client samples the other items",
+          "rationale": "Removing an item changes the procedure. In this free operant arrangement, all items stay available for the whole session.",
+          "is_key": false,
+          "is_target_misconception": true
+        },
+        "B": {
+          "text": "Leave all items available and record engagement time with each item",
+          "rationale": "In this free operant arrangement, all items stay available for the whole session and the RBT records how long the client engages with each one. Relative engagement time indicates relative preference.",
+          "is_key": true,
+          "is_target_misconception": false
+        },
+        "C": {
+          "text": "Bring the client back to the puzzle, since it was selected first",
+          "rationale": "Redirecting the client limits free access and changes the data the procedure is designed to collect.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "D": {
+          "text": "End the assessment and record the puzzle as the most preferred item",
+          "rationale": "Ending early discards the engagement data for the rest of the session, and the first item approached is not necessarily the most preferred.",
+          "is_key": false,
+          "is_target_misconception": false
+        }
+      }
+    },
+    {
+      "item_code": "B-02-001",
+      "task_code": "B.2",
+      "master_version": 1,
+      "key_concept": "Running a skill probe as written: no prompts or feedback when the protocol excludes them",
+      "question_type": "scenario",
+      "difficulty_author": 2,
+      "source_standard": "2.02",
+      "authority_source": "RBT Test Content Outline, 3rd ed., B.2; Cooper, 3rd ed., ch. 10, “Treatment Integrity”; RBT Ethics Code 2.0, Standard 2.02; item specific written protocol stated in the item stem.",
+      "authority_version": "Cooper 3rd ed. (2020); RBT Ethics Code (2.0), updated 08/2024",
+      "source_checked_on": "2026-11-14",
+      "is_rule_dependent": false,
+      "requires_reverification": false,
+      "cadence_months": null,
+      "status": "draft",
+      "language_notes": "English v3 LOCKED 2026-11-14, fingerprint 5fa91bf7629f",
+      "stem": "An RBT is running skill probes from a curriculum-based assessment. The written protocol states that no prompts or feedback are given during probe trials. The client answers one item incorrectly. What should the RBT do?",
+      "options": {
+        "A": {
+          "text": "Model the correct answer, then present the same item again",
+          "rationale": "Modeling the answer turns the probe into a teaching trial, so the data no longer show what the client does without help.",
+          "is_key": false,
+          "is_target_misconception": true
+        },
+        "B": {
+          "text": "Record the response as incorrect and present the next item",
+          "rationale": "In this protocol, prompts and feedback are excluded during probe trials so that the data show what the client does without help. The RBT records the response as it occurred and continues.",
+          "is_key": true,
+          "is_target_misconception": false
+        },
+        "C": {
+          "text": "Repeat the item until the client gives the correct answer",
+          "rationale": "Repeating the item until it is correct changes the recorded performance and is not part of the protocol.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "D": {
+          "text": "Praise the attempt and give a partial prompt on the next item",
+          "rationale": "The protocol excludes prompts and feedback during probes. Adding them changes the probe data.",
+          "is_key": false,
+          "is_target_misconception": false
+        }
+      }
+    },
+    {
+      "item_code": "B-02-002",
+      "task_code": "B.2",
+      "master_version": 1,
+      "key_concept": "Role boundary: the RBT collects assessment data; the supervisor interprets results",
+      "question_type": "scenario",
+      "difficulty_author": 2,
+      "source_standard": "1.03; 1.06; 2.02; 2.06",
+      "authority_source": "RBT Test Content Outline, 3rd ed., B.2; RBT Ethics Code 2.0, Standards 1.03, 1.06, 2.02, and 2.06.",
+      "authority_version": "Cooper 3rd ed. (2020); RBT Ethics Code (2.0), updated 08/2024",
+      "source_checked_on": "2026-11-14",
+      "is_rule_dependent": false,
+      "requires_reverification": false,
+      "cadence_months": null,
+      "status": "draft",
+      "language_notes": "English v3 LOCKED 2026-11-14, fingerprint 9722ea00da4e",
+      "stem": "After an RBT completes the assigned probes of a skill assessment, a caregiver asks what the results mean for the client's program. What should the RBT do?",
+      "options": {
+        "A": {
+          "text": "Explain which skills the client should learn next, based on the results",
+          "rationale": "Choosing the next skills interprets assessment results and selects goals, which is the supervisor's responsibility, not the RBT's.",
+          "is_key": false,
+          "is_target_misconception": true
+        },
+        "B": {
+          "text": "Give the caregiver the data sheets and say which goals to add based on the scores",
+          "rationale": "The RBT would be interpreting assessment results and recommending program changes. Questions about what results mean, and decisions about the program, are directed to the supervisor.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "C": {
+          "text": "Ask the supervisor for the scored summary, then explain it to the caregiver",
+          "rationale": "Having the scored summary does not change whose role it is: the supervisor interprets and explains assessment results.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "D": {
+          "text": "Say the supervisor will explain the results, and pass on the question",
+          "rationale": "The RBT collects assessment data; interpreting the results and deciding program changes belong to the supervisor. Referring the question and informing the supervisor keeps the RBT within role and makes sure the caregiver receives an answer.",
+          "is_key": true,
+          "is_target_misconception": false
+        }
+      }
+    },
+    {
+      "item_code": "B-03-001",
+      "task_code": "B.3",
+      "master_version": 1,
+      "key_concept": "ABC recording in observable terms, without inferred states or function",
+      "question_type": "concept",
+      "difficulty_author": 1,
+      "source_standard": null,
+      "authority_source": "RBT Test Content Outline, 3rd ed., A.5 and B.3; Cooper, 3rd ed., ch. 3, “Selecting, Defining, and Measuring Behavior”; ch. 27, “Descriptive Functional Behavior Assessment,” especially the ABC recording section.",
+      "authority_version": "Cooper 3rd ed. (2020); RBT Ethics Code (2.0), updated 08/2024",
+      "source_checked_on": "2026-11-14",
+      "is_rule_dependent": false,
+      "requires_reverification": false,
+      "cadence_months": null,
+      "status": "draft",
+      "language_notes": "English v3 LOCKED 2026-11-14, fingerprint 7c6e6148c3db",
+      "stem": "Which ABC data entry is written in observable terms?",
+      "options": {
+        "A": {
+          "text": "A: The teacher says \"Clean up.\" B: The client is frustrated and refuses. C: The teacher gives the client more time.",
+          "rationale": "\"Frustrated\" names an inferred internal state, and \"refuses\" does not describe what the client did.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "B": {
+          "text": "A: The client is bored with the activity. B: The client throws a block to the floor. C: The teacher says \"Pick it up.\"",
+          "rationale": "\"Bored\" is an inferred state, not an observable antecedent event.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "C": {
+          "text": "A: The teacher says \"Clean up.\" B: The client drops to the floor and screams for 20 seconds. C: The teacher repeats \"Clean up.\"",
+          "rationale": "Each part describes what someone said or did, in terms two observers could agree on: the instruction, the behavior with its duration, and the teacher's response.",
+          "is_key": true,
+          "is_target_misconception": false
+        },
+        "D": {
+          "text": "A: The teacher says \"Clean up.\" B: The client screams to avoid cleaning up. C: The teacher waits 30 seconds.",
+          "rationale": "\"To avoid cleaning up\" states a function. ABC data record what happened; they do not establish why the behavior occurred.",
+          "is_key": false,
+          "is_target_misconception": true
+        }
+      }
+    },
+    {
+      "item_code": "B-03-002",
+      "task_code": "B.3",
+      "master_version": 1,
+      "key_concept": "Implementing an assigned functional analysis condition exactly as written",
+      "question_type": "scenario",
+      "difficulty_author": 2,
+      "source_standard": "1.06; 2.02; 2.04",
+      "authority_source": "RBT Test Content Outline, 3rd ed., B.3; Cooper, 3rd ed., ch. 27, “Standard Functional Analysis,” attention condition and termination criteria; Iwata et al. (1994), pp. 199 to 202; RBT Ethics Code 2.0, Standards 1.06, 2.02, and 2.04.",
+      "authority_version": "Cooper 3rd ed. (2020); RBT Ethics Code (2.0), updated 08/2024",
+      "source_checked_on": "2026-11-14",
+      "is_rule_dependent": false,
+      "requires_reverification": false,
+      "cadence_months": null,
+      "status": "draft",
+      "language_notes": "English v3.1 LOCKED 2026-11-14, fingerprint 251e4c7ef269",
+      "stem": "A supervisor wrote and authorized the protocol for the attention condition of a functional analysis and trained the RBT, who has demonstrated competence in implementing the procedure. The protocol defines the target behavior as hitting a surface with an open hand, lists the session-stop criteria, and states: the RBT sits nearby reading a magazine, gives brief verbal attention after each target behavior, and gives no attention at other times. During the session, the client hits the table with an open hand. No stop criterion is met. What should the RBT do?",
+      "options": {
+        "A": {
+          "text": "Give brief verbal attention right after the hit, then return to reading",
+          "rationale": "The protocol programs brief attention after each target behavior. Implementing the assigned condition as written allows the supervisor to compare responding across conditions as part of the functional analysis.",
+          "is_key": true,
+          "is_target_misconception": false
+        },
+        "B": {
+          "text": "Ignore the hit, because attention could reinforce the behavior",
+          "rationale": "Withholding attention changes the programmed contingency, so the RBT is no longer implementing the assigned condition.",
+          "is_key": false,
+          "is_target_misconception": true
+        },
+        "C": {
+          "text": "Give attention every 30 seconds, whether or not the behavior occurs",
+          "rationale": "Delivering attention on a time-based schedule changes the programmed contingency and does not implement the assigned attention condition.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "D": {
+          "text": "Keep talking with the client for the rest of the session to prevent hits",
+          "rationale": "Continuous attention removes the programmed relation between the target behavior and attention, so the assigned condition is not implemented.",
+          "is_key": false,
+          "is_target_misconception": false
+        }
+      }
+    },
+    {
+      "item_code": "B-03-003",
+      "task_code": "B.3",
+      "master_version": 1,
+      "key_concept": "Reporting a pattern in descriptive data without concluding the function",
+      "question_type": "scenario",
+      "difficulty_author": 2,
+      "source_standard": "1.03; 1.06; 2.02; 2.06",
+      "authority_source": "RBT Test Content Outline, 3rd ed., B.3; Cooper, 3rd ed., ch. 27, “Descriptive Functional Behavior Assessment,” including interpretation, limitations, and hypothesis development; RBT Ethics Code 2.0, Standards 1.03, 1.06, 2.02, and 2.06.",
+      "authority_version": "Cooper 3rd ed. (2020); RBT Ethics Code (2.0), updated 08/2024",
+      "source_checked_on": "2026-11-14",
+      "is_rule_dependent": false,
+      "requires_reverification": false,
+      "cadence_months": null,
+      "status": "draft",
+      "language_notes": "English v3 LOCKED 2026-11-14, fingerprint dbab9f758b29",
+      "stem": "Over two weeks, an RBT's ABC data show that the client's screaming most often follows task instructions and is most often followed by a delay of the task. The caregiver asks the RBT why the client screams. What should the RBT do?",
+      "options": {
+        "A": {
+          "text": "Tell the caregiver the data suggest the screaming probably gets the client out of tasks",
+          "rationale": "Even worded as a likelihood, this interprets the data for the caregiver. Discussing possible function with the caregiver is the supervisor's role.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "B": {
+          "text": "Tell the supervisor the ABC data prove the screaming is maintained by escape from tasks",
+          "rationale": "Reporting to the supervisor is right, but descriptive data show which events occur together; they cannot prove function.",
+          "is_key": false,
+          "is_target_misconception": true
+        },
+        "C": {
+          "text": "Keep collecting ABC data and answer the caregiver's question in two weeks",
+          "rationale": "More data may be useful, but the RBT still plans to answer the question personally and has not told the supervisor about the pattern or the caregiver's question.",
+          "is_key": false,
+          "is_target_misconception": false
+        },
+        "D": {
+          "text": "Report the observed pattern to the supervisor and say the supervisor will discuss it",
+          "rationale": "Descriptive data show which events tend to occur with the behavior. They can suggest a hypothesis but cannot confirm function. The RBT reports what was observed and leaves interpretation, and the discussion with the caregiver, to the supervisor.",
+          "is_key": true,
+          "is_target_misconception": false
+        }
+      }
+    }
+  ],
+  "languages": []
+}

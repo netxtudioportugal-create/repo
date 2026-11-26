@@ -1,0 +1,938 @@
+{
+  "source": "Flow_ExamPrep_DomainB_Import_All_Locales_v1.xlsx",
+  "batch": "domain-b",
+  "phase": 1,
+  "step": 3,
+  "contains": "32 language records (pt-BR, es-419, uk-UA, ru-UA), 128 options, source_master_version 1.",
+  "masters": [],
+  "languages": [
+    {
+      "item_code": "B-01-001",
+      "locale": "pt-BR",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Americo Silva",
+      "language_reviewed_on": "2026-11-19",
+      "language_notes": "Language review of record, signed 2026-11-19 (draft 2 text).",
+      "stem": "Um RBT está conduzindo uma avaliação de preferências com múltiplos estímulos sem reposição (MSWO) com cinco itens dispostos em fila diante do cliente. O cliente seleciona o carrinho de brinquedo e brinca com ele durante o tempo previsto. O que o RBT deve fazer antes da próxima tentativa?",
+      "options": {
+        "A": {
+          "text": "Retirar o carrinho e apresentar os quatro itens restantes na próxima tentativa",
+          "rationale": "Na avaliação MSWO, o item selecionado não volta ao conjunto de estímulos. Os itens restantes são apresentados novamente na próxima tentativa, e a ordem em que os itens são selecionados contribui para a hierarquia de preferências."
+        },
+        "B": {
+          "text": "Devolver o carrinho ao seu lugar e apresentar os cinco itens novamente",
+          "rationale": "Devolver o item selecionado ao conjunto descreve uma avaliação com múltiplos estímulos com reposição (MSW), não MSWO."
+        },
+        "C": {
+          "text": "Apresentar o carrinho ao lado de outro item, um par de cada vez",
+          "rationale": "Apresentar os itens dois a dois descreve uma avaliação com estímulos pareados."
+        },
+        "D": {
+          "text": "Deixar os cinco itens na mesa para que o cliente possa se aproximar de qualquer um deles",
+          "rationale": "Deixar todos os itens livremente disponíveis descreve uma avaliação por operante livre, que não usa tentativas."
+        }
+      }
+    },
+    {
+      "item_code": "B-01-002",
+      "locale": "pt-BR",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Americo Silva",
+      "language_reviewed_on": "2026-11-19",
+      "language_notes": "Language review of record, signed 2026-11-19 (draft 2 text).",
+      "stem": "Qual descrição corresponde a uma avaliação de preferências com estímulos pareados?",
+      "options": {
+        "A": {
+          "text": "Um item é apresentado de cada vez, e a aproximação a esse item é registrada",
+          "rationale": "Apresentar um item de cada vez descreve uma avaliação com estímulo único."
+        },
+        "B": {
+          "text": "Todos os itens são apresentados ao mesmo tempo, e o item selecionado é retirado antes da próxima tentativa",
+          "rationale": "Apresentar todos os itens ao mesmo tempo e retirar o item selecionado descreve uma avaliação MSWO."
+        },
+        "C": {
+          "text": "Os itens são apresentados dois a dois, e cada item é pareado com todos os outros",
+          "rationale": "Na avaliação com estímulos pareados, dois itens são apresentados em cada tentativa e o cliente seleciona um. Ao longo das tentativas, cada item é pareado com todos os outros, e a porcentagem de tentativas em que um item é selecionado indica sua preferência relativa."
+        },
+        "D": {
+          "text": "Todos os itens ficam disponíveis ao mesmo tempo, e o tempo de engajamento com cada um é registrado",
+          "rationale": "Acesso livre com registro do tempo de engajamento descreve uma avaliação por operante livre."
+        }
+      }
+    },
+    {
+      "item_code": "B-01-003",
+      "locale": "pt-BR",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Americo Silva",
+      "language_reviewed_on": "2026-11-19",
+      "language_notes": "Language review of record, signed 2026-11-19 (draft 2 text).",
+      "stem": "Durante uma avaliação de preferências por operante livre de 5 minutos, vários itens de lazer estão disponíveis sobre uma mesa. O cliente brinca com o quebra-cabeça por cerca de 3 minutos e depois passa para o tablet. O que o RBT deve fazer?",
+      "options": {
+        "A": {
+          "text": "Retirar o quebra-cabeça para que o cliente experimente os outros itens",
+          "rationale": "Retirar um item altera o procedimento. Nesse arranjo de operante livre, todos os itens permanecem disponíveis durante toda a sessão."
+        },
+        "B": {
+          "text": "Deixar todos os itens disponíveis e registrar o tempo de engajamento com cada item",
+          "rationale": "Nesse arranjo de operante livre, todos os itens permanecem disponíveis durante toda a sessão, e o RBT registra por quanto tempo o cliente se engaja com cada um. O tempo relativo de engajamento indica a preferência relativa."
+        },
+        "C": {
+          "text": "Levar o cliente de volta ao quebra-cabeça, já que ele foi selecionado primeiro",
+          "rationale": "Redirecionar o cliente limita o acesso livre e altera os dados que o procedimento foi planejado para coletar."
+        },
+        "D": {
+          "text": "Encerrar a avaliação e registrar o quebra-cabeça como o item mais preferido",
+          "rationale": "Encerrar antes do tempo descarta os dados de engajamento do restante da sessão, e o primeiro item abordado não é necessariamente o mais preferido."
+        }
+      }
+    },
+    {
+      "item_code": "B-02-001",
+      "locale": "pt-BR",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Americo Silva",
+      "language_reviewed_on": "2026-11-19",
+      "language_notes": "Language review of record, signed 2026-11-19 (draft 2 text).",
+      "stem": "Um RBT está aplicando sondagens de habilidades de uma avaliação baseada no currículo. O protocolo escrito determina que nenhuma dica ou feedback seja dado durante as tentativas de sondagem. O cliente responde incorretamente a um item. O que o RBT deve fazer?",
+      "options": {
+        "A": {
+          "text": "Modelar a resposta correta e, em seguida, apresentar o mesmo item novamente",
+          "rationale": "Modelar a resposta transforma a sondagem em uma tentativa de ensino, e os dados deixam de mostrar o que o cliente faz de forma independente."
+        },
+        "B": {
+          "text": "Registrar a resposta como incorreta e apresentar o próximo item",
+          "rationale": "Nesse protocolo, dicas e feedback são excluídos durante as tentativas de sondagem para que os dados mostrem o que o cliente faz de forma independente. O RBT registra a resposta como ocorreu e continua."
+        },
+        "C": {
+          "text": "Repetir o item até que o cliente dê a resposta correta",
+          "rationale": "Repetir o item até que a resposta esteja correta altera o desempenho registrado e não faz parte do protocolo."
+        },
+        "D": {
+          "text": "Elogiar o esforço do cliente e dar uma dica parcial no próximo item",
+          "rationale": "O protocolo exclui dicas e feedback durante as sondagens. Acrescentá-los altera os dados da sondagem."
+        }
+      }
+    },
+    {
+      "item_code": "B-02-002",
+      "locale": "pt-BR",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Americo Silva",
+      "language_reviewed_on": "2026-11-19",
+      "language_notes": "Language review of record, signed 2026-11-19 (draft 2 text).",
+      "stem": "Depois que um RBT conclui as sondagens designadas de uma avaliação de habilidades, uma pessoa cuidadora pergunta o que os resultados significam para o programa do cliente. O que o RBT deve fazer?",
+      "options": {
+        "A": {
+          "text": "Explicar quais habilidades o cliente deve aprender a seguir, com base nos resultados",
+          "rationale": "Escolher as próximas habilidades é interpretar resultados de avaliação e selecionar metas, o que é responsabilidade do supervisor, não do RBT."
+        },
+        "B": {
+          "text": "Entregar as folhas de registro à pessoa cuidadora e dizer quais metas acrescentar com base nas pontuações",
+          "rationale": "O RBT estaria interpretando resultados de avaliação e recomendando mudanças no programa. Perguntas sobre o significado dos resultados e decisões sobre o programa são encaminhadas ao supervisor."
+        },
+        "C": {
+          "text": "Pedir ao supervisor o resumo com a pontuação e depois explicá-lo à pessoa cuidadora",
+          "rationale": "Ter o resumo com a pontuação não muda de quem é o papel: o supervisor interpreta e explica os resultados da avaliação."
+        },
+        "D": {
+          "text": "Dizer que o supervisor explicará os resultados e encaminhar a pergunta",
+          "rationale": "O RBT coleta dados de avaliação; interpretar os resultados e decidir mudanças no programa cabe ao supervisor. Encaminhar a pergunta e informar o supervisor mantém o RBT dentro do seu papel e garante que a pessoa cuidadora receba uma resposta."
+        }
+      }
+    },
+    {
+      "item_code": "B-03-001",
+      "locale": "pt-BR",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Americo Silva",
+      "language_reviewed_on": "2026-11-19",
+      "language_notes": "Language review of record, signed 2026-11-19 (draft 2 text).",
+      "stem": "Qual registro de dados ABC está escrito em termos observáveis?",
+      "options": {
+        "A": {
+          "text": "A: A professora diz “Arrume”. B: O cliente fica frustrado e se recusa. C: A professora dá mais tempo ao cliente.",
+          "rationale": "“Frustrado” nomeia um estado interno inferido, e “se recusa” não descreve o que o cliente fez."
+        },
+        "B": {
+          "text": "A: O cliente está entediado com a atividade. B: O cliente joga um bloco no chão. C: A professora diz “Pegue do chão”.",
+          "rationale": "“Entediado” é um estado inferido, não um evento antecedente observável."
+        },
+        "C": {
+          "text": "A: A professora diz “Arrume”. B: O cliente se joga no chão e grita por 20 segundos. C: A professora repete “Arrume”.",
+          "rationale": "Cada parte descreve o que alguém disse ou fez, em termos com os quais dois observadores poderiam concordar: a instrução, o comportamento com sua duração e a resposta da professora."
+        },
+        "D": {
+          "text": "A: A professora diz “Arrume”. B: O cliente grita para evitar arrumar. C: A professora espera 30 segundos.",
+          "rationale": "“Para evitar arrumar” afirma uma função. Os dados ABC registram o que aconteceu; não estabelecem por que o comportamento ocorreu."
+        }
+      }
+    },
+    {
+      "item_code": "B-03-002",
+      "locale": "pt-BR",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Americo Silva",
+      "language_reviewed_on": "2026-11-19",
+      "language_notes": "Language review of record, signed 2026-11-19 (draft 2 text).",
+      "stem": "Um supervisor redigiu e autorizou o protocolo da condição de atenção de uma análise funcional e treinou o RBT, que demonstrou competência na implementação do procedimento. O protocolo define o comportamento-alvo como bater em uma superfície com a mão aberta, lista os critérios de interrupção da sessão e determina: o RBT fica sentado por perto lendo uma revista, dá atenção verbal breve após cada ocorrência do comportamento-alvo e não dá atenção nos demais momentos. Durante a sessão, o cliente bate na mesa com a mão aberta. Nenhum critério de interrupção foi atingido. O que o RBT deve fazer?",
+      "options": {
+        "A": {
+          "text": "Dar atenção verbal breve logo após a batida e voltar a ler",
+          "rationale": "O protocolo programa atenção breve após cada ocorrência do comportamento-alvo. Implementar a condição designada conforme está escrita permite ao supervisor comparar as respostas entre as condições como parte da análise funcional."
+        },
+        "B": {
+          "text": "Ignorar a batida, porque a atenção poderia reforçar o comportamento",
+          "rationale": "Suspender a atenção altera a contingência programada, e o RBT deixa de implementar a condição designada."
+        },
+        "C": {
+          "text": "Dar atenção a cada 30 segundos, ocorrendo ou não o comportamento",
+          "rationale": "Dar atenção em um esquema baseado em tempo altera a contingência programada e não implementa a condição de atenção designada."
+        },
+        "D": {
+          "text": "Continuar conversando com o cliente pelo resto da sessão para evitar as batidas",
+          "rationale": "A atenção contínua elimina a relação programada entre o comportamento-alvo e a atenção, e a condição designada não é implementada."
+        }
+      }
+    },
+    {
+      "item_code": "B-03-003",
+      "locale": "pt-BR",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Americo Silva",
+      "language_reviewed_on": "2026-11-19",
+      "language_notes": "Language review of record, signed 2026-11-19 (draft 2 text).",
+      "stem": "Ao longo de duas semanas, os dados ABC de um RBT mostram que os gritos do cliente ocorrem com mais frequência após instruções para realizar tarefas e, com mais frequência, são seguidos pelo adiamento da tarefa. A pessoa cuidadora pergunta ao RBT por que o cliente grita. O que o RBT deve fazer?",
+      "options": {
+        "A": {
+          "text": "Dizer à pessoa cuidadora que os dados sugerem que os gritos provavelmente livram o cliente das tarefas",
+          "rationale": "Mesmo formulada como probabilidade, essa resposta interpreta os dados para a pessoa cuidadora. Discutir uma possível função com a pessoa cuidadora é papel do supervisor."
+        },
+        "B": {
+          "text": "Dizer ao supervisor que os dados ABC provam que os gritos são mantidos por fuga das tarefas",
+          "rationale": "Relatar ao supervisor está correto, mas dados descritivos mostram quais eventos ocorrem juntos; não podem provar a função."
+        },
+        "C": {
+          "text": "Continuar coletando dados ABC e responder à pergunta da pessoa cuidadora em duas semanas",
+          "rationale": "Mais dados podem ser úteis, mas o RBT ainda planeja responder pessoalmente à pergunta e não informou o supervisor sobre o padrão nem sobre a pergunta da pessoa cuidadora."
+        },
+        "D": {
+          "text": "Relatar o padrão observado ao supervisor e dizer que o supervisor vai discuti-lo",
+          "rationale": "Dados descritivos mostram quais eventos tendem a ocorrer junto com o comportamento. Podem sugerir uma hipótese, mas não confirmam a função. O RBT relata o que foi observado e deixa a interpretação, e a conversa com a pessoa cuidadora, para o supervisor."
+        }
+      }
+    },
+    {
+      "item_code": "B-01-001",
+      "locale": "es-419",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Americo Silva",
+      "language_reviewed_on": "2026-11-19",
+      "language_notes": "Language review of record, signed 2026-11-19 (draft 2 text).",
+      "stem": "Un RBT está realizando una evaluación de preferencias con estímulos múltiples sin reemplazo (MSWO) con cinco artículos colocados en fila frente al cliente. El cliente selecciona el carrito de juguete y juega con él durante el tiempo asignado. ¿Qué debe hacer el RBT antes del siguiente ensayo?",
+      "options": {
+        "A": {
+          "text": "Retirar el carrito y presentar los cuatro artículos restantes en el siguiente ensayo",
+          "rationale": "En una evaluación MSWO, el artículo seleccionado no se devuelve al conjunto de estímulos. Los artículos restantes se presentan de nuevo en el siguiente ensayo, y el orden en que se seleccionan contribuye a la jerarquía de preferencias."
+        },
+        "B": {
+          "text": "Devolver el carrito a su lugar y presentar de nuevo los cinco artículos",
+          "rationale": "Devolver el artículo seleccionado al conjunto describe una evaluación con estímulos múltiples con reemplazo (MSW), no una MSWO."
+        },
+        "C": {
+          "text": "Presentar el carrito junto a otro artículo, un par a la vez",
+          "rationale": "Presentar los artículos de dos en dos describe una evaluación con estímulos pareados."
+        },
+        "D": {
+          "text": "Dejar los cinco artículos sobre la mesa para que el cliente pueda acercarse a cualquiera de ellos",
+          "rationale": "Dejar todos los artículos disponibles libremente describe una evaluación de operante libre, que no utiliza ensayos."
+        }
+      }
+    },
+    {
+      "item_code": "B-01-002",
+      "locale": "es-419",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Americo Silva",
+      "language_reviewed_on": "2026-11-19",
+      "language_notes": "Language review of record, signed 2026-11-19 (draft 2 text).",
+      "stem": "¿Qué descripción corresponde a una evaluación de preferencias con estímulos pareados?",
+      "options": {
+        "A": {
+          "text": "Se presenta un artículo a la vez y se registra el acercamiento a ese artículo",
+          "rationale": "Presentar un artículo a la vez describe una evaluación de estímulo único."
+        },
+        "B": {
+          "text": "Se presentan todos los artículos a la vez y el artículo seleccionado se retira antes del siguiente ensayo",
+          "rationale": "Presentar todos los artículos a la vez y retirar el artículo seleccionado describe una evaluación MSWO."
+        },
+        "C": {
+          "text": "Los artículos se presentan de dos en dos y cada artículo se empareja con todos los demás",
+          "rationale": "En una evaluación con estímulos pareados, se presentan dos artículos en cada ensayo y el cliente selecciona uno. A lo largo de los ensayos, cada artículo se empareja con todos los demás, y el porcentaje de ensayos en que se selecciona un artículo indica su preferencia relativa."
+        },
+        "D": {
+          "text": "Todos los artículos están disponibles al mismo tiempo y se registra el tiempo de interacción con cada uno",
+          "rationale": "El acceso libre con registro del tiempo de interacción describe una evaluación de operante libre."
+        }
+      }
+    },
+    {
+      "item_code": "B-01-003",
+      "locale": "es-419",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Americo Silva",
+      "language_reviewed_on": "2026-11-19",
+      "language_notes": "Language review of record, signed 2026-11-19 (draft 2 text).",
+      "stem": "Durante una evaluación de preferencias de operante libre de 5 minutos, hay varios artículos de ocio disponibles sobre una mesa. El cliente juega con el rompecabezas durante unos 3 minutos y luego pasa a la tableta. ¿Qué debe hacer el RBT?",
+      "options": {
+        "A": {
+          "text": "Retirar el rompecabezas para que el cliente pruebe los otros artículos",
+          "rationale": "Retirar un artículo cambia el procedimiento. En este arreglo de operante libre, todos los artículos permanecen disponibles durante toda la sesión."
+        },
+        "B": {
+          "text": "Dejar todos los artículos disponibles y registrar el tiempo de interacción con cada uno",
+          "rationale": "En este arreglo de operante libre, todos los artículos permanecen disponibles durante toda la sesión y el RBT registra cuánto tiempo interactúa el cliente con cada uno. El tiempo relativo de interacción indica la preferencia relativa."
+        },
+        "C": {
+          "text": "Llevar al cliente de vuelta al rompecabezas, ya que fue el primero que seleccionó",
+          "rationale": "Redirigir al cliente limita el acceso libre y cambia los datos que el procedimiento está diseñado para recoger."
+        },
+        "D": {
+          "text": "Terminar la evaluación y registrar el rompecabezas como el artículo más preferido",
+          "rationale": "Terminar antes de tiempo descarta los datos de interacción del resto de la sesión, y el primer artículo al que se acerca el cliente no es necesariamente el más preferido."
+        }
+      }
+    },
+    {
+      "item_code": "B-02-001",
+      "locale": "es-419",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Americo Silva",
+      "language_reviewed_on": "2026-11-19",
+      "language_notes": "Language review of record, signed 2026-11-19 (draft 2 text).",
+      "stem": "Un RBT está aplicando sondeos de habilidades de una evaluación basada en el currículo. El protocolo escrito establece que no se dan ayudas ni retroalimentación durante los ensayos de sondeo. El cliente responde incorrectamente a un ítem. ¿Qué debe hacer el RBT?",
+      "options": {
+        "A": {
+          "text": "Modelar la respuesta correcta y luego presentar el mismo ítem otra vez",
+          "rationale": "Modelar la respuesta convierte el sondeo en un ensayo de enseñanza, por lo que los datos ya no muestran lo que el cliente hace de forma independiente."
+        },
+        "B": {
+          "text": "Registrar la respuesta como incorrecta y presentar el siguiente ítem",
+          "rationale": "En este protocolo, las ayudas y la retroalimentación se excluyen durante los ensayos de sondeo para que los datos muestren lo que el cliente hace de forma independiente. El RBT registra la respuesta tal como ocurrió y continúa."
+        },
+        "C": {
+          "text": "Repetir el ítem hasta que el cliente dé la respuesta correcta",
+          "rationale": "Repetir el ítem hasta que la respuesta sea correcta cambia el desempeño registrado y no forma parte del protocolo."
+        },
+        "D": {
+          "text": "Elogiar el intento y dar una ayuda parcial en el siguiente ítem",
+          "rationale": "El protocolo excluye las ayudas y la retroalimentación durante los sondeos. Agregarlas cambia los datos del sondeo."
+        }
+      }
+    },
+    {
+      "item_code": "B-02-002",
+      "locale": "es-419",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Americo Silva",
+      "language_reviewed_on": "2026-11-19",
+      "language_notes": "Language review of record, signed 2026-11-19 (draft 2 text).",
+      "stem": "Después de que un RBT completa los sondeos asignados de una evaluación de habilidades, una persona cuidadora pregunta qué significan los resultados para el programa del cliente. ¿Qué debe hacer el RBT?",
+      "options": {
+        "A": {
+          "text": "Explicar qué habilidades debe aprender el cliente a continuación, según los resultados",
+          "rationale": "Elegir las próximas habilidades implica interpretar resultados de evaluación y seleccionar metas, lo cual es responsabilidad del supervisor, no del RBT."
+        },
+        "B": {
+          "text": "Entregar las hojas de registro a la persona cuidadora y decirle qué metas agregar según los puntajes",
+          "rationale": "El RBT estaría interpretando resultados de evaluación y recomendando cambios en el programa. Las preguntas sobre el significado de los resultados y las decisiones sobre el programa se dirigen al supervisor."
+        },
+        "C": {
+          "text": "Pedir al supervisor el resumen con los puntajes y luego explicárselo a la persona cuidadora",
+          "rationale": "Tener el resumen con los puntajes no cambia a quién corresponde el rol: el supervisor interpreta y explica los resultados de la evaluación."
+        },
+        "D": {
+          "text": "Decir que el supervisor explicará los resultados y remitir la pregunta al supervisor",
+          "rationale": "El RBT recoge datos de evaluación; interpretar los resultados y decidir cambios en el programa corresponde al supervisor. Remitir la pregunta e informar al supervisor mantiene al RBT dentro de su rol y asegura que la persona cuidadora reciba una respuesta."
+        }
+      }
+    },
+    {
+      "item_code": "B-03-001",
+      "locale": "es-419",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Americo Silva",
+      "language_reviewed_on": "2026-11-19",
+      "language_notes": "Language review of record, signed 2026-11-19 (draft 2 text).",
+      "stem": "¿Qué registro de datos ABC está escrito en términos observables?",
+      "options": {
+        "A": {
+          "text": "A: La maestra dice “Recoge”. B: El cliente se frustra y se niega. C: La maestra le da más tiempo al cliente.",
+          "rationale": "“Se frustra” nombra un estado interno inferido, y “se niega” no describe lo que hizo el cliente."
+        },
+        "B": {
+          "text": "A: El cliente está aburrido con la actividad. B: El cliente lanza un bloque al suelo. C: La maestra dice “Recógelo”.",
+          "rationale": "“Aburrido” es un estado inferido, no un evento antecedente observable."
+        },
+        "C": {
+          "text": "A: La maestra dice “Recoge”. B: El cliente se deja caer al suelo y grita durante 20 segundos. C: La maestra repite “Recoge”.",
+          "rationale": "Cada parte describe lo que alguien dijo o hizo, en términos en los que dos observadores podrían coincidir: la instrucción, la conducta con su duración y la respuesta de la maestra."
+        },
+        "D": {
+          "text": "A: La maestra dice “Recoge”. B: El cliente grita para evitar recoger. C: La maestra espera 30 segundos.",
+          "rationale": "“Para evitar recoger” afirma una función. Los datos ABC registran lo que ocurrió; no establecen por qué ocurrió la conducta."
+        }
+      }
+    },
+    {
+      "item_code": "B-03-002",
+      "locale": "es-419",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Americo Silva",
+      "language_reviewed_on": "2026-11-19",
+      "language_notes": "Language review of record, signed 2026-11-19 (draft 2 text).",
+      "stem": "Un supervisor redactó y autorizó el protocolo de la condición de atención de un análisis funcional y entrenó al RBT, quien ha demostrado competencia en la implementación del procedimiento. El protocolo define la conducta objetivo como golpear una superficie con la mano abierta, enumera los criterios de interrupción de la sesión y establece: el RBT se sienta cerca leyendo una revista, da atención verbal breve después de cada ocurrencia de la conducta objetivo y no da atención en otros momentos. Durante la sesión, el cliente golpea la mesa con la mano abierta. No se cumple ningún criterio de interrupción. ¿Qué debe hacer el RBT?",
+      "options": {
+        "A": {
+          "text": "Dar atención verbal breve justo después del golpe y luego volver a leer",
+          "rationale": "El protocolo programa atención breve después de cada ocurrencia de la conducta objetivo. Implementar la condición asignada tal como está escrita permite al supervisor comparar las respuestas entre condiciones como parte del análisis funcional."
+        },
+        "B": {
+          "text": "Ignorar el golpe, porque la atención podría reforzar la conducta",
+          "rationale": "Retener la atención cambia la contingencia programada, por lo que el RBT ya no está implementando la condición asignada."
+        },
+        "C": {
+          "text": "Dar atención cada 30 segundos, ocurra o no la conducta",
+          "rationale": "Dar atención según un programa basado en el tiempo cambia la contingencia programada y no implementa la condición de atención asignada."
+        },
+        "D": {
+          "text": "Seguir conversando con el cliente el resto de la sesión para evitar los golpes",
+          "rationale": "La atención continua elimina la relación programada entre la conducta objetivo y la atención, por lo que la condición asignada no se implementa."
+        }
+      }
+    },
+    {
+      "item_code": "B-03-003",
+      "locale": "es-419",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Americo Silva",
+      "language_reviewed_on": "2026-11-19",
+      "language_notes": "Language review of record, signed 2026-11-19 (draft 2 text).",
+      "stem": "Durante dos semanas, los datos ABC de un RBT muestran que los gritos del cliente ocurren con mayor frecuencia después de instrucciones para realizar tareas y que, con mayor frecuencia, van seguidos de un aplazamiento de la tarea. La persona cuidadora le pregunta al RBT por qué grita el cliente. ¿Qué debe hacer el RBT?",
+      "options": {
+        "A": {
+          "text": "Decirle a la persona cuidadora que los datos sugieren que gritar probablemente le permite al cliente librarse de las tareas",
+          "rationale": "Aunque se formule como probabilidad, esto interpreta los datos para la persona cuidadora. Hablar de una posible función con la persona cuidadora es rol del supervisor."
+        },
+        "B": {
+          "text": "Decirle al supervisor que los datos ABC prueban que los gritos se mantienen por escape de las tareas",
+          "rationale": "Informar al supervisor es correcto, pero los datos descriptivos muestran qué eventos ocurren juntos; no pueden probar la función."
+        },
+        "C": {
+          "text": "Seguir recogiendo datos ABC y responder la pregunta de la persona cuidadora en dos semanas",
+          "rationale": "Más datos pueden ser útiles, pero el RBT sigue planeando responder la pregunta personalmente y no ha informado al supervisor sobre el patrón ni sobre la pregunta de la persona cuidadora."
+        },
+        "D": {
+          "text": "Informar al supervisor del patrón observado y decir que el supervisor lo comentará con la persona cuidadora",
+          "rationale": "Los datos descriptivos muestran qué eventos tienden a ocurrir junto con la conducta. Pueden sugerir una hipótesis, pero no confirman la función. El RBT informa lo observado y deja la interpretación, y la conversación con la persona cuidadora, al supervisor."
+        }
+      }
+    },
+    {
+      "item_code": "B-01-001",
+      "locale": "uk-UA",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-20",
+      "language_notes": "Language review of record, 2026-11-20; her exact corrections applied.",
+      "stem": "RBT проводить оцінювання переваг із множинними стимулами без заміни (MSWO): п’ять предметів розкладено в ряд перед клієнтом. Клієнт обирає іграшкову машинку і грається з нею протягом відведеного часу. Що має зробити RBT перед наступною спробою?",
+      "options": {
+        "A": {
+          "text": "Прибрати машинку й пред’явити чотири інші предмети в наступній спробі",
+          "rationale": "Під час оцінювання MSWO обраний предмет не повертають до набору стимулів. Решту предметів знову пред’являють у наступній спробі, а порядок вибору предметів враховують під час визначення ієрархії переваг."
+        },
+        "B": {
+          "text": "Повернути машинку на місце й знову пред’явити всі п’ять предметів",
+          "rationale": "Повернення обраного предмета до набору відповідає оцінюванню переваг із множинними стимулами із заміною (MSW), а не MSWO."
+        },
+        "C": {
+          "text": "Пред’явити машинку поруч з одним іншим предметом, по одній парі за раз",
+          "rationale": "Пред’явлення предметів по два відповідає оцінюванню переваг із попарним пред’явленням стимулів."
+        },
+        "D": {
+          "text": "Залишити всі п’ять предметів на столі, щоб клієнт міг підійти до будь-якого з них",
+          "rationale": "Вільний доступ до всіх предметів відповідає оцінюванню переваг методом вільного операнта, у якому спроби не використовують."
+        }
+      }
+    },
+    {
+      "item_code": "B-01-002",
+      "locale": "uk-UA",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-20",
+      "language_notes": "Language review of record, 2026-11-20; her exact corrections applied.",
+      "stem": "Який опис відповідає оцінюванню переваг із попарним пред’явленням стимулів?",
+      "options": {
+        "A": {
+          "text": "Щоразу пред’являють один предмет і реєструють наближення до нього",
+          "rationale": "Пред’явлення одного предмета за раз відповідає оцінюванню з одиничним стимулом."
+        },
+        "B": {
+          "text": "Усі предмети пред’являють одночасно, а обраний предмет прибирають перед наступною спробою",
+          "rationale": "Одночасне пред’явлення всіх предметів із вилученням обраного відповідає оцінюванню MSWO."
+        },
+        "C": {
+          "text": "Предмети пред’являють по два: кожен предмет пред’являють у парі з кожним іншим",
+          "rationale": "Під час оцінювання з попарним пред’явленням стимулів у кожній спробі пред’являють два предмети, і клієнт обирає один. У різних спробах кожен предмет пред’являють у парі з кожним іншим, а відсоток спроб, у яких предмет обирали, показує його відносну перевагу."
+        },
+        "D": {
+          "text": "Усі предмети доступні одночасно, і реєструють тривалість взаємодії з кожним",
+          "rationale": "Вільний доступ із реєстрацією тривалості взаємодії відповідає оцінюванню методом вільного операнта."
+        }
+      }
+    },
+    {
+      "item_code": "B-01-003",
+      "locale": "uk-UA",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-20",
+      "language_notes": "Language review of record, 2026-11-20; her exact corrections applied.",
+      "stem": "Під час 5-хвилинного оцінювання переваг методом вільного операнта на столі доступні кілька предметів для дозвілля. Клієнт грається з пазлом приблизно 3 хвилини, а потім переходить до планшета. Що має зробити RBT?",
+      "options": {
+        "A": {
+          "text": "Прибрати пазл, щоб клієнт спробував інші предмети",
+          "rationale": "Вилучення предмета змінює процедуру. У цьому варіанті методу вільного операнта всі предмети залишаються доступними протягом усієї сесії."
+        },
+        "B": {
+          "text": "Залишити всі предмети доступними й реєструвати тривалість взаємодії з кожним",
+          "rationale": "У цьому варіанті методу вільного операнта всі предмети залишаються доступними протягом усієї сесії, а RBT реєструє, скільки часу клієнт взаємодіє з кожним із них. Відносна тривалість взаємодії вказує на відносну перевагу."
+        },
+        "C": {
+          "text": "Повернути клієнта до пазла, оскільки його обрали першим",
+          "rationale": "Перенаправлення клієнта обмежує вільний доступ і змінює дані, для збору яких призначена процедура."
+        },
+        "D": {
+          "text": "Завершити оцінювання й зафіксувати, що клієнт надає найбільшу перевагу пазлу",
+          "rationale": "Дострокове завершення призводить до втрати даних про взаємодію за решту сесії, а перший предмет, до якого підійшов клієнт, не обов’язково є предметом, якому він надає найбільшу перевагу."
+        }
+      }
+    },
+    {
+      "item_code": "B-02-001",
+      "locale": "uk-UA",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-20",
+      "language_notes": "Language review of record, 2026-11-20; her exact corrections applied.",
+      "stem": "RBT проводить перевірку навичок за допомогою проб у межах оцінювання на основі навчальної програми. Письмовий протокол визначає, що під час проб не надають підказок і зворотного зв’язку. Клієнт неправильно відповідає на одне завдання. Що має зробити RBT?",
+      "options": {
+        "A": {
+          "text": "Змоделювати правильну відповідь, а потім знову пред’явити те саме завдання",
+          "rationale": "Моделювання відповіді перетворює перевірку навички на навчання, тому дані вже не показують, що клієнт робить самостійно."
+        },
+        "B": {
+          "text": "Зареєструвати відповідь як неправильну й пред’явити наступне завдання",
+          "rationale": "У цьому протоколі підказки та зворотний зв’язок під час проб виключено, щоб дані показували, що клієнт робить самостійно. RBT реєструє відповідь так, як вона відбулася, і продовжує."
+        },
+        "C": {
+          "text": "Повторювати завдання, доки клієнт не дасть правильної відповіді",
+          "rationale": "Повторення завдання до отримання правильної відповіді змінює зафіксовані результати виконання й не передбачене протоколом."
+        },
+        "D": {
+          "text": "Похвалити клієнта за старання й дати часткову підказку до наступного завдання",
+          "rationale": "Протокол виключає підказки та зворотний зв’язок під час проб. Їх додавання змінює дані перевірки."
+        }
+      }
+    },
+    {
+      "item_code": "B-02-002",
+      "locale": "uk-UA",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-20",
+      "language_notes": "Language review of record, 2026-11-20; her exact corrections applied.",
+      "stem": "Після того як RBT завершив призначені проби в межах оцінювання навичок, особа, яка доглядає за клієнтом, запитує, що результати означають для програми клієнта. Що має зробити RBT?",
+      "options": {
+        "A": {
+          "text": "Пояснити на основі результатів, яких навичок клієнтові слід навчатися далі",
+          "rationale": "Вибір наступних навичок означає інтерпретацію результатів оцінювання та вибір цілей, а це відповідальність супервізора, а не RBT."
+        },
+        "B": {
+          "text": "Передати особі, яка доглядає за клієнтом, бланки із записаними даними й сказати, які цілі додати на основі отриманих балів",
+          "rationale": "RBT інтерпретував би результати оцінювання й рекомендував би зміни до програми. Запитання про значення результатів і рішення щодо програми спрямовують до супервізора."
+        },
+        "C": {
+          "text": "Попросити в супервізора зведення результатів із балами, а потім пояснити його особі, яка доглядає за клієнтом",
+          "rationale": "Наявність підсумку з балами не змінює розподілу ролей: результати оцінювання інтерпретує й пояснює супервізор."
+        },
+        "D": {
+          "text": "Сказати, що результати пояснить супервізор, і передати йому запитання",
+          "rationale": "RBT збирає дані оцінювання; інтерпретація результатів і рішення про зміни в програмі належать супервізорові. Переадресувавши запитання й повідомивши супервізора, RBT залишається в межах своєї ролі, а особа, яка доглядає за клієнтом, отримає відповідь."
+        }
+      }
+    },
+    {
+      "item_code": "B-03-001",
+      "locale": "uk-UA",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-20",
+      "language_notes": "Language review of record, 2026-11-20; her exact corrections applied.",
+      "stem": "Який із наведених записів ABC містить опис поведінки та подій, які можна безпосередньо спостерігати?",
+      "options": {
+        "A": {
+          "text": "A: Вчителька каже: «Прибери». B: Клієнт фрустрований і відмовляється. C: Вчителька дає клієнтові більше часу.",
+          "rationale": "Слово «фрустрований» позначає припущення про внутрішній стан клієнта, а «відмовляється» не описує його конкретних дій."
+        },
+        "B": {
+          "text": "A: Клієнтові нудно під час цієї діяльності. B: Клієнт кидає кубик на підлогу. C: Вчителька каже: «Підніми».",
+          "rationale": "«Нудно» описує припущуваний стан, а не спостережувану антецедентну подію."
+        },
+        "C": {
+          "text": "A: Вчителька каже: «Прибери». B: Клієнт падає на підлогу й кричить 20 секунд. C: Вчителька повторює: «Прибери».",
+          "rationale": "Кожна частина описує, що хтось сказав або зробив, у термінах, щодо яких два спостерігачі могли б дійти згоди: інструкцію, поведінку з її тривалістю та реакцію вчительки."
+        },
+        "D": {
+          "text": "A: Вчителька каже: «Прибери». B: Клієнт кричить, щоб уникнути прибирання. C: Вчителька чекає 30 секунд.",
+          "rationale": "«Щоб уникнути прибирання» вказує на функцію. Дані ABC фіксують, що сталося; вони не встановлюють, чому поведінка відбулася."
+        }
+      }
+    },
+    {
+      "item_code": "B-03-002",
+      "locale": "uk-UA",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-20",
+      "language_notes": "Language review of record, 2026-11-20; her exact corrections applied.",
+      "stem": "Супервізор розробив і затвердив протокол умови уваги в експериментальному функціональному аналізі поведінки та навчив RBT, який продемонстрував компетентність у виконанні процедури. Протокол визначає цільову поведінку як удар по поверхні відкритою долонею, містить перелік критеріїв припинення сесії та передбачає: RBT сидить поруч і читає журнал, після кожного випадку цільової поведінки коротко звертається до клієнта словами, а в інший час не приділяє йому уваги. Під час сесії клієнт б’є відкритою долонею по столу. Жоден критерій припинення не виконано. Що має зробити RBT?",
+      "options": {
+        "A": {
+          "text": "Одразу після удару коротко звернутися до клієнта словами, а потім повернутися до читання",
+          "rationale": "Протокол передбачає коротке словесне звернення до клієнта після кожного випадку цільової поведінки. Виконання призначеної умови так, як її описано, дає супервізорові змогу порівнювати реагування в різних умовах у межах функціонального аналізу."
+        },
+        "B": {
+          "text": "Проігнорувати удар, бо увага може підкріпити поведінку",
+          "rationale": "Утримання уваги змінює запрограмовану контингенцію, тож RBT уже не виконує призначену умову."
+        },
+        "C": {
+          "text": "Приділяти увагу кожні 30 секунд незалежно від того, чи відбувається поведінка",
+          "rationale": "Надання уваги за часовим графіком змінює запрограмовану контингенцію й не відповідає призначеній умові уваги."
+        },
+        "D": {
+          "text": "Розмовляти з клієнтом до кінця сесії, щоб запобігти ударам",
+          "rationale": "Безперервна увага усуває запрограмований зв’язок між цільовою поведінкою та увагою, тож призначену умову не виконано."
+        }
+      }
+    },
+    {
+      "item_code": "B-03-003",
+      "locale": "uk-UA",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-20",
+      "language_notes": "Language review of record, 2026-11-20; her exact corrections applied.",
+      "stem": "Протягом двох тижнів дані ABC, які збирає RBT, показують, що крик клієнта найчастіше виникає після інструкцій до завдання і найчастіше за ним настає відкладення завдання. Особа, яка доглядає за клієнтом, запитує RBT, чому клієнт кричить. Що має зробити RBT?",
+      "options": {
+        "A": {
+          "text": "Сказати особі, яка доглядає за клієнтом, що, судячи з даних, крик, імовірно, звільняє клієнта від завдань",
+          "rationale": "Навіть якщо таку відповідь подано як припущення, вона все одно є інтерпретацією даних для особи, яка доглядає за клієнтом. Обговорення можливої функції з нею належить до ролі супервізора."
+        },
+        "B": {
+          "text": "Сказати супервізорові, що дані ABC доводять: крик підтримується втечею від виконання завдань",
+          "rationale": "Повідомлення супервізорові доречне, але описові дані показують, які події відбуваються разом; вони не можуть довести функцію."
+        },
+        "C": {
+          "text": "Продовжувати збирати дані ABC і відповісти на запитання особи, яка доглядає за клієнтом, через два тижні",
+          "rationale": "Додаткові дані можуть бути корисними, але RBT і далі планує відповісти на запитання сам і не повідомив супервізора ні про закономірність, ні про запитання особи, яка доглядає за клієнтом."
+        },
+        "D": {
+          "text": "Повідомити супервізорові про спостережувану закономірність і сказати, що її обговорить супервізор",
+          "rationale": "Описові дані показують, які події зазвичай відбуваються разом із поведінкою. Вони можуть підказати гіпотезу, але не підтверджують функцію. RBT повідомляє про те, що спостерігав, а інтерпретацію й розмову з особою, яка доглядає за клієнтом, залишає супервізорові."
+        }
+      }
+    },
+    {
+      "item_code": "B-01-001",
+      "locale": "ru-UA",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-20",
+      "language_notes": "Language review of record, 2026-11-20; her exact corrections applied.",
+      "stem": "RBT проводит оценку предпочтений с множественными стимулами без замены (MSWO): пять предметов разложены в ряд перед клиентом. Клиент выбирает игрушечную машинку и играет с ней в течение отведённого времени. Что следует сделать RBT перед следующей пробой?",
+      "options": {
+        "A": {
+          "text": "Убрать машинку и предъявить оставшиеся четыре предмета в следующей пробе",
+          "rationale": "При оценке MSWO выбранный предмет не возвращают в набор стимулов. Оставшиеся предметы снова предъявляют в следующей пробе, а порядок выбора предметов учитывается при определении иерархии предпочтений."
+        },
+        "B": {
+          "text": "Вернуть машинку на место и снова предъявить все пять предметов",
+          "rationale": "Возвращение выбранного предмета в набор соответствует оценке предпочтений с множественными стимулами с заменой (MSW), а не MSWO."
+        },
+        "C": {
+          "text": "Предъявить машинку рядом с одним другим предметом, по одной паре за раз",
+          "rationale": "Предъявление предметов по два соответствует оценке предпочтений с парным предъявлением стимулов."
+        },
+        "D": {
+          "text": "Оставить все пять предметов на столе, чтобы клиент мог подойти к любому из них",
+          "rationale": "Свободный доступ ко всем предметам соответствует оценке предпочтений методом свободного операнта, в которой пробы не используются."
+        }
+      }
+    },
+    {
+      "item_code": "B-01-002",
+      "locale": "ru-UA",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-20",
+      "language_notes": "Language review of record, 2026-11-20; her exact corrections applied.",
+      "stem": "Какое описание соответствует оценке предпочтений с парным предъявлением стимулов?",
+      "options": {
+        "A": {
+          "text": "Каждый раз предъявляют один предмет и регистрируют приближение к нему",
+          "rationale": "Предъявление одного предмета за раз соответствует оценке с одиночным стимулом."
+        },
+        "B": {
+          "text": "Все предметы предъявляют одновременно, а выбранный предмет убирают перед следующей пробой",
+          "rationale": "Одновременное предъявление всех предметов с удалением выбранного соответствует оценке MSWO."
+        },
+        "C": {
+          "text": "Предметы предъявляют по два: каждый предмет предъявляют в паре с каждым другим",
+          "rationale": "При оценке с парным предъявлением стимулов в каждой пробе предъявляют два предмета, и клиент выбирает один. В ходе проб каждый предмет предъявляют в паре с каждым другим, а процент проб, в которых предмет был выбран, показывает его относительное предпочтение."
+        },
+        "D": {
+          "text": "Все предметы доступны одновременно, и регистрируют продолжительность взаимодействия с каждым",
+          "rationale": "Свободный доступ с регистрацией продолжительности взаимодействия соответствует оценке методом свободного операнта."
+        }
+      }
+    },
+    {
+      "item_code": "B-01-003",
+      "locale": "ru-UA",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-20",
+      "language_notes": "Language review of record, 2026-11-20; her exact corrections applied.",
+      "stem": "Во время 5-минутной оценки предпочтений методом свободного операнта на столе доступны несколько предметов для досуга. Клиент играет с пазлом около 3 минут, а затем переходит к планшету. Что следует сделать RBT?",
+      "options": {
+        "A": {
+          "text": "Убрать пазл, чтобы клиент попробовал другие предметы",
+          "rationale": "Удаление предмета изменяет процедуру. В этом варианте метода свободного операнта все предметы остаются доступными в течение всего сеанса."
+        },
+        "B": {
+          "text": "Оставить все предметы доступными и регистрировать время взаимодействия с каждым",
+          "rationale": "В этом варианте метода свободного операнта все предметы остаются доступными в течение всего сеанса, а RBT регистрирует, сколько времени клиент взаимодействует с каждым из них. Относительная продолжительность взаимодействия указывает на относительное предпочтение."
+        },
+        "C": {
+          "text": "Вернуть клиента к пазлу, так как он был выбран первым",
+          "rationale": "Перенаправление клиента ограничивает свободный доступ и изменяет данные, для сбора которых предназначена процедура."
+        },
+        "D": {
+          "text": "Завершить оценку и зафиксировать, что клиент отдаёт наибольшее предпочтение пазлу",
+          "rationale": "При досрочном завершении оценки теряются данные о взаимодействии за оставшуюся часть сеанса, а первый предмет, к которому подошёл клиент, не обязательно является тем, которому он отдаёт наибольшее предпочтение."
+        }
+      }
+    },
+    {
+      "item_code": "B-02-001",
+      "locale": "ru-UA",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-20",
+      "language_notes": "Language review of record, 2026-11-20; her exact corrections applied.",
+      "stem": "RBT проводит проверку навыков с помощью проб в рамках оценки на основе учебной программы. Письменный протокол предусматривает, что во время проб подсказки и обратная связь не даются. Клиент неправильно отвечает на одно задание. Что следует сделать RBT?",
+      "options": {
+        "A": {
+          "text": "Смоделировать правильный ответ, а затем снова предъявить то же задание",
+          "rationale": "Моделирование ответа превращает проверку навыка в обучение, поэтому данные больше не показывают, что клиент делает самостоятельно."
+        },
+        "B": {
+          "text": "Зарегистрировать ответ как неправильный и предъявить следующее задание",
+          "rationale": "В этом протоколе подсказки и обратная связь во время проб исключены, чтобы данные показывали, что клиент делает самостоятельно. RBT регистрирует ответ так, как он был дан, и продолжает."
+        },
+        "C": {
+          "text": "Повторять задание, пока клиент не даст правильный ответ",
+          "rationale": "Повторение задания до получения правильного ответа изменяет зафиксированные результаты выполнения и не предусмотрено протоколом."
+        },
+        "D": {
+          "text": "Похвалить клиента за старание и дать частичную подсказку к следующему заданию",
+          "rationale": "Протокол исключает подсказки и обратную связь во время проб. Их добавление изменяет данные проверки."
+        }
+      }
+    },
+    {
+      "item_code": "B-02-002",
+      "locale": "ru-UA",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-20",
+      "language_notes": "Language review of record, 2026-11-20; her exact corrections applied.",
+      "stem": "После того как RBT завершил назначенные пробы в рамках оценки навыков, лицо, осуществляющее уход за клиентом, спрашивает, что результаты означают для программы клиента. Что следует сделать RBT?",
+      "options": {
+        "A": {
+          "text": "Объяснить на основе результатов, каким навыкам клиенту следует обучаться дальше",
+          "rationale": "Выбор следующих навыков означает интерпретацию результатов оценки и выбор целей, а это ответственность супервизора, а не RBT."
+        },
+        "B": {
+          "text": "Передать лицу, осуществляющему уход за клиентом, бланки с данными и сказать, какие цели добавить на основе полученных баллов",
+          "rationale": "RBT интерпретировал бы результаты оценки и рекомендовал бы изменения в программе. Вопросы о значении результатов и решения по программе направляются супервизору."
+        },
+        "C": {
+          "text": "Попросить у супервизора сводку результатов с баллами, а затем объяснить её лицу, осуществляющему уход за клиентом",
+          "rationale": "Наличие сводки с баллами не меняет распределения ролей: результаты оценки интерпретирует и объясняет супервизор."
+        },
+        "D": {
+          "text": "Сказать, что результаты объяснит супервизор, и передать ему вопрос",
+          "rationale": "RBT собирает данные оценки; интерпретация результатов и решения об изменениях в программе относятся к компетенции супервизора. Перенаправив вопрос и сообщив супервизору, RBT остаётся в пределах своей роли, а лицо, осуществляющее уход, получит ответ."
+        }
+      }
+    },
+    {
+      "item_code": "B-03-001",
+      "locale": "ru-UA",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-20",
+      "language_notes": "Language review of record, 2026-11-20; her exact corrections applied.",
+      "stem": "Какая из приведённых записей ABC содержит описание поведения и событий, которые можно непосредственно наблюдать?",
+      "options": {
+        "A": {
+          "text": "A: Учительница говорит: «Убери». B: Клиент фрустрирован и отказывается. C: Учительница даёт клиенту больше времени.",
+          "rationale": "Слово «фрустрирован» обозначает предположение о внутреннем состоянии клиента, а «отказывается» не описывает его конкретных действий."
+        },
+        "B": {
+          "text": "A: Клиенту скучно во время этой деятельности. B: Клиент бросает кубик на пол. C: Учительница говорит: «Подними».",
+          "rationale": "«Скучно» описывает предполагаемое состояние, а не наблюдаемое антецедентное событие."
+        },
+        "C": {
+          "text": "A: Учительница говорит: «Убери». B: Клиент падает на пол и кричит в течение 20 секунд. C: Учительница повторяет: «Убери».",
+          "rationale": "Каждая часть описывает, что кто-то сказал или сделал, в терминах, относительно которых два наблюдателя могли бы прийти к согласию: инструкцию, поведение с его продолжительностью и реакцию учительницы."
+        },
+        "D": {
+          "text": "A: Учительница говорит: «Убери». B: Клиент кричит, чтобы избежать уборки. C: Учительница ждёт 30 секунд.",
+          "rationale": "«Чтобы избежать уборки» указывает на функцию. Данные ABC фиксируют, что произошло; они не устанавливают, почему поведение произошло."
+        }
+      }
+    },
+    {
+      "item_code": "B-03-002",
+      "locale": "ru-UA",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-20",
+      "language_notes": "Language review of record, 2026-11-20; her exact corrections applied.",
+      "stem": "Супервизор разработал и утвердил протокол условия внимания в экспериментальном функциональном анализе поведения и обучил RBT, который продемонстрировал компетентность в выполнении процедуры. Протокол определяет целевое поведение как удар по поверхности открытой ладонью, содержит перечень критериев прекращения сеанса и предусматривает: RBT сидит рядом и читает журнал, после каждого случая целевого поведения кратко обращается к клиенту словами, а в остальное время не уделяет ему внимания. Во время сеанса клиент ударяет открытой ладонью по столу. Ни один критерий прекращения не выполнен. Что следует сделать RBT?",
+      "options": {
+        "A": {
+          "text": "Сразу после удара кратко обратиться к клиенту словами, а затем вернуться к чтению",
+          "rationale": "Протокол предусматривает краткое словесное обращение к клиенту после каждого случая целевого поведения. Выполнение назначенного условия так, как оно описано, позволяет супервизору сравнивать реагирование в разных условиях в рамках функционального анализа."
+        },
+        "B": {
+          "text": "Проигнорировать удар, так как внимание может подкрепить поведение",
+          "rationale": "Отказ во внимании изменяет запрограммированную контингенцию, поэтому RBT больше не выполняет назначенное условие."
+        },
+        "C": {
+          "text": "Уделять внимание каждые 30 секунд независимо от того, происходит ли поведение",
+          "rationale": "Предоставление внимания по временному графику изменяет запрограммированную контингенцию и не соответствует назначенному условию внимания."
+        },
+        "D": {
+          "text": "Разговаривать с клиентом до конца сеанса, чтобы предотвратить удары",
+          "rationale": "Непрерывное внимание устраняет запрограммированную связь между целевым поведением и вниманием, поэтому назначенное условие не выполняется."
+        }
+      }
+    },
+    {
+      "item_code": "B-03-003",
+      "locale": "ru-UA",
+      "version": 1,
+      "source_master_version": 1,
+      "language_status": "approved",
+      "language_reviewer": "Yevheniia Lobas",
+      "language_reviewed_on": "2026-11-20",
+      "language_notes": "Language review of record, 2026-11-20; her exact corrections applied.",
+      "stem": "В течение двух недель данные ABC, которые собирает RBT, показывают, что крик клиента чаще всего возникает после инструкций к заданию и чаще всего за ним следует откладывание задания. Лицо, осуществляющее уход за клиентом, спрашивает RBT, почему клиент кричит. Что следует сделать RBT?",
+      "options": {
+        "A": {
+          "text": "Сказать лицу, осуществляющему уход, что, судя по данным, крик, вероятно, освобождает клиента от заданий",
+          "rationale": "Даже если такой ответ представлен как предположение, он всё равно является интерпретацией данных для лица, осуществляющего уход за клиентом. Обсуждение возможной функции с ним относится к роли супервизора."
+        },
+        "B": {
+          "text": "Сказать супервизору, что данные ABC доказывают: крик поддерживается реактивным избеганием выполнения заданий",
+          "rationale": "Сообщение супервизору уместно, но описательные данные показывают, какие события происходят вместе; они не могут доказать функцию."
+        },
+        "C": {
+          "text": "Продолжать собирать данные ABC и ответить на вопрос лица, осуществляющего уход, через две недели",
+          "rationale": "Дополнительные данные могут быть полезны, но RBT по-прежнему планирует ответить на вопрос сам и не сообщил супервизору ни о закономерности, ни о вопросе лица, осуществляющего уход."
+        },
+        "D": {
+          "text": "Сообщить супервизору о наблюдаемой закономерности и сказать, что её обсудит супервизор",
+          "rationale": "Описательные данные показывают, какие события обычно происходят вместе с поведением. Они могут подсказать гипотезу, но не подтверждают функцию. RBT сообщает о том, что наблюдал, а интерпретацию и разговор с лицом, осуществляющим уход, оставляет супервизору."
+        }
+      }
+    }
+  ]
+}

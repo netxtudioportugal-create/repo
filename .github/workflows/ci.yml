@@ -35,7 +35,8 @@ jobs:
           php artisan items:import --dry-run
           php artisan terms:import --dry-run
           php artisan items:import
-          for step in 3 4 5 6; do php artisan pilot:import --step=$step; done
+          for step in 3 4 5 6; do php artisan pilot:import --batch=ethics --step=$step; done
+          for step in 1 2 3; do php artisan pilot:import --batch=domain-b --step=$step; done
       - name: Tests
         env:
           DB_CONNECTION: ${{ matrix.db }}

@@ -12,11 +12,23 @@ use Illuminate\Support\Facades\DB;
 
 /**
  * Read-only figures to record as evidence after each import step
- * (Ethics Pilot, Checklist v1.7).
+ * (Checklist v1.7). Items are those of one domain, or, for a content
+ * batch, only the items its step files contain.
  */
 class PilotEvidence
 {
-    public function collect(string $domain = 'F'): array
+    /** Item codes of a content batch: every master in its step files. */
+    public static function batchCodes(string $batch): array
+    {
+        $config = config("examprep.pilot.batches.{$batch}");
+
+        return collect($config['steps'])
+            ->map(fn ($step) => "{$config['path']}/step-{$step}.json")
+            ->flatMap(fn ($f) => json_decode(file_get_contents($f), true, flags: JSON_THROW_ON_ERROR)['masters'] ?? [])
+            ->pluck('item_code')->unique()->sort()->values()->all();
+    }
+
+    public function collect(string $domain = 'F', ?array $codes = null): array
     {
         $allowed = array_keys(config('examprep.locales'));
         $fallback = config('examprep.fallback_locale');
@@ -29,7 +41,9 @@ class PilotEvidence
             ->merge(Task::all()->flatMap(fn ($t) => array_keys($t->labels)))
             ->unique()->sort()->values();
 
-        $items = Item::whereHas('domain', fn ($q) => $q->where('code', $domain))->with('translations')->orderBy('code')->get();
+        $items = Item::whereHas('domain', fn ($q) => $q->where('code', $domain))
+            ->when($codes !== null, fn ($q) => $q->whereIn('code', $codes))
+            ->with('translations')->orderBy('code')->get();
 
         $languages = [];
         foreach (array_diff($allowed, [$fallback]) as $locale) {
@@ -75,8 +89,11 @@ class PilotEvidence
                 'item' => $i->code,
                 'master_version' => $i->master_version,
                 'status' => $i->status->value,
+                'ip_clearance' => $i->ip_clearance,
+                'key' => $i->getAttribute('key'),
                 'stale' => $i->currentTranslations()->filter->isStale()->keys()->join(', '),
             ])->all(),
+            'keys' => $items->countBy(fn (Item $i) => $i->getAttribute('key'))->sortKeys()->all(),
             'languages' => $languages,
         ];
     }
