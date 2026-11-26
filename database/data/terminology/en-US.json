@@ -1,0 +1,85 @@
+{
+  "dictionary_id": "flow_exam_prep_aba_terms",
+  "dictionary_version": "1.0",
+  "package": "Flow_Terminology_en-US_Import_Package_v2.docx",
+  "language_label": "English",
+  "locales": [
+    "en-US"
+  ],
+  "review_status": "not_applicable",
+  "reviewer": null,
+  "effective_on": null,
+  "approved_by": null,
+  "terms": [
+    {
+      "term_key": "extinction",
+      "source_term_en": "Extinction",
+      "locale": "en-US",
+      "localized_term": "Extinction",
+      "status": "canonical"
+    },
+    {
+      "term_key": "extinction_burst",
+      "source_term_en": "Extinction burst",
+      "locale": "en-US",
+      "localized_term": "Extinction burst",
+      "status": "canonical"
+    },
+    {
+      "term_key": "escape_extinction",
+      "source_term_en": "Escape extinction",
+      "locale": "en-US",
+      "localized_term": "Escape extinction",
+      "status": "canonical"
+    },
+    {
+      "term_key": "prompt_fading",
+      "source_term_en": "Prompt fading",
+      "locale": "en-US",
+      "localized_term": "Prompt fading",
+      "status": "canonical"
+    },
+    {
+      "term_key": "verbal_operants",
+      "source_term_en": "Verbal operants",
+      "locale": "en-US",
+      "localized_term": "Verbal operants",
+      "status": "canonical"
+    },
+    {
+      "term_key": "mand",
+      "source_term_en": "Mand",
+      "locale": "en-US",
+      "localized_term": "Mand",
+      "status": "canonical"
+    },
+    {
+      "term_key": "tact",
+      "source_term_en": "Tact",
+      "locale": "en-US",
+      "localized_term": "Tact",
+      "status": "canonical"
+    },
+    {
+      "term_key": "echoic",
+      "source_term_en": "Echoic",
+      "locale": "en-US",
+      "localized_term": "Echoic",
+      "status": "canonical"
+    },
+    {
+      "term_key": "intraverbal",
+      "source_term_en": "Intraverbal",
+      "locale": "en-US",
+      "localized_term": "Intraverbal",
+      "status": "canonical"
+    },
+    {
+      "term_key": "initial_competency_assessment",
+      "source_term_en": "Initial Competency Assessment",
+      "locale": "en-US",
+      "localized_term": "Initial Competency Assessment",
+      "status": "canonical"
+    }
+  ]
+}

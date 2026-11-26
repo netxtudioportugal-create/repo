@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Middleware\BlockReadOnly;
 use App\Http\Middleware\EdgeHeaders;
 use App\Http\Middleware\EnsureAcknowledged;
 use App\Http\Middleware\EnsureStaff;
@@ -30,6 +31,7 @@ return Application::configure(basePath: dirname(__DIR__))
         $middleware->alias([
             'acknowledged' => EnsureAcknowledged::class,
             'staff' => EnsureStaff::class,
+            'not-read-only' => BlockReadOnly::class,
         ]);
 
         $middleware->redirectGuestsTo(fn () => route('staff.login'));

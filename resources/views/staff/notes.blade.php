@@ -10,12 +10,15 @@
             <li>Status: staging build. Candidates see only released items, and release stays closed until Gate 0 (<code>EXAMPREP_RELEASE_GATE_OPEN</code>).</li>
             <li>Grading runs on the server (<code>App\Services\Grader</code>). The keyed option is a hidden model attribute and reaches the page only after an answer is checked (domain mode) or the set is finished (timed and review).</li>
             <li>Every item is stored with canonical labels A to D. Display order is shuffled per session and item, and saved as <code>option_order</code>, so a reload never reshuffles.</li>
-            <li>Versioning: <code>items:import</code> hashes each item’s content. A change creates a new version and snapshot and sends the item back to draft. Reviewers approve a specific version.</li>
+            <li>Versioning: the import hashes each master’s text. A change creates a new content revision and snapshot and sends the item back to draft. Reviewers approve a specific revision.</li>
             <li>Imports are transactional: one invalid item rejects the whole file. <code>--dry-run</code> validates without writing.</li>
             <li>Row-level ownership: a practice set opens only with the learner cookie that created it; anyone else gets a 404.</li>
             <li>Timed sets are enforced on the server through <code>ends_at</code>. The countdown on the page is display only.</li>
             <li>Results show raw counts only. No adaptive sequencing, study recommendations, readiness or pass-likelihood language.</li>
-            <li>Languages: EN, PT-BR, ES, UK and Russian (ru-UA, never ru-RU). Ukrainian and Russian are unreviewed drafts. Domain F is English only and shows a translation-pending note.</li>
+            <li>Locale set, frozen at Gate 0: en-US, pt-BR, es-419, uk-UA, ru-UA (never ru-RU). The menu labels EN, PT, ES, УКР, РУС are display only.</li>
+            <li>Masters and language records: the en-US master carries <code>master_version</code>. Each language record is item + locale + version and records the master version it was made from. When the master version rises, older language records turn stale on their own and candidates see English until an updated translation is imported.</li>
+            <li>Language review: draft, in language review, approved, stale. Stale is set by the system only. An approved text is never changed in place, and an import never overwrites a status set by a language reviewer.</li>
+            <li>Ethics Pilot (domain F) is imported one step at a time with <code>pilot:import --step=3</code> to <code>6</code>; <code>pilot:evidence</code> prints the figures to record after each step.</li>
             <li>Deferred until after Gate 1: candidate accounts, payments, adaptive suggestions, AI features, full-length 85-item practice exam.</li>
         </ul>
     </div>

@@ -41,7 +41,7 @@ class PracticeFlowTest extends TestCase
 
         $this->post(route('practice.domain', 'A'));
         $session = PracticeSession::firstOrFail();
-        $rationale = Item::where('code', 'A-02')->first()->translations->firstWhere('locale', 'en')->rationale;
+        $rationale = Item::where('code', 'A-02')->first()->translations->firstWhere('locale', 'en-US')->rationale;
 
         $this->get(route('practice.question', [$session, 1]))
             ->assertOk()
@@ -160,13 +160,54 @@ class PracticeFlowTest extends TestCase
     {
         $this->seedBank();
         $this->release('F-01-001');
+        Item::where('code', 'F-01-001')->first()->translations()->where('locale', 'pt-BR')->delete();
         $this->learner();
-        $this->post(route('locale'), ['locale' => 'pt']);
+        $this->post(route('locale'), ['locale' => 'pt-BR']);
         $this->post(route('practice.domain', 'F'));
         $session = PracticeSession::firstOrFail();
 
         $this->get(route('practice.question', [$session, 1]))
-            ->assertSee(__('app.pending', [], 'pt'))
-            ->assertSee('lang="en"', false);
+            ->assertSee(__('app.pending', [], 'pt-BR'))
+            ->assertSee('lang="en-US"', false);
+    }
+
+    public function test_translated_items_are_shown_in_the_chosen_language(): void
+    {
+        $this->seedBank();
+        $this->release('F-01-001');
+        $this->learner();
+        $this->post(route('locale'), ['locale' => 'uk-UA']);
+        $this->post(route('practice.domain', 'F'));
+        $session = PracticeSession::firstOrFail();
+        $current = Item::where('code', 'F-01-001')->first()->currentTranslations()->get('uk-UA');
+
+        $this->assertSame(2, $current->version);
+        $this->get(route('practice.question', [$session, 1]))
+            ->assertSee($current->stem)
+            ->assertDontSee(__('app.pending', [], 'uk-UA'));
+    }
+
+    public function test_a_stale_translation_is_not_shown(): void
+    {
+        $this->seedBank();
+        $this->release('F-01-001');
+        $item = Item::where('code', 'F-01-001')->first();
+        $item->translations()->where('locale', 'uk-UA')->update(['language_status' => 'stale']);
+        $this->learner();
+        $this->post(route('locale'), ['locale' => 'uk-UA']);
+        $this->post(route('practice.domain', 'F'));
+        $session = PracticeSession::firstOrFail();
+
+        $this->get(route('practice.question', [$session, 1]))
+            ->assertSee($item->translations()->where('locale', 'en-US')->value('stem'))
+            ->assertSee(__('app.pending', [], 'uk-UA'));
+    }
+
+    public function test_a_language_choice_from_before_the_locale_migration_is_carried_over(): void
+    {
+        $this->learner();
+
+        $this->withSession(['locale' => 'pt'])->get('/')->assertOk()->assertSee('lang="pt-BR"', false);
+        $this->post(route('locale'), ['locale' => 'pt'])->assertSessionHasErrors('locale');
     }
 }
